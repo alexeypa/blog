@@ -1,0 +1,40 @@
+---
+author: admin
+comments: true
+date: 2007-03-06 19:39:15+00:00
+excerpt: None
+link: http://blog.not-a-kernel-guy.com/2007/03/06/156
+slug: largeaddressaware-может-испортить-вам-весь-день
+title: /LARGEADDRESSAWARE может испортить вам весь день.
+wordpress_id: 156
+categories:
+- itblogs
+tags:
+- Программирование
+- Wow64
+---
+
+Только что потратил кучу времени на разборки с [/LARGEADDRESSAWARE](http://msdn2.microsoft.com/en-us/library/wz223b1z.aspx). Этот ключ используется для указания сборщику, что данный модуль (.exe или .dll) способен корректно обрабатывать адреса больше 2GB. Модули, помеченные подобным образом, могут быть загружены выше 2GB при условии, что система поддерживает увеличенное пользовательское адресное пространство. На данный момент это либо серверные версии Windows, сконфигурированные [ключом /3GB в boot.ini](http://www.microsoft.com/whdc/system/platform/server/PAE/PAEmem.mspx), либо 64-х битные версии системы.
+
+<!-- more -->Про причины того, почему расширенное адресное пространство не включается для всех программ, хорошо написал Raymond Chen: [Myth: The /3GB switch expands the user-mode address space of all programs](http://blogs.msdn.com/oldnewthing/archive/2004/08/12/213468.aspx). Дело как всегда в том, что слишком много приложений не будут работать в такой конфигурации -  начинает буксовать арифметика указателей. Сегодняшний баг занёс ещё одну операцию в “черный” список.
+
+Итак, какое значение будет присвоено переменной wide_ptr после инициализации (код компилируется для x86)?
+
+
+    
+    <code class="cpp">PVOID ptr = (PVOID)0x87654321;
+    ULONGLONG wide_ptr = (ULONGLONG)ptr;
+    </code>
+
+
+
+Ответ - 0xffffffff87654321! Очевидно, что проблема в расширении знака, однако это совсем не очевидно из данного отрывка кода. Чтобы результат получился верным, код нужно переписать вот так:
+
+
+    
+    <code class="cpp">PVOID ptr = (PVOID)0x87654321;
+    ULONGLONG wide_ptr = (ULONGLONG)(ULONG_PTR)ptr;
+    </code>
+
+
+

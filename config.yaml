@@ -1,0 +1,26 @@
+baseurl: http://blog.not-a-kernel-guy.com/
+title: Алексей Пахунов
+languageCode: ru-ru
+disqusShortname: alexeypa
+googleAnalytics: UA-1329392-1
+theme: hyde-x
+
+author:
+    name: Алексей Пахунов
+
+menu:
+    main:
+       - Name: "Архив"
+         Identifier: post
+         URL: post/
+       - Name: "Об авторе"
+         Identifier: about
+         URL: about
+params:
+    home: "Блог"
+    linkedin: https://www.linkedin.com/in/alexpakhunov
+    rss: true
+    tagline: '... также известный как "Not a kernel guy"'
+
+taxonomies:
+    tag: "tags"

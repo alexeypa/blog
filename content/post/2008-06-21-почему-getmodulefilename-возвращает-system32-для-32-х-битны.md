@@ -1,0 +1,35 @@
+---
+author: admin
+comments: true
+date: 2008-06-21 22:39:58+00:00
+excerpt: None
+link: http://blog.not-a-kernel-guy.com/2008/06/21/314
+slug: почему-getmodulefilename-возвращает-system32-для-32-х-битны
+title: Почему GetModuleFileName возвращает “system32” для 32-х битных библиотек под
+  Wow64?
+wordpress_id: 314
+categories:
+- itblogs
+tags:
+- Программирование
+- Win32
+- Wow64
+---
+
+Вопрос: 
+
+ 
+
+32-х битный процесс запущен на 64-х битной системе. Почему для некоторых библиотек GetModuleFileName возвращает путь вида "%SystemRoot%\syswow64", а для других - "%SystemRoot%\system32", не смотря на то, что и первые, и вторые находятся в "%SystemRoot%\syswow64"?
+
+ 
+
+Ответ:
+
+ 
+
+Потому что загрузчик понятия не имеет о Wow64 и перенаправлении файловой системы в частности. Загрузчик просто сохраняет полное имя модуля во время загрузки и возвращает его копию в GetModuleFileName. Соответственно если библиотека была загружена как "%SystemRoot%\system32\foobar.dll", то и GetModuleFileName вернёт эту строку.
+
+ 
+
+Это же верно и для других Win32 функций.

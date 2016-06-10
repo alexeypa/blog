@@ -1,0 +1,16 @@
+---
+author: admin
+comments: true
+date: 2006-09-12 05:11:16+00:00
+excerpt: None
+link: http://blog.not-a-kernel-guy.com/2006/09/11/57
+slug: пара-интересных-блогов-посвящённых-powershell
+title: Пара интересных блогов, посвящённых PowerShell.
+wordpress_id: 57
+categories:
+- itblogs
+tags:
+- PowerShell
+---
+
+Оказывается вокруг PowerShell существует целое сообщество почитателей. Вот пара интересных англоязычных блогов, целиком посвящённых PowerShell: [Mow PowerShelled](http://mow001.blogspot.com/) и [PowerShell For Fun](http://mshforfun.blogspot.com/).

@@ -1,0 +1,113 @@
+---
+author: admin
+comments: true
+date: 2010-05-24 04:05:53+00:00
+excerpt: None
+link: http://blog.not-a-kernel-guy.com/2010/05/23/817
+slug: слова-к-музыке-из-the-neverhood-httpblog-not-a-kernel-guy-comwp-adminpost-phpactioneditpost817message1
+title: Слова к музыке из The Neverhood.
+wordpress_id: 817
+categories:
+- default
+tags:
+- Всякая всячина
+- The Neverhood
+---
+
+[Терри С. Тейлор](http://www.danielamos.com/tst/imaginarium/), что написал музыкальное сопровождение для [The Neverhood](http://en.wikipedia.org/wiki/The_Neverhood), - оказывается еще тот перец. Я тут прочитал [слова к музыке из The Neverhood](http://doo.nomoretangerines.com/nevhood/nevlyric.htm) и прослезился.  Во первых, слова (наиболее разборчивых) песен выглядят вот так:
+
+
+
+
+
+<blockquote>mmm mmm mmm mmm....
+
+Homina budda budda budda
+Homina budda boo
+Homina budda budda budda
+Homina budda boo
+
+Olley olley olley olley olley he he heeeee....
+olley olley olley olley olley (oxen free) he he he
+</blockquote>
+
+
+
+Примерный (и в основном фонетический) перевод ;-) :
+
+
+
+<blockquote>Ммм ммм ммм ммм…
+
+Хомана будда будда будда
+Хомана будда буу
+Хомана будда будда будда
+Хомана будда буу
+
+Олей олей олей олей олей хе хе хеееее…
+Олей олей олей олей олей (бык свободен) хе хе хе
+</blockquote>
+
+
+
+
+Хотя на счет «oxen free» у меня есть большие сомнения. :-)
+
+Но там кроме слов еще и примечания есть:
+
+
+
+<blockquote>(note to the listener: Should you chose to sing along to any of the following songs, we wish you luck. You're gonna need it!)</blockquote>
+
+
+
+
+
+<blockquote>(примечание слушателям: Мы желаем вам удачи, в случае если вы собираетесь подпевать любой из нижеследующих песен. Она вам понадобится!)
+</blockquote>
+
+
+
+Верно подмечено:
+
+
+
+<blockquote>(and other various gruntings)</blockquote>
+
+
+
+
+
+<blockquote>(и прочие разные хрюканья/бормотания)</blockquote>
+
+
+
+
+
+
+<blockquote>2nd verse, same as the first! (kinda)</blockquote>
+
+
+
+
+
+<blockquote>И второй раз, точно также как первый (типа)</blockquote>
+
+
+
+Или вот, ну попалась одна неразборчивая песня, ну что тут поделать:
+
+
+
+<blockquote>(uninterpretable gibberish, except for "I don't know!")</blockquote>
+
+
+
+
+
+<blockquote>(непереводимая чепуха, за исключением «Я не знаю!»)</blockquote>
+
+
+
+
+:-)

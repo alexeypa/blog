@@ -1,0 +1,264 @@
+diff -Naur d/d.h new/d.h
+--- d/d.h	2004-09-30 08:03:36.000000000 -0700
++++ new/d.h	2007-08-27 22:07:15.093750000 -0700
+@@ -13,21 +13,44 @@
+ #include <stdarg.h>
+ #include <stdlib.h>
+ #include <stdio.h>
+-#if !defined(__FreeBSD__) || (__FreeBSD_version >= 500000)
++
++#if defined(_MSC_VER)
++
++#include <io.h>
++
++#pragma warning(disable: 4018)
++
++typedef unsigned int uint;
++
++#define strncasecmp(l, r, n)        _strnicmp(l, r, n)
++#define snprintf                    _snprintf
++#define strtoll(str, endptr, base)  _strtoi64(str, endptr, base)
++#define open(filename, flag)        _open(filename, flag)
++#define read(fd, buffer, count)     _read(fd, buffer, count)
++#define close(fd)                   _close(fd)
++
++#elif !defined(__FreeBSD__) || (__FreeBSD_version >= 500000)
+ #include <inttypes.h>
+ #endif
++
+ #include <limits.h>
+ #include <sys/types.h>
+-#ifndef __MINGW32__
++#if !(defined(__MINGW32__) || defined(_MSC_VER))
+ #include <sys/mman.h>
+ #include <sys/uio.h>
+ #endif
++#if !defined(_MSC_VER)
+ #include <unistd.h>
++#endif
+ #include <fcntl.h>
+ #include <time.h>
++#if !defined(_MSC_VER)
+ #include <sys/time.h>
++#endif
+ #include <sys/stat.h>
++#if !defined(_MSC_VER)
+ #include <dirent.h>
++#endif
+ #include <ctype.h>
+ #include <string.h>
+ 
+diff -Naur d/Jamfile.v2 new/Jamfile.v2
+--- d/Jamfile.v2	1969-12-31 16:00:00.000000000 -0800
++++ new/Jamfile.v2	2007-08-27 22:12:45.328125000 -0700
+@@ -0,0 +1,51 @@
++#
++#   Copyright (c) 2007 Alexey Pakhunov <alexeypa@gmail.com>
++#
++
++MAJOR_VERSION = 1 ;
++MINOR_VERSION = 15 ;
++BUILD_VERSION = 1 ;
++VERSION = 
++    D_MAJOR_VERSION=$(MAJOR_VERSION)
++    D_MINOR_VERSION=$(MINOR_VERSION)
++    D_BUILD_VERSION=$(BUILD_VERSION)
++    ;
++    
++lib mkdparse
++    :
++        mkdparse.c
++        write_tables.c
++        grammar.g.c
++        gram.c
++        lex.c
++        lr.c
++    :
++        <link>static
++        <define>$(VERSION)
++    ;
++    
++lib dparse
++    :
++        arg.c
++        parse.c
++        scan.c
++        symtab.c
++        util.c
++        read_binary.c
++        dparse_tree.c
++    :
++        <link>static
++        <define>$(VERSION)
++    ;
++    
++exe make_dparser
++    :
++        make_dparser.c
++        version.c
++        mkdparse
++        dparse
++    :
++        <define>$(VERSION)
++    ;
++
++install dist : mkdparse dparse make_dparser ;
+diff -Naur d/Jamroot new/Jamroot
+--- d/Jamroot	1969-12-31 16:00:00.000000000 -0800
++++ new/Jamroot	2007-08-28 22:44:56.640625000 -0700
+@@ -0,0 +1,14 @@
++#
++#   Copyright (c) 2007 Alexey Pakhunov <alexeypa@gmail.com>
++#
++
++import os ;
++
++project win32.utf8
++    : requirements 
++        <toolset>msvc:<define>_CRT_SECURE_NO_DEPRECATE=1
++        <toolset>msvc:<define>_SCL_SECURE_NO_WARNINGS=1
++    : build-dir bin
++    ;
++
++variant free : release : <debug-symbols>on ;
+diff -Naur d/parse.c new/parse.c
+--- d/parse.c	2006-02-23 12:25:00.000000000 -0800
++++ new/parse.c	2007-08-27 22:07:15.015625000 -0700
+@@ -834,6 +834,7 @@
+ cmp_priorities(PNode *x, PNode *y) {
+   StackPNode psx, psy;
+   StackInt isx, isy;
++  int r;
+ 
+   stack_clear(&psx); stack_clear(&psy); stack_clear(&isx); stack_clear(&isy);
+   get_exp_one(x, &psx, &isx);
+@@ -841,7 +842,7 @@
+   get_unshared_priorities(&psx, &psy, &isx, &isy);
+   intsort(isx.start, stack_depth(&isx));
+   intsort(isy.start, stack_depth(&isy));
+-  int r = compare_priorities(isx.start, stack_depth(&isx), 
++  r = compare_priorities(isx.start, stack_depth(&isx), 
+ 		     isy.start, stack_depth(&isy));
+   stack_free(&psx); stack_free(&psy); stack_free(&isx); stack_free(&isy);
+   return r;
+@@ -949,12 +950,12 @@
+ static int
+ cmp_greedyness(PNode *x, PNode *y) {
+   VecPNode pvx, pvy;
++  int ix = 0, iy = 0;
+   vec_clear(&pvx); vec_clear(&pvy); 
+   get_unshared_pnodes(x, y, &pvx, &pvy);
+   set_to_vec(&pvx); set_to_vec(&pvy);
+   qsort(pvx.v, pvx.n, sizeof(PNode *), greedycmp);
+   qsort(pvy.v, pvy.n, sizeof(PNode *), greedycmp);
+-  int ix = 0, iy = 0;
+   while (1) {
+     if (pvx.n <= ix || pvy.n <= iy)
+       return 0;
+@@ -1202,8 +1203,9 @@
+ static void
+ set_add_znode_hash(VecZNode *v, ZNode *z) {
+   VecZNode vv;
++  int i, j, n;
+   vec_clear(&vv);
+-  int i, j, n = v->n;
++  n = v->n;
+   if (n) {
+     uint h = ((uintptr_t)z->pn) % n;
+     for (i = h, j = 0; 
+@@ -1237,8 +1239,9 @@
+ static void
+ set_add_znode(VecZNode *v, ZNode *z) {
+   VecZNode vv;
++  int i, n;
+   vec_clear(&vv);
+-  int i, n = v->n;
++  n = v->n;
+   if (n < INTEGRAL_VEC_SIZE) {
+     vec_add(v, z);
+     return;
+diff -Naur d/python/dparser.py new/python/dparser.py
+--- d/python/dparser.py	2006-10-18 07:44:00.000000000 -0700
++++ new/python/dparser.py	2007-08-27 22:12:44.015625000 -0700
+@@ -117,12 +117,14 @@
+     
+ class D_ParseNode(D_ParseNodePtr):
+     def __del__(self):
+-        if dparser_swigc:
++        if dparser_swigc and not self.deleted:
+             dparser_swigc.remove_parse_tree_viewer(self.d_parser)
++            self.deleted = True
+     def __init__(self, this, d_parser, buf):
+         self.this = this
+         self.d_parser = d_parser
+         self.buf = buf
++        self.deleted = False
+         dparser_swigc.add_parse_tree_viewer(self.d_parser)
+ 
+ class Reject: pass
+diff -Naur d/python/setup_win32.cmd new/python/setup_win32.cmd
+--- d/python/setup_win32.cmd	1969-12-31 16:00:00.000000000 -0800
++++ new/python/setup_win32.cmd	2007-08-27 22:12:43.171875000 -0700
+@@ -0,0 +1,7 @@
++set MSSdk=1
++set DISTUTILS_USE_SDK=1
++
++rmdir /S /Q build
++python setup_win32.py build
++mt -manifest build\lib.win32-2.5\dparser_swigc.pyd.manifest -outputresource:build\lib.win32-2.5\dparser_swigc.pyd;2
++python setup_win32.py install
+diff -Naur d/python/setup_win32.py new/python/setup_win32.py
+--- d/python/setup_win32.py	1969-12-31 16:00:00.000000000 -0800
++++ new/python/setup_win32.py	2007-08-27 22:12:44.812500000 -0700
+@@ -0,0 +1,30 @@
++from distutils.core import setup, Extension
++from distutils.command.install_data import install_data
++import os, sys
++
++#Pete Shinner's distutils data file fix... from distutils-sig
++#data installer with improved intelligence over distutils
++#data files are copied into the project directory instead
++#of willy-nilly
++class smart_install_data(install_data):
++    def run(self):
++        #need to change self.install_dir to the library dir
++        install_cmd = self.get_finalized_command('install')
++        self.install_dir = getattr(install_cmd, 'install_lib')
++        return install_data.run(self)
++
++module_swigc = Extension('dparser_swigc',
++    sources = ['dparser_wrap.c', 'pydparser.c', 'make_tables.c'],
++    define_macros = [('SWIG_GLOBAL', None)],
++                         libraries = ['libmkdparse', 'libdparse'],
++                         library_dirs = ['../dist'],
++                         extra_compile_args = ['/Zi', '/D_CRT_SECURE_NO_WARNINGS=1'],
++                         extra_link_args = ['/DEBUG'],)
++    
++setup(name="dparser",
++    cmdclass = {"install_data": smart_install_data},
++    version = "1.9",
++    description = 'DParser for Python',
++    py_modules = ["dparser"],
++    ext_modules = [module_swigc],
++)
+diff -Naur d/read_binary.c new/read_binary.c
+--- d/read_binary.c	2006-02-22 20:16:27.000000000 -0800
++++ new/read_binary.c	2007-08-27 22:07:15.046875000 -0700
+@@ -40,13 +40,15 @@
+     } else if (*intptr == -3) {
+       *ptr = (void*)final_code;
+     } else {
+-      *ptr += (intptr_t)tables_buf;
++      // *ptr += (intptr_t)tables_buf;
++      *ptr = (char*)(*ptr) + (intptr_t)tables_buf;
+     }
+   }
+   for (i=0; i<tables.n_strings; i++) {
+     intptr_t offset;
+     read_chk((void*)&offset, sizeof(intptr_t), 1, fp, &str);
+-    *(void**)(tables_buf+offset) += (intptr_t)strings_buf;
++    // *(void**)(tables_buf+offset) += (intptr_t)strings_buf;
++    *(void**)(tables_buf+offset) = (char*)(*(void**)(tables_buf+offset)) + (intptr_t)strings_buf;
+   }
+   if (fp)
+     fclose(fp);

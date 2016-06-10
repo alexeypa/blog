@@ -1,0 +1,98 @@
+---
+author: admin
+comments: true
+date: 2006-10-12 04:15:43+00:00
+excerpt: None
+link: http://blog.not-a-kernel-guy.com/2006/10/11/82
+slug: com-marshalling-создание-proxystub-на-коленке
+title: 'COM marshalling: создание proxy/stub на коленке.'
+wordpress_id: 82
+categories:
+- itblogs
+tags:
+- COM
+- Программирование
+---
+
+Хочу поделиться рецептом победы над коварным IShellLinkDataList (см. предыдущие посты [COM marshalling.](http://blog.not-a-kernel-guy.com/2006/10/07/78) и [Shortcuts, shell and COM apartments.](http://blog.not-a-kernel-guy.com/2006/10/04/76))
+
+Итак, исходная задача: вызвать метод локального интерфейса (интерфейса, помеченного атрибутом [local]) удалённо.
+
+<!-- more --> В принципе, единственное отличие локального интерфейса от нелокального – это наличие marshalling кода, иными словами – зарегистрированного proxy/stub объекта для этого интерфейса. В большинстве случаев это означает, что достаточно написать  (или взять готовое) описание интерфейса в IDL, пропустить его через MIDL и скомпоновать полученные исходные файлы в .dll. После регистрации этой библиотеки на клиенте и сервере появиться возможность вызывать методы нужного интерфейса по сети (или через границу apartment на одной и той же машине).
+
+В случае [IShellLinkDataList](http://windowssdk.msdn.microsoft.com/en-us/library/ms632703.aspx) этот метод не работает из-за двух проблемных методов:
+
+
+    
+    HRESULT AddDataBlock([in] void* pDataBlock);
+    HRESULT CopyDataBlock([in] DWORD dwSig, [out] void** ppDataBlock);
+
+
+
+AddDataBlock принимает указатель на структуру переменного размера. Размер и тип структуры задается в её заголовке:
+
+
+    
+    DWORD cbSize;             // Size of this extra data block
+    DWORD dwSignature;        // signature of this extra data block
+
+
+
+CopyDataBlock возвращает указатель на ту же структуру. Тип структуры определяется переданным значением dwSig. Самое неприятное, что память под структуру выделяется сервером с помощью функции LocalAlloc, а освобождается – клиентом функцией LocalFree. Именно использование LocalAlloc и LocalFree, как я понимаю, и является причиной того, что интерфейс в целом помечен как локальный.
+
+К счастью RPC обладает достаточной гибкостью и позволяет программисту брать на себя контроль над передачей нетривиальных данных. Для этой цели служит IDL атрибут [[wire_marshal]](http://windowssdk.msdn.microsoft.com/en-us/library/ms695127.aspx). В случае с AddDataBlock и CopyDataBlock проблема решается следующим описанием:
+
+
+    
+    typedef [unique] wireDATABLOCK* wirePDATABLOCK;
+    typedef [wire_marshal(wirePDATABLOCK)] wirePDATABLOCK PDATABLOCK;
+
+
+
+Здесь wirePDATABLOCK это имя типа передаваемой структуры. Первая строка просто определяет указатель на структуру. Основное здесь вторая строка. Она определяет тип PDATABLOCK как тип, marshalling которого реализуется вручную. Определение интерфейса при этом выглядит так:
+
+
+    
+    […]
+    interface IShellLinkDataList: IUnknown {
+        HRESULT AddDataBlock([in] PDATABLOCK pDataBlock);
+        HRESULT CopyDataBlock([in] DWORD dwSig, [out] PDATABLOCK* ppDataBlock);
+    };
+
+
+
+Код, сгенерированный по такому описанию ожидает, что приложение реализует 4 функции, ответственные за marshalling PDATABLOCK:
+
+
+
+
+	
+  * PDATABLOCK_UserSize – возвращает размера передаваемых данных;
+
+	
+  * PDATABLOCK_UserMarshal – конвертирует объект в формат, подходящий для передачи по сети;
+
+	
+  * PDATABLOCK_UserUnmarshal – выполняет обратное преобразование;
+
+	
+  * PDATABLOCK_UserFree – освобождает ресурсы, выделенные PDATABLOCK_UserUnmarshal на серверной стороне.
+
+
+
+Реализация этих функций тривиальна, за исключением нескольких деталей. 
+
+
+	
+  * Во-первых, следует учесть, что данные могут иметь разный размер на разных платформах. Впрочем, в случае IShellLinkDataList это не актуально. Размер и структура передаваемых данных одинаковы на 32-х и 64-х битной платформе.
+
+	
+  * Во-вторых, формат передачи данных может зависеть от контекста вызова. Например, в случае вызова в пределах одного процесса имеет смысл передать на структуру указатель вместо копирования всей структуры.
+
+	
+  * В-третьих, следует внимательно следить за выделением и освобождением памяти и других ресурсов. В большинстве случаем достаточно простого правила, что PDATABLOCK_UserUnmarshal отвечает за выделение ресурсов, а PDATABLOCK_UserFree – за освобождение. Однако следует помнить, что кроме PDATABLOCK_UserFree выделением и освобождением может заниматься как сервер, так и клиент.
+
+
+
+Ссылка на [исходный код примера](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellPS_src.zip).
+
