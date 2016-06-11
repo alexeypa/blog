@@ -18,5 +18,7 @@ tags:
 PS. Скрипт открывает дамп в текстовом режиме, что очевидно не будет работать на Windows. Чтобы этого не случилось, последняя строчка скипта должна выглядеть вот так:
 
 
-    
-    <code class="python">print MINIDUMP_HEADER.parse_stream(open(sys.argv[1], "<strong>rb</strong>"))</code>
+
+```python
+print MINIDUMP_HEADER.parse_stream(open(sys.argv[1], "rb"))
+```

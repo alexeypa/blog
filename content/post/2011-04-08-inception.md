@@ -17,7 +17,9 @@ tags:
 
 
     
-    <code class="no-highlight">windbg.exe kd.exe -k com:port=com1,baud=115200</code>
+    ```no-highlight
+windbg.exe kd.exe -k com:port=com1,baud=115200
+```
 
 
 

@@ -61,9 +61,11 @@ _(На самом деле причина довольно прозаична �
   2. Применяем [патч](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/08/dparser-1.15.diff), который в добавляет недостающие (из-за отсутствующих заголовков) объявления и правит кое-где код.
 
 
-    
-    <code class="no-highlight">pushd C:\\temp
-    patch -Np1 -d D < dparser-1.15.diff</code></code>
+
+```no-highlight
+pushd C:\\temp
+patch -Np1 -d D < dparser-1.15.diff```
+```
 
 
 
@@ -86,27 +88,33 @@ _(На самом деле причина довольно прозаична �
   3. Компилируем DParser:
 
 
-    
-    <code class="no-highlight">cd D
-    bjam free</code>
+
+```no-highlight
+cd D
+bjam free
+```
 
 
 
 Для amd64:
 
 
-    
-    <code class="no-highlight">cd D
-    bjam free architecture=x86 address-model=64</code>
+
+```no-highlight
+cd D
+bjam free architecture=x86 address-model=64
+```
 
 
 
 Для Itanium:
 
 
-    
-    <code class="no-highlight">cd D
-    bjam free architecture=ia64</code>
+
+```no-highlight
+cd D
+bjam free architecture=ia64
+```
 
 
 
@@ -121,10 +129,12 @@ _(На самом деле причина довольно прозаична �
   5. Если вы компилируете 32-х битную версию, то дополнительно следует поправить проверку на совместимость версий компилятора в “C:\Python25\Lib\distutils\msvccompiler.py”. Да этого нужно применить ещё один [патч](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/08/msvccompiler.py.diff):
 
 
-    
-    <code class="no-highlight">pushd C:\\Python25\\Lib\\distutils
-    patch msvccompiler.py msvccompiler.py.diff
-    popd</code>
+
+```no-highlight
+pushd C:\\Python25\\Lib\\distutils
+patch msvccompiler.py msvccompiler.py.diff
+popd
+```
 
 
 
@@ -136,9 +146,11 @@ _(На самом деле причина довольно прозаична �
   6. Cобираем и устанавливаем DParser for Python:
 
 
-    
-    <code class="no-highlight">cd python
-    setup_win32.cmd</code>
+
+```no-highlight
+cd python
+setup_win32.cmd
+```
 
 
 
@@ -148,10 +160,12 @@ _(На самом деле причина довольно прозаична �
   7. И наконец, проверяем что у нас получилось:
 
 
-    
-    <code class="no-highlight">python
-    import dparser
-    print dparser</code>
+
+```no-highlight
+python
+import dparser
+print dparser
+```
 
 
 

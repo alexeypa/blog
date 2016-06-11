@@ -25,9 +25,11 @@ tags:
 Я же хочу остановиться на другой особенности этого ключа. На 64-х битной системе, он, как и большинство других ключей в ветке «HKLM\SOFTWARE», существует в двух экземплярах. 64-х битные приложения используют « HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options», а 32-х битные - «HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options». Пока что всё просто и очевидно. Сложности начинаются, когда целевое приложение написано на .NET и скомпилировано как AnyCPU сборка. Такой .exe запускается как 32-х битный процесс на 32-х разрядной машине и как 64-х битный - на 64-х разрядной системе. Если вы попробуете запустить это приложение под отладчиком, воспользовавшись 64-х битной версией ключа «Image File Execution Options»:
 
  
-    
-    <code class="no-highlight">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\foobar.exe]
-    "Debugger"="c:\\dbg\\windbg.exe"</code>
+
+```no-highlight
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\foobar.exe]
+"Debugger"="c:\\dbg\\windbg.exe"
+```
 
 
 
@@ -44,9 +46,11 @@ tags:
 
 
 
-    
-    <code class="no-highlight">[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\foobar.exe]
-    "Debugger"="c:\\dbg\\windbg.exe"</code>
+
+```no-highlight
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\foobar.exe]
+"Debugger"="c:\\dbg\\windbg.exe"
+```
 
 
 

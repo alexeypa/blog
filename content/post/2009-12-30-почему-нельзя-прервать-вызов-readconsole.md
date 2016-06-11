@@ -18,14 +18,16 @@ tags:
 Представьте, что где-то в коде есть такой кусок:
 
 
-    
-    <code class="cpp">BOOL Res =
-        ReadConsole(
-            GetStdHandle(STD_INPUT_HANDLE),
-            Buffer,
-            sizeof(Buffer),
-            &ReadChars,
-            NULL);</code>
+
+```cpp
+BOOL Res =
+    ReadConsole(
+        GetStdHandle(STD_INPUT_HANDLE),
+        Buffer,
+        sizeof(Buffer),
+        &ReadChars,
+        NULL);
+```
 
 
 

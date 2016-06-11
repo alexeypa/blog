@@ -51,13 +51,13 @@ tags:
 Другой способ удостовериться в этом – проверить таблицу экспорта NTDLL. Хотя такой способ, конечно, не дает никакой информации о том, документирована функция (иными словами – поддерживается ли обратная совместимость для неё) или нет.
 
 
-    
-    <code class="no-highlight">C:\>link /dump /exports c:\Windows\SysWOW64\ntdll.dll | findstr RtlCaptureContext
-            <strong>667  28D 00046B2B RtlCaptureContext</strong>
-    
-    C:\>link /dump /exports c:\Windows\SysWOW64\ntdll.dll | findstr RtlAddFunctionTable
-    
-    C:\></code>
 
+```no-highlight
+C:\>link /dump /exports c:\Windows\SysWOW64\ntdll.dll | findstr RtlCaptureContext
+        667  28D 00046B2B RtlCaptureContext
 
+C:\>link /dump /exports c:\Windows\SysWOW64\ntdll.dll | findstr RtlAddFunctionTable
+
+C:\>
+```
 

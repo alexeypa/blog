@@ -36,10 +36,12 @@ tags:
 
  
     
-    <code class="cpp">NTSTATUS 
+    ```cpp
+NTSTATUS 
     ExUuidCreate(
         OUT UUID *Uuid,
-        );</code>
+        );
+```
 
 
 

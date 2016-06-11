@@ -16,18 +16,19 @@ tags:
 Сегодня, вытягивая исходники WordPress, обратил внимание на такое сообщение:
 
 
-    
-    <code class="no-highlight">...
-    A    2.0.5\\wp-admin\\edit-form.php
-    A    2.0.5\\wp-feed.php
-    
-    Fetching external item into '2.0.5\\wp-content\\plugins\\akismet'
-    A    2.0.5\\wp-content\\plugins\\akismet\\akismet.gif
-    A    2.0.5\\wp-content\\plugins\\akismet\\akismet.php
-    Checked out external at revision 7355.
-    
-    Checked out revision 4731.
-    </code>
+
+```no-highlight
+...
+A    2.0.5\\wp-admin\\edit-form.php
+A    2.0.5\\wp-feed.php
+
+Fetching external item into '2.0.5\\wp-content\\plugins\\akismet'
+A    2.0.5\\wp-content\\plugins\\akismet\\akismet.gif
+A    2.0.5\\wp-content\\plugins\\akismet\\akismet.php
+Checked out external at revision 7355.
+
+Checked out revision 4731.
+```
 
 
 

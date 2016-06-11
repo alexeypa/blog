@@ -21,8 +21,10 @@ tags:
 Соответствие между именованными значениями (features) и параметрами конкретного компилятора устанавливается с помощью механизма флагов. Не вдаваясь в детали, выглядит это вот так:
 
 
-    
-    <code class="python">flags msvc.compile CFLAGS <optimization>speed : /O2 ;</code>
+
+```python
+flags msvc.compile CFLAGS <optimization>speed : /O2 ;
+```
 
 
 
@@ -31,11 +33,13 @@ tags:
 Далее Boost.Build использует файлы site-config.jam и user-config.jam для хранения глобальных и, соответственно, пользовательских настроек. site-config.jam находится в каталоге “$(BOOST_ROOT)/tools/build/v2”. user-config.jam обычно помещается в каталог $(HOME) (в Windows – “%HOMEDRIVE%%HOMEPATH%”). Мой файл user-config.jam выглядит просто до безобразия:
 
 
-    
-    <code class="python">import toolset : using ;
-    
-    # Использовать настройки Visual C++ по-умолчанию
-    using msvc ;</code>
+
+```python
+import toolset : using ;
+
+# Использовать настройки Visual C++ по-умолчанию
+using msvc ;
+```
 
 
 
@@ -43,7 +47,9 @@ tags:
 
 
     
-    <code class="python">using msvc 7.1toolkit : “X:/Microsoft Visual C++ Toolkit 2003/bin/cl.exe” ;</code>
+    ```python
+using msvc 7.1toolkit : “X:/Microsoft Visual C++ Toolkit 2003/bin/cl.exe” ;
+```
 
 
 
@@ -54,45 +60,49 @@ tags:
 Оказывается стандартная библиотека Boost.Build предоставляет все средства для решения этой проблемы. Достаточно вызвать toolset.inherit-flags и все флаги, заданные в исходном модуле будут импортированы в целевой.  Теперь наш генератор можно переписать вот таким образом:
 
 
-    
-    <code class="python"># Импортируем нужные модули
-    import generators ;
-    import toolset ;
-    import type ;
-    
-    # Регистрируем новый тип файла. "I" - имя типа, "i" - расширение файла
-    type.register I : i ;
-    
-    # Регистрируем генератор для преобразования C в I. "pp.generate.c" -
-    # полное имя правила, которое быдет вызвано для выполнения преобразования.
-    generators.register-standard pp.compile.c : C : I ;
-    
-    <strong><em># Импортируем флаги из msvc
-    toolset.inherit-flags pp : msvc ;</em></strong>
-    
-    # Правило, которое будет вызвано во время генерации
-    rule compile.c ( targets + : sources * : properties * )
-    {
-    }
-    
-    # Команды, непосредственно работающие с файлами
-    actions compile.c
-    {
-        <strong><em>$(.CC) /EP -U$(UNDEFS) -D$(DEFINES) $(CFLAGS) $(>) > $(<)</em></strong>
-    }</code>
+
+```python
+# Импортируем нужные модули
+import generators ;
+import toolset ;
+import type ;
+
+# Регистрируем новый тип файла. "I" - имя типа, "i" - расширение файла
+type.register I : i ;
+
+# Регистрируем генератор для преобразования C в I. "pp.generate.c" -
+# полное имя правила, которое быдет вызвано для выполнения преобразования.
+generators.register-standard pp.compile.c : C : I ;
+
+# Импортируем флаги из msvc
+toolset.inherit-flags pp : msvc ;
+
+# Правило, которое будет вызвано во время генерации
+rule compile.c ( targets + : sources * : properties * )
+{
+}
+
+# Команды, непосредственно работающие с файлами
+actions compile.c
+{
+    $(.CC) /EP -U$(UNDEFS) -D$(DEFINES) $(CFLAGS) $(>) > $(<)
+}
+```
 
 
 
 Генерируемые команды теперь тоже выглядят по-другому:
 
 
-    
-    <code class="no-highlight">mkdir "bin"
-    mkdir "bin\\msvc-8.0"
-    mkdir "bin\\msvc-8.0\\debug"
-    mkdir "bin\\msvc-8.0\\debug\\threading-multi"
-    call "C:\\Program Files\\Microsoft Visual Studio 8\\VC\\vcvarsall.bat" x86 >nul
-    cl /Zm800 -nologo /EP   /Z7 /Od /Ob0 /W3 /GR /MDd /Zc:forScope /Zc:wchar_t win32api.c > bin\\msvc-8.0\\debug\\threading-multi\\win32api.i</code>
+
+```no-highlight
+mkdir "bin"
+mkdir "bin\\msvc-8.0"
+mkdir "bin\\msvc-8.0\\debug"
+mkdir "bin\\msvc-8.0\\debug\\threading-multi"
+call "C:\\Program Files\\Microsoft Visual Studio 8\\VC\\vcvarsall.bat" x86 >nul
+cl /Zm800 -nologo /EP   /Z7 /Od /Ob0 /W3 /GR /MDd /Zc:forScope /Zc:wchar_t win32api.c > bin\\msvc-8.0\\debug\\threading-multi\\win32api.i
+```
 
 
 

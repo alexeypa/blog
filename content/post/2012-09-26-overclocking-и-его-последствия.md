@@ -26,54 +26,64 @@ tags:
 Тем не менее чрезмерное увлечение подобным, как выясняется, не так уж безобидно, как может показаться на первый взгляд. Возьмем свежий пример. Пять падений в одном и том же месте:
 
 
-    
-    <code class="no-highlight">remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+0x1f
-    remoting_me2me_host!net::URLRequestHttpJob::OnStartCompleted+0x24
-    remoting_me2me_host!base::internal::Invoker<1,base::internal::BindState<base::internal::RunnableAdapter<void (__thiscall net::ProxyService::*)(int)>,void __cdecl(net::ProxyService *,int),void __cdecl(base::internal::UnretainedWrapper<net::ProxyService>)>,void __cdecl(net::ProxyService *,int)>::Run+0x17
-    remoting_me2me_host!net::HttpNetworkTransaction::DoCallback+0x27
-    ...</code>
+
+```no-highlight
+remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+0x1f
+remoting_me2me_host!net::URLRequestHttpJob::OnStartCompleted+0x24
+remoting_me2me_host!base::internal::Invoker<1,base::internal::BindState<base::internal::RunnableAdapter<void (__thiscall net::ProxyService::*)(int)>,void __cdecl(net::ProxyService *,int),void __cdecl(base::internal::UnretainedWrapper<net::ProxyService>)>,void __cdecl(net::ProxyService *,int)>::Run+0x17
+remoting_me2me_host!net::HttpNetworkTransaction::DoCallback+0x27
+...
+```
 
 
 
 Так, что у нас в exception record?
 
 
-    
-    <code class="no-highlight">ExceptionAddress: 006969ee (remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+0x0000001f)
-       ExceptionCode: c0000005 (Access violation)
-      ExceptionFlags: 00000000
-    NumberParameters: 2
-       Parameter[0]: 00000000
-       Parameter[1]: 8b571d14
-    Attempt to read from address <strong>8b571d14</strong></code>
+
+```no-highlight
+ExceptionAddress: 006969ee (remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+0x0000001f)
+   ExceptionCode: c0000005 (Access violation)
+  ExceptionFlags: 00000000
+NumberParameters: 2
+   Parameter[0]: 00000000
+   Parameter[1]: 8b571d14
+Attempt to read from address 8b571d14
+```
 
 
 
 Ага, значит хотим прочитать адрес 0x8b571d14. А откуда взялся этот адрес?
 
 
-    
-    <code class="no-highlight">remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+1f 
-    006969ee 0b8654020000    or      eax,dword ptr <strong>[esi+254h]</strong></code>
+
+```no-highlight
+remoting_me2me_host!net::URLRequestHttpJob::RecordTimer+1f 
+006969ee 0b8654020000    or      eax,dword ptr [esi+254h]
+```
 
 
 
 Очень странно. А ведь ESI отлично сохранился в context record:
 
 
-    
-    <code class="no-highlight">0:003> r esi
-    Last set context:
-    esi=<strong>01246fd8</strong></code>
+
+```no-highlight
+0:003> r esi
+Last set context:
+esi=01246fd8
+```
 
 
 
 Из 0x01246fd8 + 0x254 совсем никак не получается 0x8b571d14... Ага, а вот и диагноз:
 
 
-    
-    <code class="no-highlight">EXCEPTION_DOESNOT_MATCH_CODE:  <strong>This indicates a hardware error.</strong>
-    Instruction at 006969ee does not read/write to 8b571d14</code>
+
+```no-highlight
+EXCEPTION_DOESNOT_MATCH_CODE:  This indicates a hardware error.
+Instruction at 006969ee does not read/write to 8b571d14
+```
 
 
 
@@ -82,19 +92,23 @@ tags:
 Завершает анамнез шестой дамп с той же машины, показывающий не менее интересное падение в другом месте:
 
 
-    
-    <code class="no-highlight">0xfe4040f0
-    remoting_me2me_host!net::internal::`anonymous namespace'::AddLocalhostEntries+0x27b
-    remoting_me2me_host!net::internal::DnsConfigServiceWin::HostsReader::DoWork+0x44 remoting_me2me_host!net::SerialWorker::DoWorkJob+0xe
-    ...</code>
+
+```no-highlight
+0xfe4040f0
+remoting_me2me_host!net::internal::`anonymous namespace'::AddLocalhostEntries+0x27b
+remoting_me2me_host!net::internal::DnsConfigServiceWin::HostsReader::DoWork+0x44 remoting_me2me_host!net::SerialWorker::DoWorkJob+0xe
+...
+```
 
 
 
 Интересно, откуда взялся этот адрес? А вот откуда - предыдущая инструкция пыталась выполнить переход на адрес 0x004040f0, а попала - на 0xfe4040f0.
 
 
-    
-    <code class="no-highlight">call    remoting_me2me_host!std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::assign (<strong>004040f0</strong>)</code>
+
+```no-highlight
+call    remoting_me2me_host!std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::assign (004040f0)
+```
 
 
 

@@ -16,16 +16,20 @@ tags:
 Функция DebugBreak() объявлена вот таким образом:
 
 
-    
-    <code class="cpp">void WINAPI DebugBreak(void);</code>
+
+```cpp
+void WINAPI DebugBreak(void);
+```
 
 
 
 Если подумать, то это не очень удачный вариант объявления. Гораздо более удобным вариантом был бы:
 
 
-    
-    <code class="cpp">void __cdecl DebugBreak(...);</code>
+
+```cpp
+void __cdecl DebugBreak(...);
+```
 
 
 

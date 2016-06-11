@@ -21,20 +21,17 @@ tags:
 Итак, какое значение будет присвоено переменной wide_ptr после инициализации (код компилируется для x86)?
 
 
-    
-    <code class="cpp">PVOID ptr = (PVOID)0x87654321;
-    ULONGLONG wide_ptr = (ULONGLONG)ptr;
-    </code>
-
+```cpp
+PVOID ptr = (PVOID)0x87654321;
+ULONGLONG wide_ptr = (ULONGLONG)ptr;
+```
 
 
 Ответ - 0xffffffff87654321! Очевидно, что проблема в расширении знака, однако это совсем не очевидно из данного отрывка кода. Чтобы результат получился верным, код нужно переписать вот так:
 
 
-    
-    <code class="cpp">PVOID ptr = (PVOID)0x87654321;
-    ULONGLONG wide_ptr = (ULONGLONG)(ULONG_PTR)ptr;
-    </code>
-
-
+```cpp
+PVOID ptr = (PVOID)0x87654321;
+ULONGLONG wide_ptr = (ULONGLONG)(ULONG_PTR)ptr;
+```
 

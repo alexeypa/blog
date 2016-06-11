@@ -19,16 +19,17 @@ tags:
 <!-- more -->«Ну, нет - так нет», подумал я тогда и забыл о проблеме. Однако на днях захотелось выяснить, в чём же было дело. Повторная инсталляция закончилась всё тем же невразумительным сообщением об ошибке. При этом в каталоге Windows обнаружилось несколько свежих логов, в том числе «setupapi.log»:
 
 
-    
-    <code class="no-highlight">[2007/05/17 19:36:17 2760.37]
-    #-198 Command line processed: "C:\\WINDOWS\\system32\\sysocmgr.exe" /y /i:C:\\WINDOWS\\system32\\sysoc.inf
-    #-006 Setting security on key HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\PeerNet\\PNRP to "D:(A;OICI;KA;;;SY)(A;OICI;KA;;;BA)(A;OICI;KA;;;LS)(A;OICI;KA;;;CO)(A;OICI;KR;;;AU)"
-    #E033 Error 1208: An extended error has occurred.
-    #-035 Processing service Add/Delete section [p2p.Services].
-    #E277 Add Service: Failed to secure service "p2psvc". Error 1208: An extended error has occurred.
-    #E033 Error 1208: An extended error has occurred.
-    #E275 Error while installing services. Error 1208: An extended error has occurred.
-    </code>
+
+```no-highlight
+[2007/05/17 19:36:17 2760.37]
+#-198 Command line processed: "C:\\WINDOWS\\system32\\sysocmgr.exe" /y /i:C:\\WINDOWS\\system32\\sysoc.inf
+#-006 Setting security on key HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\PeerNet\\PNRP to "D:(A;OICI;KA;;;SY)(A;OICI;KA;;;BA)(A;OICI;KA;;;LS)(A;OICI;KA;;;CO)(A;OICI;KR;;;AU)"
+#E033 Error 1208: An extended error has occurred.
+#-035 Processing service Add/Delete section [p2p.Services].
+#E277 Add Service: Failed to secure service "p2psvc". Error 1208: An extended error has occurred.
+#E033 Error 1208: An extended error has occurred.
+#E275 Error while installing services. Error 1208: An extended error has occurred.
+```
 
 
 
@@ -55,8 +56,10 @@ tags:
 В конце концов поиск в Google вывел меня на страницу [JSI FAQ](http://www.jsifaq.com/SF/Tips/Tip.aspx?id=7558). Не могу сказать, что описание проблемы было сильно похоже на мою, но сочетание слов security, setup и сообщения «Setup cannot copy the file» имели к ней прямое отношение. Как ни странно, восстановление secedit.sdb  с помощью вот этой команды помогло:
 
 
-    
-    <code class="no-highlight">esentutl /p %SystemRoot%\\security\\database\\secedit.sdb</code>
+
+```no-highlight
+esentutl /p %SystemRoot%\\security\\database\\secedit.sdb
+```
 
 
 

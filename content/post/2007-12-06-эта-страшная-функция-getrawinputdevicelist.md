@@ -18,12 +18,14 @@ tags:
 Функцию [GetRawInputDeviceList](http://msdn2.microsoft.com/en-us/library/ms645598.aspx) можно смело приводить в качестве антипримера правильно спроектированного API. Эта функция используется для получения списка описателей устройств ввода (raw input devices). Ничего сложного. Прототип функции тоже выглядит довольно невинно - всего три параметра, и, как кажется по началу, назначение каждого довольно очевидно.
 
  
-    
-    <code class="cpp">UINT GetRawInputDeviceList(
-        __out_opt PRAWINPUTDEVICELIST pRawInputDeviceList,
-        __inout PUINT puiNumDevices,
-        __in UINT cbSize
-        );</code>
+
+```cpp
+UINT GetRawInputDeviceList(
+    __out_opt PRAWINPUTDEVICELIST pRawInputDeviceList,
+    __inout PUINT puiNumDevices,
+    __in UINT cbSize
+    );
+```
 
 
 
@@ -38,15 +40,7 @@ tags:
 
 
 
-<blockquote>
-  
-> 
 > Pointer to a variable. If _pRawInputDeviceList_ is NULL, it specifies the number of devices attached to the system. Otherwise, it contains the size, in bytes, of the preallocated buffer pointed to by _pRawInputDeviceList_. However, if *_puiNumDevices_ is smaller than needed to contain **RAWINPUTDEVICELIST** structures, the required buffer size is returned here.
-> 
-> 
-</blockquote>
-
-
 
 
 
@@ -79,11 +73,13 @@ tags:
 
 
 
-    
-    <code class="cpp">BOOL GetRawInputDeviceList(
-        __out_opt PRAWINPUTDEVICELIST pBuffer,
-        __inout PUINT puiNumDevices
-        );</code>
+
+```cpp
+BOOL GetRawInputDeviceList(
+    __out_opt PRAWINPUTDEVICELIST pBuffer,
+    __inout PUINT puiNumDevices
+    );
+```
 
 
 
