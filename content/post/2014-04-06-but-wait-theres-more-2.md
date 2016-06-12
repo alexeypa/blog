@@ -17,25 +17,20 @@ tags:
 
 
 
-<blockquote>
-Hi,..
+> Hi,..
 
-..,I can send you more information about the concept - but I want to get this directly into production - possible ?!
+> ..,I can send you more information about the concept - but I want to get this directly into production - possible ?!
 
-Best regards,
-Dirk
-</blockquote>
+> Best regards,  
+> Dirk
 
 
+> Здравствуйте,..
 
+> ..,Я могу послать вам описание идеи - но я хочу наладить производство как можно скорее - возможно ?!
 
-
-<blockquote>Здравствуйте,..
-
-..,Я могу послать вам описание идеи - но я хочу наладить производство как можно скорее - возможно ?!
-
-Всего наилучшего,..
-Дирк</blockquote>
+> Всего наилучшего,..  
+> Дирк
 
 
 

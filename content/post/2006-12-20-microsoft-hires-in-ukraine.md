@@ -22,9 +22,9 @@ Whether you are just about to receive your diploma from University or have been 
 
 
 
-<blockquote>“The variety of products that Microsoft develops greatly influenced my decision to work here. As my career develops I can follow my passion to apply myself to different technologies without having to leave the company.”
+> “The variety of products that Microsoft develops greatly influenced my decision to work here. As my career develops I can follow my passion to apply myself to different technologies without having to leave the company.”
 
-- [David](http://www.microsoft.com/college/meet_david.mspx), Software Design Engineer in Test, Live Meeting</blockquote>
+> - [David](http://www.microsoft.com/college/meet_david.mspx), Software Design Engineer in Test, Live Meeting
 
 
 
@@ -40,9 +40,9 @@ As a Microsoft employee in a full-time technical position, you’ll dive head fi
 
 
 
-<blockquote>"You will find no other company with the sheer breadth of technologies, from Windows kernel, to Office applications, to servers, to Live Web services, to Xbox, to games, to business solutions, to hardware. The things you get to see and learn from other people are amazing."
+> "You will find no other company with the sheer breadth of technologies, from Windows kernel, to Office applications, to servers, to Live Web services, to Xbox, to games, to business solutions, to hardware. The things you get to see and learn from other people are amazing."
 
-- [John](http://www.microsoft.com/college/meet_john.mspx), Software Development Lead, Windows Server Performance</blockquote>
+> - [John](http://www.microsoft.com/college/meet_john.mspx), Software Development Lead, Windows Server Performance
 
 
 

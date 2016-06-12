@@ -15,9 +15,7 @@ categories:
 
 
 
-<blockquote>Скажите пожалуйста. Есть тут такой класс, верней конкретно одно из его свойств [http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx](http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx). Сказано, что его можно получить только локально. А почему? Из-за этого, собсно, не работает нормально командлет get-process, когда им пытаешься запросить процессы удаленной машины. Верней работает, но частично. Колонка CPU(s) в его вводе пустая.
-</blockquote>
-
+> Скажите пожалуйста. Есть тут такой класс, верней конкретно одно из его свойств [http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx](http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx). Сказано, что его можно получить только локально. А почему? Из-за этого, собсно, не работает нормально командлет get-process, когда им пытаешься запросить процессы удаленной машины. Верней работает, но частично. Колонка CPU(s) в его вводе пустая.
 
 
 Короткий ответ: по всей видимости, потому, что нужный  счетчик не доступен через HKEY_PERFORMANCE_DATA.

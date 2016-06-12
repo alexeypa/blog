@@ -17,21 +17,8 @@ tags:
 
 
 
-<blockquote>I love how he has an adorable existential crisis about the bees.</blockquote>
+> I love how he has an adorable existential crisis about the bees.
 
+>> "This buzz is not without reason."
 
-
-
-
-<blockquote>
-
-> 
-> <blockquote>"This buzz is not without reason."</blockquote>
-> 
-> 
-The deepness of this cartoon caught me by surprise.
-</blockquote>
-
-
-
-
+> The deepness of this cartoon caught me by surprise.

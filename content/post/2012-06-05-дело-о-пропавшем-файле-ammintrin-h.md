@@ -32,9 +32,8 @@ tags:
 
 
 
-<blockquote>[http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html](http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html):
-Note that ammintrin.h is published by AMD and is not included in any of the Intel intrinsic headers. ammintrin.h includes pmmintrin.h, so by including ammintrin.h, all AMD SSE4A as well as Intel SSE3, SSE2, SSE and MMX functions are declared.</blockquote>
-
+> [http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html](http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html):
+Note that ammintrin.h is published by AMD and is not included in any of the Intel intrinsic headers. ammintrin.h includes pmmintrin.h, so by including ammintrin.h, all AMD SSE4A as well as Intel SSE3, SSE2, SSE and MMX functions are declared.
 
 
 Родилось простое решение - был создан пустой заголовок ‘ammintrin.h’ и положен рядышком с ‘intrin.h’. Тем, кому функции все-таки нужны, могу посоветовать восстановить их [по образцу](http://opensource.apple.com/source/gcc/gcc-5646/gcc/config/i386/ammintrin.h) либо таки скопировать этот файл с машины, где стоит SP1 (но это не спортивно). :-)

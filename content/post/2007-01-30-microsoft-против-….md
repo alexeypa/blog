@@ -17,8 +17,7 @@ tags:
 
 
 
-<blockquote>Думаю, что НегроСофт занял лидерство не благодаря описанной Вами технологии, а благодаря [http://www.iowaconsumercase.org/adi.html](http://www.iowaconsumercase.org/adi.html). Иначе за такое (взято с [http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el;_id=282973#nav_start](http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el_id=282973#nav_start)) только “в сортире мочить” (С) В.В.Путин:</blockquote>
-
+> Думаю, что НегроСофт занял лидерство не благодаря описанной Вами технологии, а благодаря [http://www.iowaconsumercase.org/adi.html](http://www.iowaconsumercase.org/adi.html). Иначе за такое (взято с [http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el;_id=282973#nav_start](http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el_id=282973#nav_start)) только “в сортире мочить” (С) В.В.Путин:
 
 
 <!-- more -->Обычно я стараюсь избегать “священных войн”. По уровню полезности рассуждения на темы вроде “Windows против *nix” или “Microsoft против Open Source Community” я приравниваю к спорам про политику. И те и другие одинаково быстро скатываются в эмоции, где оппоненты больше заинтересованы в уничтожении друг друга, чем в выяснении истины.
@@ -29,7 +28,7 @@ tags:
 
 
 
-<blockquote>А похожие описанным вами (и даже лучше) технологии реализованы как в OS/2, так и в *NIXах.</blockquote>
+> А похожие описанным вами (и даже лучше) технологии реализованы как в OS/2, так и в *NIXах.
 
 
 

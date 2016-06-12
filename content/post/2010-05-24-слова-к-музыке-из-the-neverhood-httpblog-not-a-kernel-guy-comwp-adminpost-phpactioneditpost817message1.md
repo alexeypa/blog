@@ -20,35 +20,29 @@ tags:
 
 
 
-<blockquote>mmm mmm mmm mmm....
+> mmm mmm mmm mmm....
 
-Homina budda budda budda
-Homina budda boo
-Homina budda budda budda
-Homina budda boo
+> Homina budda budda budda  
+> Homina budda boo  
+> Homina budda budda budda  
+> Homina budda boo
 
-Olley olley olley olley olley he he heeeee....
-olley olley olley olley olley (oxen free) he he he
-</blockquote>
-
+> Olley olley olley olley olley he he heeeee....  
+> olley olley olley olley olley (oxen free) he he he
 
 
 Примерный (и в основном фонетический) перевод ;-) :
 
 
+> Ммм ммм ммм ммм…
 
-<blockquote>Ммм ммм ммм ммм…
+> Хомана будда будда будда  
+> Хомана будда буу  
+> Хомана будда будда будда  
+> Хомана будда буу
 
-Хомана будда будда будда
-Хомана будда буу
-Хомана будда будда будда
-Хомана будда буу
-
-Олей олей олей олей олей хе хе хеееее…
-Олей олей олей олей олей (бык свободен) хе хе хе
-</blockquote>
-
-
+> Олей олей олей олей олей хе хе хеееее…  
+> Олей олей олей олей олей (бык свободен) хе хе хе
 
 
 Хотя на счет «oxen free» у меня есть большие сомнения. :-)
@@ -57,57 +51,30 @@ olley olley olley olley olley (oxen free) he he he
 
 
 
-<blockquote>(note to the listener: Should you chose to sing along to any of the following songs, we wish you luck. You're gonna need it!)</blockquote>
+> (note to the listener: Should you chose to sing along to any of the following songs, we wish you luck. You're gonna need it!)
 
-
-
-
-
-<blockquote>(примечание слушателям: Мы желаем вам удачи, в случае если вы собираетесь подпевать любой из нижеследующих песен. Она вам понадобится!)
-</blockquote>
-
+> (примечание слушателям: Мы желаем вам удачи, в случае если вы собираетесь подпевать любой из нижеследующих песен. Она вам понадобится!)
 
 
 Верно подмечено:
 
 
 
-<blockquote>(and other various gruntings)</blockquote>
+> (and other various gruntings)
 
+> (и прочие разные хрюканья/бормотания)
 
+> 2nd verse, same as the first! (kinda)
 
-
-
-<blockquote>(и прочие разные хрюканья/бормотания)</blockquote>
-
-
-
-
-
-
-<blockquote>2nd verse, same as the first! (kinda)</blockquote>
-
-
-
-
-
-<blockquote>И второй раз, точно также как первый (типа)</blockquote>
-
+> И второй раз, точно также как первый (типа)
 
 
 Или вот, ну попалась одна неразборчивая песня, ну что тут поделать:
 
 
+> (uninterpretable gibberish, except for "I don't know!")
 
-<blockquote>(uninterpretable gibberish, except for "I don't know!")</blockquote>
-
-
-
-
-
-<blockquote>(непереводимая чепуха, за исключением «Я не знаю!»)</blockquote>
-
-
+> (непереводимая чепуха, за исключением «Я не знаю!»)
 
 
 :-)

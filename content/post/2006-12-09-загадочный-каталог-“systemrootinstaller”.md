@@ -38,7 +38,7 @@ tags:
 
 
 
-<blockquote>Icon files that are associated strictly with file extensions or CLSIDs can have any extension, such as .ico. **However, Icon files that are associated with shortcuts must be in the EXE binary format and must be named such that their extension matches the extension of the target.** The shortcut will not work if this rule is not followed. For example, if a shortcut is to point to a resource having the key file Red.bar, then the icon file must also have the extension .bar. Multiple icons can be stuffed into the same icon file as long as all of the target files have the same extension.</blockquote>
+> Icon files that are associated strictly with file extensions or CLSIDs can have any extension, such as .ico. **However, Icon files that are associated with shortcuts must be in the EXE binary format and must be named such that their extension matches the extension of the target.** The shortcut will not work if this rule is not followed. For example, if a shortcut is to point to a resource having the key file Red.bar, then the icon file must also have the extension .bar. Multiple icons can be stuffed into the same icon file as long as all of the target files have the same extension.
 
 
 
@@ -47,8 +47,6 @@ tags:
 Я попытался создать простую инсталляцию, чтобы посмотреть, как именно иконки попадают в каталог “%SystemRoot%\Installer”. Взяв за основу [инсталляцию ShellLib](http://blog.not-a-kernel-guy.com/2006/10/25/90), добавил создание ярлыка в меню Start:
 
 
-    
-    
     <Product Name='ShellLib x64 1.0' … >
       …
       <Icon Id="appicon" SourceFile="appicon.ico"/>
@@ -64,7 +62,6 @@ tags:
           />            
         </File>
       …
-    
 
 
 
@@ -101,7 +98,7 @@ tags:
 
 
 
-<blockquote>The icons for shortcuts, file extensions, and CLSIDs must be stored in files that are separate from the target file itself. This is required because the installer should copy only the small icon files to the user's machine when advertising the resource. A developer of an installation package therefore needs to author separate files containing only the icons. These icon files are then stored as binary data in the Icon table.</blockquote>
+> The icons for shortcuts, file extensions, and CLSIDs must be stored in files that are separate from the target file itself. This is required because the installer should copy only the small icon files to the user's machine when advertising the resource. A developer of an installation package therefore needs to author separate files containing only the icons. These icon files are then stored as binary data in the Icon table.
 
 
 
@@ -115,8 +112,8 @@ tags:
 
 
 
-<blockquote>“c:\WINDOWS\Installer” - если имеет отношения к Add/Remove Programs то весьма косвенное, и единственное применение этого каталога обнаруженное мной в следующем:
-ярлычки на программы установленные Windows Installer’ом завянные на вызов конкретных exe файлов ссылаются не на иконки этих exe файлов, а на иконки</blockquote>
+> “c:\WINDOWS\Installer” - если имеет отношения к Add/Remove Programs то весьма косвенное, и единственное применение этого каталога обнаруженное мной в следующем:
+ярлычки на программы установленные Windows Installer’ом завянные на вызов конкретных exe файлов ссылаются не на иконки этих exe файлов, а на иконки
 
 
 
@@ -124,16 +121,15 @@ tags:
 
 
 
-<blockquote>просто копий тех же exe файлов (адрес см ниже) но с другим именем, которые конечно не могут работать отдельно от библиотек, которых нет рядом (откровенная профанация)</blockquote>
-
+> просто копий тех же exe файлов (адрес см ниже) но с другим именем, которые конечно не могут работать отдельно от библиотек, которых нет рядом (откровенная профанация)
 
 
 На самом деле, эти файлы должны содержать только иконки, что, впрочем, зависит от разработчика инсталляции. Насколько я могу судить обычно так и есть.
 
 
 
-<blockquote>Очень странен сам способ хранения в каталогах файловой системы и без того неэффективной с длинными названиями соответствующими CLSID
-Наверно такое трюкачество нужно, чтобы показать, что если вы удалите этот “очень важный” каталог, то у Вас … ОЙ пропадут иконки …</blockquote>
+> Очень странен сам способ хранения в каталогах файловой системы и без того неэффективной с длинными названиями соответствующими CLSID
+Наверно такое трюкачество нужно, чтобы показать, что если вы удалите этот “очень важный” каталог, то у Вас … ОЙ пропадут иконки …
 
 
 
@@ -141,7 +137,7 @@ tags:
 
 
 
-<blockquote>получается такой каталог “копий иконок” обычно мегабайт на 300</blockquote>
+> получается такой каталог “копий иконок” обычно мегабайт на 300
 
 
 

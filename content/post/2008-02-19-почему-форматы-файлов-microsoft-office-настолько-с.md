@@ -18,26 +18,17 @@ tags:
 
  
 
-<blockquote>  
-> 
 > A normal programmer would conclude that Office's binary file formats:
-> 
->    
-> 
->     
->   * are deliberately obfuscated 
->      
->   * are the product of a demented Borg mind 
->      
->   * were created by insanely bad programmers 
->      
->   * and are impossible to read or create correctly. 
->    </blockquote>
 
- 
+>   * are deliberately obfuscated 
+
+>   * are the product of a demented Borg mind 
+
+>   * were created by insanely bad programmers 
+
+>   * and are impossible to read or create correctly. 
+
 
 Если коротко, то проблема в том, что эти форматы имеют длинную историю и при их разработке преследовались совсем другие цели нежели преследовались бы при разработке формата «офисных» файлов сейчас. Это, кстати, касается и OOXML, так как этот формат по-прежнему должен поддерживать практически все возможности, которые предоставляют бинарные форматы.
-
- 
 
 Выводы в статье тоже заслуживают внимания. Если вы не пишете клон Microsoft Office (иными словами OpenOffice или StarOffice), то вполне вероятно, что идея реализовать работу с «офисными» форматами в полном объеме не слишком хороша. Вместо этого стоит либо воспользоваться OLE автоматизацией, которую приложения Microsoft Office вполне поддерживают, либо стоит выбрать формат по проще, но, при этом, совместимый с офисом.

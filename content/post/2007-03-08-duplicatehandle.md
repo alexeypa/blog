@@ -18,7 +18,7 @@ tags:
 <!-- more -->
 
 
-<blockquote>In some cases, the new handle can have more access rights than the original handle. However, in other cases, DuplicateHandle cannot create a handle with more access rights than the original. For example, a file handle created with the GENERIC_READ access right cannot be duplicated so that it has both the GENERIC_READ and GENERIC_WRITE access right.</blockquote>
+> In some cases, the new handle can have more access rights than the original handle. However, in other cases, DuplicateHandle cannot create a handle with more access rights than the original. For example, a file handle created with the GENERIC_READ access right cannot be duplicated so that it has both the GENERIC_READ and GENERIC_WRITE access right.
 
 
 

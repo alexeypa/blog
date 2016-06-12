@@ -18,10 +18,8 @@ tags:
 
 
 
-<blockquote>
-_lpClass_ [in, optional]
-The user-defined class type of this key. This parameter may be ignored. This parameter can be NULL.
-</blockquote>
+> _lpClass_ [in, optional]
+> The user-defined class type of this key. This parameter may be ignored. This parameter can be NULL.
 
 
 
