@@ -15,4 +15,4 @@ tags:
 
 Раньше все было по-другому, ближе к природе, что-ли:
 
-http://youtu.be/PnsFFhKqXXo
+{{< youtube PnsFFhKqXXo >}}
