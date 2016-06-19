@@ -2,7 +2,6 @@
 author: admin
 comments: false
 date: 2007-01-30 22:43:43+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/01/30/142
 slug: microsoft-против-…
 title: Microsoft против …

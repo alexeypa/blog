@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-01-20 18:12:50+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/01/20/970
 slug: we-are-still-hiring
 title: We are still hiring!

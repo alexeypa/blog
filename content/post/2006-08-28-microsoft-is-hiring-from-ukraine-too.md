@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-08-28 07:39:49+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/08/28/22
 slug: microsoft-is-hiring-from-ukraine-too
 title: Microsoft is hiring from Ukraine too

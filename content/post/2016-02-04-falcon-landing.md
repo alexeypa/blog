@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2016-02-04 06:09:53+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2016/02/03/1789
 slug: falcon-landing
 title: Falcon Landing

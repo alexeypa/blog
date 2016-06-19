@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-03-12 21:52:27+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/03/12/161
 slug: список-нововведений-в-vistalonghorn
 title: Список нововведений в Vista/Longhorn

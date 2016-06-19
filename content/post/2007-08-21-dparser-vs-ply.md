@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-08-21 23:18:40+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/08/21/224
 slug: dparser-vs-ply
 title: DParser  vs. PLY

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-02-07 05:19:08+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/02/06/972
 slug: ndis-ndiskd-и-dml
 title: NDIS, !ndiskd и DML

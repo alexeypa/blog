@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2009-12-30 06:26:20+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/12/29/726
 slug: почему-нельзя-прервать-вызов-readconsole
 title: Почему нельзя прервать вызов ReadConsole?

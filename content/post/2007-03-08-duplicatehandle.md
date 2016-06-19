@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-03-08 22:41:12+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/03/08/158
 slug: duplicatehandle
 title: DuplicateHandle

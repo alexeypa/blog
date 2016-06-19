@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-05-20 22:36:58+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/05/20/186
 slug: an-extended-error-has-occurred
 title: An extended error has occurred

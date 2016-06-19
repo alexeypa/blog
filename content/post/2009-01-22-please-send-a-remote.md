@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2009-01-22 17:32:10+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/01/22/424
 slug: please-send-a-remote
 title: Please send a remote

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-08-29 20:53:18+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/08/29/232
 slug: microsoft-will-be-recruiting-candidates-from-russiaukraine-in-october
 title: Microsoft will be recruiting candidates from Russia/Ukraine in October

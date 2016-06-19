@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-08-20 09:43:00+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/08/20/28
 slug: microsoft-is-hiring
 title: Microsoft is hiring

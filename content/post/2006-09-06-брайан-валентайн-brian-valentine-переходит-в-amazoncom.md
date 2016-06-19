@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-09-06 21:07:46+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/09/06/45
 slug: брайан-валентайн-brian-valentine-переходит-в-amazoncom
 title: Брайан Валентайн (Brian Valentine) переходит в Amazon.com

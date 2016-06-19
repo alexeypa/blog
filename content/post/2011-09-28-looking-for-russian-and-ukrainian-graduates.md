@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-09-28 13:48:43+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/09/28/1189
 slug: looking-for-russian-and-ukrainian-graduates
 title: Looking for Russian and Ukrainian graduates

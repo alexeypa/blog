@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2009-06-04 17:55:23+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/06/04/565
 slug: фас-возбудила-дело-против-microsoft
 title: ФАС возбудила дело против Microsoft

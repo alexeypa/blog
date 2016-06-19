@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-09-04 02:48:20+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/09/03/42
 slug: kernel-debugger-годиться-не-только-для-отладки-ядрb
 title: Kernel debugger годиться не только для отладки ядра

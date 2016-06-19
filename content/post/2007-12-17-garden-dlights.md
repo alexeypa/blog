@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-12-17 05:42:02+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/12/16/271
 slug: garden-dlights
 title: Garden d'Lights

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2010-07-23 17:19:20+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/07/23/861
 slug: 64-bit-explained
 title: 64 Bit Explained

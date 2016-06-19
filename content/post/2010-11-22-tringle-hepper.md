@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2010-11-22 20:46:59+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/11/22/934
 slug: tringle-hepper
 title: Tringle hepper

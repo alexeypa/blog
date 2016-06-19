@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-08-22 14:18:00+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/08/22/27
 slug: wow64-registry-redirector
 title: Registry redirector

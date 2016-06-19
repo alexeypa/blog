@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-06-12 06:49:12+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/06/11/197
 slug: как-запустить-c-препроцессор-в-boostbuild-v2-част
 title: Как запустить C препроцессор в Boost.Build V2. Часть II

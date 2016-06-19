@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-11-24 05:00:28+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/23/104
 slug: забавное-чтиво-про-unicode-bom
 title: Забавное чтиво про Unicode BOM

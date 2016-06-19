@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-12-20 19:23:17+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/12/20/117
 slug: microsoft-hires-in-ukraine
 title: Microsoft hires in Ukraine

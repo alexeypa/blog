@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-07-02 20:22:57+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/07/02/206
 slug: viva-scotland
 title: Viva Scotland!

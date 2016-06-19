@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-05-18 15:04:20+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/05/18/185
 slug: блоги-сотрудников-microsoft
 title: Блоги сотрудников Microsoft

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2012-06-05 22:52:59+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2012/06/05/1345
 slug: дело-о-пропавшем-файле-ammintrin-h
 title: Дело о пропавшем файле 'ammintrin.h'

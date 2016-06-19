@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-08-28 15:59:56+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/08/28/230
 slug: boost-переехал-в-subversion-репозиторий
 title: Boost переехал в Subversion репозиторий

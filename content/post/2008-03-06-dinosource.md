@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2008-03-06 01:16:29+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/03/05/295
 slug: dinosource
 title: Dinosource

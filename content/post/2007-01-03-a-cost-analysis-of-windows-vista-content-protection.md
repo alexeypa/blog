@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-01-03 19:24:52+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/01/03/126
 slug: a-cost-analysis-of-windows-vista-content-protection
 title: A Cost Analysis of Windows Vista Content Protection

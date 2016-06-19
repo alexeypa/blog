@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-04-08 06:38:25+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/04/07/1020
 slug: inception
 title: Inception

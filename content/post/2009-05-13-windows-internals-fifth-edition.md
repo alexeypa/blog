@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2009-05-13 17:49:43+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/05/13/509
 slug: windows-internals-fifth-edition
 title: Windows Internals, Fifth Edition

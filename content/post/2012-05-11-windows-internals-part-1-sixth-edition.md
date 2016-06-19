@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2012-05-11 06:44:18+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2012/05/10/1326
 slug: windows-internals-part-1-sixth-edition
 title: Windows Internals, Part 1, Sixth Edition

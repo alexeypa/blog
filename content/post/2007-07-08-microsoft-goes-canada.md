@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2007-07-08 04:47:17+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/07/07/207
 slug: microsoft-goes-canada
 title: Microsoft goes Canada

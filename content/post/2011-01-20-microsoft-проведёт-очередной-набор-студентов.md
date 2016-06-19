@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-01-20 06:18:13+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/01/19/964
 slug: microsoft-проведёт-очередной-набор-студентов
 title: Microsoft проведёт очередной набор студентов и выпускников из России, Беларуси

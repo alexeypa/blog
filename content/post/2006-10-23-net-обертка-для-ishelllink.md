@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-10-23 05:30:31+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/22/87
 slug: net-обертка-для-ishelllink
 title: .NET обертка для IShellLink

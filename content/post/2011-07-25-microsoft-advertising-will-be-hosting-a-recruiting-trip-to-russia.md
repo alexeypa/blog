@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2011-07-25 15:00:43+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/07/25/1118
 slug: microsoft-advertising-will-be-hosting-a-recruiting-trip-to-russia
 title: Microsoft Advertising will be hosting a recruiting trip to Russia

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-12-04 17:00:07+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/12/04/107
 slug: rss-bandit-не-работает-на-vista-x64
 title: RSS Bandit не работает на Vista x64

@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2006-12-26 06:19:55+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/12/25/120
 slug: в-чём-разница-между-hkey-и-handle
 title: В чём разница между HKEY и HANDLE?

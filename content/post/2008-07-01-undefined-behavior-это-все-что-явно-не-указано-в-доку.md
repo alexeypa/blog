@@ -1,7 +1,6 @@
 ---
 author: admin
 date: 2008-07-01 06:42:36+00:00
-excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/06/30/316
 slug: undefined-behavior-это-все-что-явно-не-указано-в-доку
 title: Undefined behavior – это все, что явно не указано в документации
