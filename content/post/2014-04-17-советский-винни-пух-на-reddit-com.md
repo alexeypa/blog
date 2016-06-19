@@ -15,8 +15,6 @@ tags:
 
 На reddit.com наткнулись на советского Винни Пуха. [Комментарии](http://www.reddit.com/r/videos/comments/23925q/the_soviet_union_had_winnie_the_pooh_but_he_was/) доставляют:
 
-
-
 > I love how he has an adorable existential crisis about the bees.
 
 >> "This buzz is not without reason."

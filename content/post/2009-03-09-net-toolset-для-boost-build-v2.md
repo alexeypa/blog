@@ -15,17 +15,11 @@ tags:
 
 Специально для любителей [Boost.Build V2](http://www.boost.org/doc/tools/build/index.html) – написал [toolset](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/03/dotnet.jam), добавляющий поддержку C# и VB.NET компиляторов из .NET Framework. Toolset автоматически распознает все установленные версии .NET Framework: 
 
-
-
 ```no-highlight
 using dotnet : all ;
 ```
 
-
-
 Исполняемые файлы и библиотеки собирается как обычно с помощью правил “exe” и “lib”. Ссылки на системные библиотеки указываются через <find-shared-library>; путь к ним – с помощью <library-path>:
-
-
 
 ```no-highlight
 lib carrots
@@ -46,7 +40,4 @@ exe rabbit
     ;
 ```
 
-
-
 Можно указать целевую платформу с помощью <architecture> и <address-model>. По умолчанию – anycpu.
-

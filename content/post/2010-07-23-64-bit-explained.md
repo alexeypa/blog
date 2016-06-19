@@ -15,8 +15,6 @@ tags:
 
 Вот. [Истинная правда](http://piers7.blogspot.com/2010/07/64-bit-explained.html):
 
-
-
 > Look, it’s really not that hard.
 
 > Programs are still in the same place, in %ProgramFiles%, unless you need the 32 bit version, which is in %ProgramFiles(x86)%, except on a 32 bit machine, where it’s still %ProgramFiles%.
@@ -33,9 +31,6 @@ tags:
 
 > I really don’t understand how people get so worked up over it all.
 
-
 Для всего этого счастья есть [логичное объяснение](http://blog.not-a-kernel-guy.com/2007/06/26/203), сдобренное обычным "ну здесь мы применили маленький хак". Но от этого не сильно легче.
 
 Отсюда: [http://piers7.blogspot.com/2010/07/64-bit-explained.html](http://piers7.blogspot.com/2010/07/64-bit-explained.html).
-
-

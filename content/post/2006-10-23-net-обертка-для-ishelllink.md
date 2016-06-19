@@ -27,71 +27,45 @@ PowerShell и CLSID_ShellLink используют разные модели COM
 
 Перед использованием, скомпилированные DLL нужно зарегистрировать:
 
-
-    
     regsvr32 ShellPS.dll
     gacutil /i ShellLib.dll
 
-
-
 После чего можно запустить PowerShell и исследовать новые возможности. 
 
-
-    
     # Загружаем ShellLib.dll
     [System.Reflection.Assembly]::Load(
         "shelllib, Version=1.0.1.1, Culture=neutral, 
         PublicKeyToken=e0a879bef00d4c8e, 
         processorArchitecture=x86")
     | out-null
-    
+
     # Открываем ярлык "Command Prompt.lnk"
     $filename = $env:USERPROFILE + 
         "\\Start Menu\\Programs\\Accessories\\Command Prompt.lnk"
-    
+
     $link = new-object ShellLib.ShellLink
     $link.Load(
         $filename, 
         [ShellLib.EPersistFileModeFlags]::STGM_READWRITE)
-    
+
     $link
-
-
 
 Последняя команда выведет текущие значения основных свойств ярлыка:
 
-
-
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_values.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_values.png)
-
-
 
 Покажем список всех доступных методов и свойств:
 
-
-    
     $link | get-member
-
-
-
-
 
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_methods.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_methods.png)
 
-
-
 Свойство ConsoleProps соответствует вкладкам “Options”, “Font”, “Layout” и “Colors” в стандартном окне свойств ярлыка. В данный момент свойство ConsoleProps не задано, что соответствует всем значениям по умолчанию: 
-
-
 
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_DefaultLayout.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_DefaultLayout.png)
 
-
-
 Попробуем задать свой размер окна и шрифт:
 
-
-    
     $props = new-object ShellLib.NtConsoleProps
     $props.wFillAttribute = 7
     $props.wPopupFillAttribute = 245
@@ -108,30 +82,16 @@ PowerShell и CLSID_ShellLink используют разные модели COM
     $props.uNumberOfHistoryBuffers = 4
     $link.ConsoleProps = $props
 
-
-
 Может показаться, что параметров слишком много, но на самом деле все значения можно просто скопировать из свойств созданного стандартными средствами ярлыка.
 
 Теперь можно сохранить полученные изменения.
 
-
-    
     $link.Save($filename, 1)
-
-
 
 В результате всех этих действий вот такой результат:
 
-
-
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewLayout.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewLayout.png)
 
-
-
-
-
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewFont.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewFont.png)
-
-
 
 Осталось только оформить это всё в один скрипт и готово! :-)

@@ -16,16 +16,9 @@ tags:
 
 [Extreme Computing Group (XCG)](http://research.microsoft.com/en-us/labs/xcg/default.aspx), в которой я работаю, нанимает разработчиков. В том числе рассматриваются кандидаты из-за рубежа. Само собой, локальные кандидаты предпочтительней, но их как-то не очень заметно, так что у вас есть хороший шанс. Делаются как новые H1B, так и H1B transfer, насколько я могу судить. Позиции ищуться по ключевым словам «eXtreme Computing Group (XCG)». Вот пара ссылок:
 
-
-
-
-	
   * [Software Development Engineer, Senior - Extreme Computing Group](https://careers.microsoft.com/JobDetails.aspx?ss=&pg=0&so=&rw=1&jid=29602&jlang=EN)
 
-	
   * [Software Development Engineer, Senior - Extreme Computing Group](https://careers.microsoft.com/JobDetails.aspx?ss=&pg=0&so=&rw=4&jid=28954&jlang=EN)
-
-
 
 От себя добавлю, что проекты у нас сложные и интересные, а люди хорошие. :-) Подаваться нужно через [http://careers.microsoft.com](http://careers.microsoft.com), в крайнем случае – пришлите резюме мне ([alexeypa@gmail.com](mailto:alexeypa@gmail.com)). На разбор писем я собираюсь потратить не так уж много времени. Никаких гарантий, что письмо посланное мне будет передано рекрутеру нет (я даже и не знаю, кто он), так что careers - надежнее.
 
@@ -46,74 +39,42 @@ We are seeking a strong senior systems developer, with deep knowledge and implem
 
 **Responsibilities:**
 
-
-
-	
   * Passion for and understanding of cloud computing systems
 
-	
   * Work with customers/partners, both internal and external, to understand their needs, develop software, and collaborate on technology transfer
 
-	
   * Formulate abstract and generic scenarios and translate them into specifications and code
 
-	
   * Develop system and application prototypes, technologies and products 
 
-	
   * Manage contractors, optional
 
-	
   * Build strong relationships across teams and organizations
 
-	
   * Assist in designing and architecting large and complex system
-
-
 
 **Qualifications:**
 
-
-
-	
   * At least 7 years experience developing software in C# and/or C++
 
-	
   * Experience in distributed systems, operating systems, network and multi-threaded programming
 
-	
   * Experience with large-scale database and internet-scale platforms or applications
 
-	
   * Understanding of end-to-end solutions from backend servers, web technologies, network transfer, pc and mobile clients
 
-	
   * A deep knowledge of software engineering and software development
 
-	
   * Demonstrated track-record of strong and effective problem solving
 
-	
   * Demonstrated experience shipping high-quality products, services is a plus
 
-	
   * Ability to multi-task and effectively manage concurrent initiatives
-
-
-
 
 **Demonstrated technical leadership across a large, diverse group:**
 
-
-
-	
   * A technical degree in computer science or equivalent required, post-graduate degree a plus
 
-	
   * Ability to work effectively in an agile, startup-like environment
 
-	
   * Developers with a strong background in networking at the protocol and system stack level will be preferred
-
-
-

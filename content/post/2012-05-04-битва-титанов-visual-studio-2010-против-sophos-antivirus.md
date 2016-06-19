@@ -25,18 +25,13 @@ tags:
 
 PS. Вот этот комментарий к ответу Дэна (инженера из Microsoft) с описанием в чем, собственно, проблема очень порадовал:
 
-
-
 > Hello Dan,  
 > and thanks for your response.  
 > Unfortunately I was not able to comprehend your response.  
 > ...
 
-
 > Здраствуйте Дэн и спасибо за ваш ответ.  
 > К сожалению, я не смог понять ваш ответ.  
 > ...
-
-
 
 :-)

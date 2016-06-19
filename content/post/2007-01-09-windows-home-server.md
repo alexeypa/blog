@@ -24,32 +24,18 @@ tags:
 
 Решения на основе Windows Home Server должны, теоретически, обладать всеми преимуществами существующих готовых систем и не обладать их недостатками:
 
-
-
-
-	
   * "Кубик под столом" будет достаточно тихим;
 
-	
   * Единый список пользователей упрощает администрирование;
 
-	
   * Резервное копирование в фоне позволяет не думать о его настройке.
-
-
 
 Кроме этих трёх пунктов, есть ещё не столь важные для меня: интеграция с Media Center, единое хранилище для e-mail и интеграция с Windows Update Services. В общем, домашний NAS на Windows Home Server уверенно входит в тройку лидеров в качестве подарка на мой день рожденья. Я надеюсь, что к тому времени его можно будет увидеть на полках магазинов.
 
 Ссылки по теме:
 
-	
   * [Windows Home Server In Detail.](http://microsoft.blognewschannel.com/archives/2007/01/07/exclusive-windows-home-server-in-detail/)
 
-	
   * [Windows Home Server!](http://www.geekpulp.co.nz/2007/01/07/windows-home-server/)
 
-	
   * [Windows Home Server.](http://www.madprops.org/cs/blogs/mabster/archive/2007/01/08/Windows-Home-Server.aspx)
-
-
-

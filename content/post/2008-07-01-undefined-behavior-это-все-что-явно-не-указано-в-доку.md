@@ -16,18 +16,9 @@ tags:
 
 Навеяно [постом про ExUuidCreate](http://www.shcherbyna.com/?p=6) и в частности вот этой фразой:
 
- 
-
-
-
 > Well, I suggest MSFT to documented this behavior, or at least explain this case in documentation.
 
-
 Вкратце, суть статьи сводится к тому, что функция [ExUuidCreate](http://msdn.microsoft.com/en-us/library/aa490133.aspx) может изменять содержимое возвращаемого буфера даже в том случае, если она возвращает ошибку. Далее, в комментариях, завязался спор на тему имеет ли функция право трогать буфер в случае ошибки.
-
-
-
-  
 
 Для начала небольшое объяснение почему эта функция имеет право делать с буфером всё что угодно. ExUuidCreate объявлена следующим образом:
 
@@ -40,10 +31,7 @@ ExUuidCreate(
 
 Т.е. она пишет сгенерированный GUID в буфер, выделенный вызывающей стороной. Тут важно, что параметр объявлен как "OUT" параметр. Посмотрим, что говорит [документация](http://msdn.microsoft.com/en-us/library/ms235402(VS.80).aspx):
 
-
 > __out: The function will only write to the buffer. If used on the return value or with _deref, the function will provide the buffer and initialize it. Otherwise, the caller must provide the buffer, and the function will initialize it.
-
-
 
 __out (это тоже самое, что и OUT), указывает на то, что:
 

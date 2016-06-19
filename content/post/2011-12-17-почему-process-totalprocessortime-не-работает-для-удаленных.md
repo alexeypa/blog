@@ -13,28 +13,17 @@ categories:
 
 Вопрос из почты:
 
-
-
 > Скажите пожалуйста. Есть тут такой класс, верней конкретно одно из его свойств [http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx](http://msdn.microsoft.com/en-us/library/system.diagnostics.process.totalprocessortime.aspx). Сказано, что его можно получить только локально. А почему? Из-за этого, собсно, не работает нормально командлет get-process, когда им пытаешься запросить процессы удаленной машины. Верней работает, но частично. Колонка CPU(s) в его вводе пустая.
-
 
 Короткий ответ: по всей видимости, потому, что нужный  счетчик не доступен через HKEY_PERFORMANCE_DATA.
 
 Длинный ответ: с .NET я сталкиваюсь не очень часто. Ничего лучше, чем банально взять дизассемблер для IL (intermediate language) и посмотреть на код, мне в голову не пришло. Ildasm.exe входит в состав SDK, но есть и другие варианты, - например [ReSharper](http://www.jetbrains.com/resharper/).
 
-
-
-
-
 ```no-highlight
 Ildasm.exe c:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.dll
 ```
 
-
-
 IL достаточно прост, чтобы читать, не заглядывая в спецификацию. Основные моменты понятны и так, а разбираться с деталями мне как-то еще не требовалось. Интересующий нас метод очень прост:
-
-
 
 ```no-highlight
 .method public hidebysig specialname instance valuetype [mscorlib]System.TimeSpan 
@@ -52,13 +41,9 @@ IL достаточно прост, чтобы читать, не загляды
 } // end of method Process::get_TotalProcessorTime
 ```
 
-
-
 Вызов Process::GetProcessTimes() возвращает заполненную структуру ProcessThreadTimes, содержащую, кроме всего прочего, уже вычисленные значения user time и kernel time. Последующий вызов ProcessThreadTimes::get_TotalProcessorTime() просто складывает эти два значения и возвращает полученный результат.
 
 Если взглянуть на Process::GetProcessTimes(), то видно, что тот просто вызывает Win32 функцию GetProcessTimes() и складывает полученные значения kernel и user time в возвращаемую структуру:
-
-
 
 ```no-highlight
 ...
@@ -77,11 +62,7 @@ IL_0070:  call       bool Microsoft.Win32.NativeMethods::GetProcessTimes(class M
 ...
 ```
 
-
-
 Функция GetProcessTimes() работает только для локальных процессов, так как идентифицирует процесс по переданному NT handle. Посмотрим теперь на какое-нибудь другое свойство, которое работает, в том числе, и для удаленных процессов. К примеру, на Process.HandleCount:
-
-
 
 ```no-highlight
 .method public hidebysig specialname instance int32 
@@ -99,11 +80,7 @@ IL_0070:  call       bool Microsoft.Win32.NativeMethods::GetProcessTimes(class M
 } // end of method Process::get_HandleCount
 ```
 
-
-
 В этом случае значение берется из структуры ProcessInfo, которая, по всей видимости, заполняется методом EnsureState(). Последний, в свою очередь, делает несколько не относящихся к делу проверок и вызывает ProcessManager::GetProcessInfos(), чтобы получить желаемую структуру. Еще через пару уровней вложенности становится понятно, что информация об удаленных процессах добывается через класс NtProcessManager, который читает счетчики из HKEY_PERFORMANCE_DATA удаленной машины. Подсказки в коде, ведущие к этому заключению выглядят вот так:
-
-
 
 ```no-highlight
 .method private hidebysig static class System.Diagnostics.ProcessInfo[] 
@@ -115,11 +92,7 @@ IL_0070:  call       bool Microsoft.Win32.NativeMethods::GetProcessTimes(class M
     IL_0018:  stloc.1
 ```
 
-
-
 Имя PerformanceCounterLib говорит само за себя. А константа 230 – это идентификатор объекта Process из HKEY_PERFORMANCE_DATA.
-
-
 
 ```no-highlight
   .locals init (class [mscorlib]System.Collections.Hashtable V_0,
@@ -141,13 +114,9 @@ IL_0070:  call       bool Microsoft.Win32.NativeMethods::GetProcessTimes(class M
            class Microsoft.Win32.NativeMethods/PERF_COUNTER_DEFINITION[] V_16,
 ```
 
-
-
 Структуры PERF_DATA_BLOCK, PERF_INSTANCE_DEFINITION и т.д. сразу напомнили содержимое winperf.h
 
 Получается, что информация об удаленных процессах читается из HKEY_PERFORMANCE_DATA удаленной машины. Почему же нельзя точно также прочитать время, проведенное процессом в user и kernel mode? Видимо потому, что эти счетчики не доступны через HKEY_PERFORMANCE_DATA. Вот какие счётчики доступны для процесса:
-
-
 
 ```no-highlight
 230 Process
@@ -181,7 +150,4 @@ IL_0070:  call       bool Microsoft.Win32.NativeMethods::GetProcessTimes(class M
 	1478 Working Set - Private
 ```
 
-
-
 Обратите внимание, что “Privileged Time” и “User Time” измеряются процентах. Т.е. считается текущее использование процессом CPU, а не общее время, проведенное процессом в обоих режимах.
-

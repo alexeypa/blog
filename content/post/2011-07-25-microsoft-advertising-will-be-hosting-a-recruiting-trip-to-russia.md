@@ -17,32 +17,19 @@ tags:
 
 Команда Microsoft Advertising собирается приехать в Москву в октябре собеседовать разработчиков из России и соседних стран, желающих <del>вступить в ряды империи зла</del> перебраться в США. Просьба, при посылке резюме ссылаться на меня (Alexey Pakhunov) - очень интересно посмотреть статистику. :-)
 
-
-
 * * *
-
-
 
 [![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/07/Microsoft-Advertising.png)](http://advertising.microsoft.com/)
 
 [Microsoft Advertising](http://advertising.microsoft.com/) will be hosting a recruiting event in mid-October this year to recruit top talent from all over Russia and neighboring countries specifically focusing on Software Developers of all experience levels who are interested in relocating to the U.S. At this time, we are looking to hire engineers for the roles below. ALL roles require strong coding and development experience. 
 
-
-
-
-	
   * Software Development Engineer (SDE)
 
-	
   * Software Development Engineer II (SDE II)
 
-	
   * Principal SDE
 
-	
   * Engineering Leads 
-
-
 
 **If interested – please send your information and Resume/CV to the Recruiter organizing this event: [eugenial@microsoft.com](mailto:eugenial@microsoft.com) by Wednesday, August 31st.** We are focused on broad-based software development skills when considering potential candidates (across the board – no specific technology/product niche requirements). If you are strong in C++, C# or JAVA, we would love to hear from you!
 
@@ -80,35 +67,18 @@ Do you want to be part of one of the fastest growing industries in software toda
 
 The Display Advertising group is…
 
-
-
-
-	
   * Delivering the technologies running our online display businesses: Atlas Media Console, Microsoft Media Network (MMN), AdManager, RAPT, and AdExpert - which powers the MSN portal and represented partners.
 
-	
   * Competing in a segment of the online advertising industry that is seeing explosive innovation and increased competition.
 
-	
   * Poised to make rapid advances in online advertising.
 
-	
   * Chartered with building the next generation of display advertiser systems.
-
-
 
 Our Display Advertising products and services:
 
-
-	
   * Are responsible for monetizing both internal (MSN, Hotmail, MSNBC, etc.) as well as 3rd party display properties.
 
-	
   * Handle 700+ billion monthly ad requests across globally dispersed data centers.
 
-	
   * Deliver over $2 billion in annual advertising revenue.
-
-
-
-

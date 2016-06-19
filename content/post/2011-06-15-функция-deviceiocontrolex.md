@@ -17,8 +17,6 @@ tags:
 
 Win32 API предоставляет «Ex» варианты функций ReadFile и WriteFile, в то время как «Ex» варианта функции DeviceIoControl не предлагается. Исправить этот недостаток очень просто, так как соответствующая функция Native API документирована в MSDN: [NtDeviceIoControlFile](http://msdn.microsoft.com/en-us/library/ms648411(v=vs.85).aspx) (хотя и помечена как «Deprecated»). Прототип новой функции будет выглядеть вот так:
 
-
-
 ```cpp
 BOOL
 WINAPI
@@ -34,13 +32,9 @@ DeviceIoControlEx(
     );
 ```
 
-
-
 Отличий от DeviceIoControl два: количество прочитанных байт возвращается в структуре OVERLAPPED и есть возможность передать указатель на completion callback (простите за мой французский).
 
 NtDeviceIoControlFile будет вызываться вот так:
-
-
 
 ```cpp
 PIO_STATUS_BLOCK IoStatusBlock = (PIO_STATUS_BLOCK)&lpOverlapped->Internal;
@@ -68,11 +62,7 @@ if (!NT_SUCCESS(Status))
 return TRUE;
 ```
 
-
-
 Часть структуры OVERLAPPED используется как IO_STATUS_BLOCK. Точно также поступают ReadFileEx и WriteFileEx. NTSTATUS коды ошибок транслируются в Win32 аналоги функцией [RtlNtStatusToDosError](http://msdn.microsoft.com/en-us/library/ms680600(VS.85).aspx), которая также документирована в MSDN. Прототипы callback-ов Win32 и Native API отличаются, поэтому используется вспомогательная функция ApcRoutine:
-
-
 
 ```cpp
 VOID
@@ -97,7 +87,4 @@ ApcRoutine(
 }
 ```
 
-
-
 В результате функция DeviceIoControlEx обладает точно такой же семантикой вызова, как и ReadFileEx, и WriteFileEx.
-

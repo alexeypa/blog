@@ -19,16 +19,9 @@ tags:
 
 Хотя в этом процессе нет ничего военного, тем не менее бесплатной утилиты для конвертирования не нашлось. Пришлось разделить процесс на декомпиляцию .hlp и собственно сборку .chm:
 
-
-
-
-	
   1. В качестве декомпилятора .hlp подошёл [WinHelp Decompiler](http://www.helpscribble.com/decompiler.html) (ссылка на саму программу: [helpdc21.zip](http://download.jgsoft.com/helpscribble/helpdc21.zip)).
 
-	
   2. Компилятор .chm - стандартный [HTML Help Workshop](http://www.microsoft.com/downloads/details.aspx?familyid=00535334-c8a6-452f-9aa0-d597d16580cc&displaylang=en).
-
-
 
 Единственная проблема, возникшая в процессе, - непонятно как перенести "Содержимое" (AKA Table of Contents) в .chm.
 

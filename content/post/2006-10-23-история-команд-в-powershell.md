@@ -15,7 +15,6 @@ tags:
 
 Хозяйке на заметку: глубина истории команд в PowerShell по умолчанию - 64 команды. С помощью $MaximumHistoryCount можно увеличить лимит до максимума в 32767 команд:
 
-
 ```no-highlight
 $MaximumHistoryCount = 32767
 ```

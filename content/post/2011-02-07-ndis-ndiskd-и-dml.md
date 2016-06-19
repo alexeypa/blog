@@ -37,4 +37,3 @@ tags:
 [![Подсказка про неверно настроенные символы.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)
 
 Вообще DML крайне полезная штука. Очень жаль, что он практически не используется.
-

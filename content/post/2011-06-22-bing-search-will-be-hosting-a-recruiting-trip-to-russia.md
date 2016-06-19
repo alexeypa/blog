@@ -17,31 +17,17 @@ tags:
 
 Пробежало по внутренней рассылке. Рекрутер (Anubha Mahajan) просила ссылаться на меня (Alexey Pakhunov), чтобы отследить кандидатов, пришедших с этого блога.
 
-
-
 * * *
-
-
 
 Bing will be hosting a recruiting event in late July/Early August this year  to recruit top talent from all over Russia for software developers of all seniorities and experience levels who are interested in relocating to the U.S. At this time, we are looking to fill the below opportunities and all roles require strong coding and development experience.  
 
-
-
-
-	
   * SDE
 
-	
   * SDE II
 
-	
   * Principal SDE
 
-	
   * Leads
-
-
-
 
 **If interested - please send your information and CV to the sourcing recruiter for this event at [anubham@microsoft.com](mailto:anubham@microsoft.com) by July 8th.** We are focused on broad-based software development skills when considering potential candidates (across the board – no specific technology/product niche requirements).  If you are good in C++, C# or JAVA, we’d like to hear about you!
 
@@ -88,25 +74,12 @@ Although we welcome candidates with experience in one of information retrieval, 
 
 Required skills:
 
-
-
-	
   * BS in Computer Science or equivalent required. MS/PhD is welcome.
 
-	
   * Strong theory/algorithms background and exceptional problem solving and analytical skills.
 
-	
   * Extensive software design and development skills/experience with C/C++/C#.
 
-	
   * Excellent communications skills, both verbal and written.
 
-	
   * Ability and willingness to work independently and in a team to research innovative solutions to challenging technical problems.
-
-
-
-
-
-

@@ -19,39 +19,23 @@ tags:
 
 Корпорация Microsoft проводит интервью для поступления на работу в Microsoft USA для студентов и выпускников из России, Беларуси и Украины в феврале 2011 года на должности:
 
-
-
-	
   * Инженер по разработке программного обеспечения (SDE)
 
-	
   * Инженер–тестировщик по разработке программного обеспечения (SDET)
-
-
 
 Мы приглашаем студентов которые окончили ВУЗ в 2010 году или или собираются окончить ВУЗ в 2011 году на постоянную работу в Рэдмонд. Пожалуйста, _присылайте ваши резюме до 1-го февраля 2011 года_. Для подачи заявлений и получения дополнительной информации, пожалуйста, посетите сайт [www.microsoft.com/university](http://www.microsoft.com/university). Интервью проходит на английском языке.
 
 Квалификация:
 
-
-
-
-	
   * Стремление получить ученую степень в области инженерии, информатики или смежной области;
 
-	
   * Желательно наличие 1-2 летнего опыта программирования на C / C ++ / C #, Java и / или другом языке программирования (включая университетские проекты);
 
-	
   * Способность принимать творческие и инновационные решения, думая нестандартно;
 
-	
   * Способность решать сложные задачи, придумывать алгоритмы и имплементировать их на языках программирования;
 
-	
   * Способность составлять тесты, проводить тесты на безопасность и стресс-тесты, отлаживать исходный код после выявления и определения ошибок в нем.
-
-
 
 **Software Development Engineer (SDE)**
 
@@ -64,4 +48,3 @@ This is where the fun begins for code gurus like you. As a hands-on Software Dev
 As a Software Development Engineer in Test (SDET), you’ll own it, break it, fix it, and own it again. You’ll ensure a product’s quality by making sure it performs as users expect it to. Part of the fun is how creative you can be devising ways to manipulate, crush, and sabotage software into submission—while creating innovative testing technologies along the way.
 
 Ultimately, as an SDET it’s your input that can make the difference between joy and frustration for the customers. A great SDET demonstrates interest in customer advocacy derived from a holistic understanding of the product from the code level to delivery. Since you’re keen on how things work, and making them work better, you’ll work hand in hand with the Program Managers and Software Development Engineers to design, develop, and maintain automation systems for use in development and testing cycles. 
-

@@ -15,15 +15,12 @@ tags:
 
 [Вчерашняя история про "гипердвигатель"](http://blog.not-a-kernel-guy.com/2014/04/05/1601), однако, далека от завершения. Изобретатель (назовем его так) смягчился и согласился поделиться техническими подробностями:
 
-
-
 > Hi,..
 
 > ..,I can send you more information about the concept - but I want to get this directly into production - possible ?!
 
 > Best regards,  
 > Dirk
-
 
 > Здравствуйте,..
 
@@ -32,7 +29,4 @@ tags:
 > Всего наилучшего,..  
 > Дирк
 
-
-
 Мне положительно нравится этот задор.
-

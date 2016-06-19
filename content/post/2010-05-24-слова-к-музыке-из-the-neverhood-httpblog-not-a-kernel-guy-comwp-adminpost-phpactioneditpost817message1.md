@@ -16,10 +16,6 @@ tags:
 
 [Терри С. Тейлор](http://www.danielamos.com/tst/imaginarium/), что написал музыкальное сопровождение для [The Neverhood](http://en.wikipedia.org/wiki/The_Neverhood), - оказывается еще тот перец. Я тут прочитал [слова к музыке из The Neverhood](http://doo.nomoretangerines.com/nevhood/nevlyric.htm) и прослезился.  Во первых, слова (наиболее разборчивых) песен выглядят вот так:
 
-
-
-
-
 > mmm mmm mmm mmm....
 
 > Homina budda budda budda  
@@ -30,9 +26,7 @@ tags:
 > Olley olley olley olley olley he he heeeee....  
 > olley olley olley olley olley (oxen free) he he he
 
-
 Примерный (и в основном фонетический) перевод ;-) :
-
 
 > Ммм ммм ммм ммм…
 
@@ -44,21 +38,15 @@ tags:
 > Олей олей олей олей олей хе хе хеееее…  
 > Олей олей олей олей олей (бык свободен) хе хе хе
 
-
 Хотя на счет «oxen free» у меня есть большие сомнения. :-)
 
 Но там кроме слов еще и примечания есть:
-
-
 
 > (note to the listener: Should you chose to sing along to any of the following songs, we wish you luck. You're gonna need it!)
 
 > (примечание слушателям: Мы желаем вам удачи, в случае если вы собираетесь подпевать любой из нижеследующих песен. Она вам понадобится!)
 
-
 Верно подмечено:
-
-
 
 > (and other various gruntings)
 
@@ -68,13 +56,10 @@ tags:
 
 > И второй раз, точно также как первый (типа)
 
-
 Или вот, ну попалась одна неразборчивая песня, ну что тут поделать:
-
 
 > (uninterpretable gibberish, except for "I don't know!")
 
 > (непереводимая чепуха, за исключением «Я не знаю!»)
-
 
 :-)

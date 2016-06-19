@@ -20,4 +20,3 @@ tags:
 [![Вид с горы Constitution.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/06/mt-constitution-panorama-3-small.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/06/mt-constitution-panorama-3.jpg)
 
 Снежная вершина на горизонте – [гора Baker](http://en.wikipedia.org/wiki/Mount_Baker).
-

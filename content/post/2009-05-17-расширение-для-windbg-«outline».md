@@ -20,22 +20,13 @@ tags:
 
 Скачать:
 
-
-
-
-	
   * [Outline 1.0.1 x86](http://blog.not-a-kernel-guy.com/wp-content/uploads/outline/1.0.1/x86/outline.dll) (SHA1: 6dd2edb49940ac4d48016e49fb5c6ffe4d53d56d)
 
-	
   * [Outline 1.0.1 x64](http://blog.not-a-kernel-guy.com/wp-content/uploads/outline/1.0.1/x64/outline.dll) (SHA1: 47b6c5e9b63c783126cc823e979a8d2882c6492f)
-
-
 
 Примеры:
 
 x86 сборка Far Manager 2.0 с включенным frame pointer omission:
-
-
 
 ```no-highlight
 0:000:x86> .load outline
@@ -58,11 +49,7 @@ x86 сборка Far Manager 2.0 с включенным frame pointer omission:
 0:000:x86>
 ```
 
-
-
 x64 сборка того же Far Manager 2.0:
-
-
 
 ```no-highlight
 0:000> !fnframe far!wmain
@@ -91,11 +78,7 @@ x64 сборка того же Far Manager 2.0:
 0:000>
 ```
 
-
-
 Публичные символы не описывают ntdll!KiUserExceptionDispatcher (точка входа диспетчера исключений пользовательского режима), но включенная в бинарный файл unwind information дает кое-какое представление об этой функции:
-
-
 
 ```no-highlight
 0:000> !fnframe ntdll!KiUserExceptionDispatcher
@@ -126,4 +109,3 @@ x64 сборка того же Far Manager 2.0:
  End of frame                 --> +0x5b8
 0:000>
 ```
-

@@ -21,79 +21,40 @@ tags:
 
 Вся установка и настройка заключается в регистрации фильтра (cxxfilt.dll) с помощью regsvr32.exe и создании Indexing Service каталога в Computer Management:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/new_catalog_1.png)
-
-
-
 
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/new_catalog_2.png)
 
-
-
 В каталог добавляются все индексируемые директории:
-
-
 
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/new_directory_1.png)
 
-
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/new_directory_2.png)
-
-
 
 Также имеет смысл разрешить индексирование файлов с неизвестными расширениями в свойствах каталога. Иначе файлы вроде “makefile” не будут проиндексированы:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/properties_1.png)
-
-
 
 Indexing Service также позволяет автоматически настраивать удаленный доступ к проиндексированным файлам, что очень удобно в случае, когда для индексирования используется выделенный компьютер:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/properties_2.png)
-
-
 
 После того, как Indexing Service проиндексирует все файлы можно попробовать поискать что-нибудь. Итак, запускаем Srch, выбираем нужный каталог:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/srch_1.png)
-
-
 
 … и ищем, скажем, “get_Arguments”:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/srch_2.png)
-
-
 
 Интерфейс этой утилиты довольно таки спартанский, однако, вполне функциональный. Двойной щелчок в списке найденных файлов открывает окно с исходным кодом:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/srch_3.png)
-
-
 
 Кнопки “Previous” и “Next” перемещают фокус между найденными словами. Ctrl+Tab и Ctrl+Shift+Tab переключают фокус между окнами.
 
 Утилита поддерживает развитый язык запросов. Его краткое описание можно найти в “справочной системе” утилиты (если, конечно, так можно назвать .chm файл из трех страниц. :-) Например, запрос “@func get_Argument” найдёт только файлы, содержащие определение функции get_Argument:
 
-
-
 ![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/11/srch_4.png)
 
-
-
 Вот и всё на сегодня. 
-

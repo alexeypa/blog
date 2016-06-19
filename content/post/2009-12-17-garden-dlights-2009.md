@@ -18,8 +18,6 @@ tags:
 
 [![Таинственный куст.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_1-300x211.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_1.jpg)
 
-
-
 [![А это дерево похоже сбежало из японского сада.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_2-300x173.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_2.jpg)
 
 [![Эту обезъяну замечал только каждый второй и потом долго втемяшивал первому: "Да вот же она! Прямо у тебя под носом".](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_3-300x222.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_3.jpg)

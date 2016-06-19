@@ -24,33 +24,23 @@ tags:
 
 С другой стороны, есть и отличия:
 
-
   * Для закрытия HKEY нужно использовать функцию RegCloseKey вместо CloseHandle;
 
   * Существуют зарезервированные значения описателя HKEY: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE и т.д. в то время как HANDLE не имеет таких ограничений;
 
   * DuplicateHandle не может копировать описатели ключей реестра полученные с помощью функции RegConnectRegistry.
 
-
 В чём тут дело? Дело в том, что только часть функциональности реестра реализована в ядре. Она включает в себя базовые операции (создание, удаление, чтение, запись и т.д.) для работы с локальными ключами реестра. Остальные функции реализуются библиотекой advapi32.dll и работают в пользовательском режиме:
 
-
-	
   * Доступ к удаленному реестру с помощью RegConnectRegistry;
 
-	
   * Доступ к ветке HKEY_PERFORMANCE_DATA;
 
-	
   * Преобразование Win32 представления реестра в Native представление;
 
-	
   * Перенаправление реестра (registry redirection) на 64-х битных системах для 64-х битных приложений.
 
-
-
 “Ядерная” часть функциональности доступна через функции Native API: [NtCreateKey](http://undocumented.ntinternals.net/UserMode/Undocumented%20Functions/NT%20Objects/Key/NtCreateKey.html), [NtOpenKey](http://undocumented.ntinternals.net/UserMode/Undocumented%20Functions/NT%20Objects/Key/NtOpenKey.html) и т.д. При сравнении этих функций с функциями Win32 API видно, что Native API использует “классические” описатели HANDLE вместо HKEY:
-
 
 ```cpp
 NTSYSAPI
@@ -66,9 +56,7 @@ NtCreateKey(
     OUT PULONG              Disposition OPTIONAL);
 ```
 
-
 Второе, не столь явное отличие состоит в том, что на уровне Native API реестр выглядит совсем по-другому. Вместо нескольких корневых псевдоключей HKEY_XXX используется единственный ключ “\REGISTRY” с двумя подключами “\USER” и “\MACHINE”:
-
 
 ```no-highlight
 \REGISTRY
@@ -83,7 +71,6 @@ NtCreateKey(
         \SOFTWARE
         \SYSTEM
 ```
-
 
 Функции RegCreateKey(Ex) и RegOpenKey(Ex) отображают пути как показано в следующей таблице:
 

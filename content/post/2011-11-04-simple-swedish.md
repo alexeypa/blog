@@ -15,12 +15,9 @@ tags:
 
 Забавный ролик про "основы шведского" для американцев:
 
-
 {{< youtube IpHniCEHY7I >}}
 
-
 > It's not the fart that kills you, its the smäll.
-
 
 :-)
 

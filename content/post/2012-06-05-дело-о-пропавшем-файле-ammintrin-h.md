@@ -30,11 +30,7 @@ tags:
 В процессе установки однако, я сохранил копию ‘intrin.h’. Выяснилось, что KB2519277 обновляет ‘intrin.h’, добавляя ссылку на ‘ammintrin.h’, но сам ‘ammintrin.h’ не ставит. 
 Покопавшись в интернете еще немного выяснилось (по аналогии с ‘immintrin.h’, ‘pmmintrin.h’), что [‘ammintrin.h’](http://opensource.apple.com/source/gcc/gcc-5646/gcc/config/i386/ammintrin.h) должен содержать intrinsics для SSE4A, которые специфичны AMD и в проекте не используются. 
 
-
-
 > [http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html](http://docs.oracle.com/cd/E24457_01/html/E21991/gliwk.html):
 Note that ammintrin.h is published by AMD and is not included in any of the Intel intrinsic headers. ammintrin.h includes pmmintrin.h, so by including ammintrin.h, all AMD SSE4A as well as Intel SSE3, SSE2, SSE and MMX functions are declared.
 
-
 Родилось простое решение - был создан пустой заголовок ‘ammintrin.h’ и положен рядышком с ‘intrin.h’. Тем, кому функции все-таки нужны, могу посоветовать восстановить их [по образцу](http://opensource.apple.com/source/gcc/gcc-5646/gcc/config/i386/ammintrin.h) либо таки скопировать этот файл с машины, где стоит SP1 (но это не спортивно). :-)
-

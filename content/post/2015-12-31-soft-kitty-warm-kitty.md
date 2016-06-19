@@ -20,18 +20,14 @@ tags:
 > Lazy kitty, pretty kitty  
 > Purr, purr, purr.
 
-
 В комментариях к [http://geektimes.ru/post/268496/](http://geektimes.ru/post/268496/) нашелся шедевр:
-
 
 > Hard doggy, cold doggy,  
 > Little ball of steel,  
 > Angry doggy, evil doggy,  
 > Kill, kill, kill!
 
-
 Немного подправить бы только:
-
 
 > Hard doggy, cold doggy,  
 > Giant cube of steel,  
