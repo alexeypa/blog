@@ -37,7 +37,7 @@ using msvc ;
 
 Первая строчка делает возможным вызов правила using из модуля toolset.jam. Строка “using msvc ;” указывает, что я хочу использовать MS Visual C++ с установками по умолчанию. Эта строка может быть и сложнее, например:
 
-    ```python
+```python
 using msvc 7.1toolkit : “X:/Microsoft Visual C++ Toolkit 2003/bin/cl.exe” ;
 ```
 
