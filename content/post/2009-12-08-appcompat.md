@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2009-12-08 16:54:26+00:00
-link: http://blog.not-a-kernel-guy.com/2009/12/08/703
+aliases:
+- /2009/12/08/703
 slug: appcompat
 title: AppCompat
 wordpress_id: 703

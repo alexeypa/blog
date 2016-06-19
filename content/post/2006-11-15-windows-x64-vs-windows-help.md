@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-11-15 00:52:36+00:00
-link: http://blog.not-a-kernel-guy.com/2006/11/14/99
+aliases:
+- /2006/11/14/99
 slug: windows-x64-vs-windows-help
 title: Windows x64 vs. Windows Help
 wordpress_id: 99

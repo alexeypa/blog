@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-03-06 19:39:15+00:00
-link: http://blog.not-a-kernel-guy.com/2007/03/06/156
+aliases:
+- /2007/03/06/156
 slug: largeaddressaware-может-испортить-вам-весь-день
 title: /LARGEADDRESSAWARE может испортить вам весь день
 wordpress_id: 156

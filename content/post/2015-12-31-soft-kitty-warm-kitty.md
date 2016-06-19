@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2015-12-31 07:07:35+00:00
-link: http://blog.not-a-kernel-guy.com/2015/12/30/1769
+aliases:
+- /2015/12/30/1769
 slug: soft-kitty-warm-kitty
 title: Soft kitty, warm kitty
 wordpress_id: 1769

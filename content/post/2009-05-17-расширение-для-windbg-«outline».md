@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2009-05-17 05:45:18+00:00
-link: http://blog.not-a-kernel-guy.com/2009/05/16/512
+aliases:
+- /2009/05/16/512
 slug: расширение-для-windbg-«outline»
 title: 'Расширение для WinDbg: «Outline».'
 wordpress_id: 512

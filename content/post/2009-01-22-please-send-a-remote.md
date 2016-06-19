@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2009-01-22 17:32:10+00:00
-link: http://blog.not-a-kernel-guy.com/2009/01/22/424
+aliases:
+- /2009/01/22/424
 slug: please-send-a-remote
 title: Please send a remote
 wordpress_id: 424

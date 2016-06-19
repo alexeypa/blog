@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-01-09 20:31:52+00:00
-link: http://blog.not-a-kernel-guy.com/2007/01/09/131
+aliases:
+- /2007/01/09/131
 slug: windows-home-server
 title: Windows Home Server
 wordpress_id: 131

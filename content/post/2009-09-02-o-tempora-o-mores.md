@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2009-09-02 22:14:19+00:00
-link: http://blog.not-a-kernel-guy.com/2009/09/02/641
+aliases:
+- /2009/09/02/641
 slug: o-tempora-o-mores
 title: O tempora! O mores!
 wordpress_id: 641

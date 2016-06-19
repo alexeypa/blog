@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-01-27 04:03:42+00:00
-link: http://blog.not-a-kernel-guy.com/2007/01/26/140
+aliases:
+- /2007/01/26/140
 slug: про-безопасность-smart-карты-и-usability
 title: Про безопасность, smart карты и usability
 wordpress_id: 140

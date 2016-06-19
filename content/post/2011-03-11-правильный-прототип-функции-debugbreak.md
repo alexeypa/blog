@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2011-03-11 05:18:20+00:00
-link: http://blog.not-a-kernel-guy.com/2011/03/10/994
+aliases:
+- /2011/03/10/994
 slug: правильный-прототип-функции-debugbreak
 title: Правильный прототип функции DebugBreak()
 wordpress_id: 994

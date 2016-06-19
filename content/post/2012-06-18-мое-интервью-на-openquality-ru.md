@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2012-06-18 05:52:52+00:00
-link: http://blog.not-a-kernel-guy.com/2012/06/17/1350
+aliases:
+- /2012/06/17/1350
 slug: мое-интервью-на-openquality-ru
 title: Мое интервью на OpenQuality.ru
 wordpress_id: 1350

@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2011-04-08 06:38:25+00:00
-link: http://blog.not-a-kernel-guy.com/2011/04/07/1020
+aliases:
+- /2011/04/07/1020
 slug: inception
 title: Inception
 wordpress_id: 1020

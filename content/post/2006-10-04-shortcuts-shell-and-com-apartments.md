@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-10-04 16:20:00+00:00
-link: http://blog.not-a-kernel-guy.com/2006/10/04/76
+aliases:
+- /2006/10/04/76
 slug: shortcuts-shell-and-com-apartments
 title: Shortcuts, shell and COM apartments
 wordpress_id: 76

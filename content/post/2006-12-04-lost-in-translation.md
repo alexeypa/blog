@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-12-04 22:37:53+00:00
-link: http://blog.not-a-kernel-guy.com/2006/12/04/108
+aliases:
+- /2006/12/04/108
 slug: lost-in-translation
 title: Lost in translation
 wordpress_id: 108

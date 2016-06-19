@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-12-04 04:32:57+00:00
-link: http://blog.not-a-kernel-guy.com/2007/12/03/267
+aliases:
+- /2007/12/03/267
 slug: usability
 title: Usability
 wordpress_id: 267

@@ -2,7 +2,8 @@
 author: admin
 comments: false
 date: 2007-01-30 22:43:43+00:00
-link: http://blog.not-a-kernel-guy.com/2007/01/30/142
+aliases:
+- /2007/01/30/142
 slug: microsoft-против-…
 title: Microsoft против …
 wordpress_id: 142

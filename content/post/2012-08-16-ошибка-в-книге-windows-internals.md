@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2012-08-16 20:01:39+00:00
-link: http://blog.not-a-kernel-guy.com/2012/08/16/1405
+aliases:
+- /2012/08/16/1405
 slug: ошибка-в-книге-windows-internals
 title: Ошибка в книге Windows Internals
 wordpress_id: 1405

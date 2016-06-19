@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-08-20 17:25:28+00:00
-link: http://blog.not-a-kernel-guy.com/2007/08/20/223
+aliases:
+- /2007/08/20/223
 slug: sizeofvoid-1
 title: sizeof(void) == 1
 wordpress_id: 223

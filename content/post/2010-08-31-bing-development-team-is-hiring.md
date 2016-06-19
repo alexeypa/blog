@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2010-08-31 16:13:26+00:00
-link: http://blog.not-a-kernel-guy.com/2010/08/31/886
+aliases:
+- /2010/08/31/886
 slug: bing-development-team-is-hiring
 title: Bing Development Team is hiring
 wordpress_id: 886

@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2008-10-21 05:33:56+00:00
-link: http://blog.not-a-kernel-guy.com/2008/10/20/361
+aliases:
+- /2008/10/20/361
 slug: undefined-instruction
 title: Undefined instruction
 wordpress_id: 361

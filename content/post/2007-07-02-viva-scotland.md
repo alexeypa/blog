@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-07-02 20:22:57+00:00
-link: http://blog.not-a-kernel-guy.com/2007/07/02/206
+aliases:
+- /2007/07/02/206
 slug: viva-scotland
 title: Viva Scotland!
 wordpress_id: 206

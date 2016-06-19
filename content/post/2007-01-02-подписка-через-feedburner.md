@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-01-02 16:48:00+00:00
-link: http://blog.not-a-kernel-guy.com/2007/01/02/125
+aliases:
+- /2007/01/02/125
 slug: подписка-через-feedburner
 title: Подписка через FeedBurner
 wordpress_id: 125

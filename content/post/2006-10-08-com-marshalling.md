@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-10-08 06:15:02+00:00
-link: http://blog.not-a-kernel-guy.com/2006/10/07/78
+aliases:
+- /2006/10/07/78
 slug: com-marshalling
 title: COM marshalling
 wordpress_id: 78

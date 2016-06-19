@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-03-08 22:41:12+00:00
-link: http://blog.not-a-kernel-guy.com/2007/03/08/158
+aliases:
+- /2007/03/08/158
 slug: duplicatehandle
 title: DuplicateHandle
 wordpress_id: 158

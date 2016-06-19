@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2011-06-15 06:38:43+00:00
-link: http://blog.not-a-kernel-guy.com/2011/06/14/1094
+aliases:
+- /2011/06/14/1094
 slug: функция-deviceiocontrolex
 title: Функция DeviceIoControlEx
 wordpress_id: 1094

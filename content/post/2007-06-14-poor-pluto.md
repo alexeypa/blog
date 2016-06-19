@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-06-14 05:31:58+00:00
-link: http://blog.not-a-kernel-guy.com/2007/06/13/199
+aliases:
+- /2007/06/13/199
 slug: poor-pluto
 title: Poor Pluto
 wordpress_id: 199

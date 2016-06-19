@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-04-26 06:40:08+00:00
-link: http://blog.not-a-kernel-guy.com/2007/04/25/176
+aliases:
+- /2007/04/25/176
 slug: как-послать-баг-репорт-в-microsoft
 title: Как послать баг-репорт в Microsoft?
 wordpress_id: 176

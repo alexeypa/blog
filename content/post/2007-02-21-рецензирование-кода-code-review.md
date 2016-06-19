@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-02-21 08:24:25+00:00
-link: http://blog.not-a-kernel-guy.com/2007/02/21/151
+aliases:
+- /2007/02/21/151
 slug: рецензирование-кода-code-review
 title: Рецензирование кода (code review)
 wordpress_id: 151

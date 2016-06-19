@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-07-16 05:56:34+00:00
-link: http://blog.not-a-kernel-guy.com/2007/07/15/210
+aliases:
+- /2007/07/15/210
 slug: опасная-функция-exitprocess
 title: Опасная функция ExitProcess
 wordpress_id: 210

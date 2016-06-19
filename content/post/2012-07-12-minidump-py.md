@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2012-07-12 15:51:50+00:00
-link: http://blog.not-a-kernel-guy.com/2012/07/12/1393
+aliases:
+- /2012/07/12/1393
 slug: minidump-py
 title: minidump.py
 wordpress_id: 1393

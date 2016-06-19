@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2011-04-22 15:54:29+00:00
-link: http://blog.not-a-kernel-guy.com/2011/04/22/1032
+aliases:
+- /2011/04/22/1032
 slug: crater-lake
 title: Crater Lake
 wordpress_id: 1032

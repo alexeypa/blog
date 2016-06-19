@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-07-11 05:55:27+00:00
-link: http://blog.not-a-kernel-guy.com/2007/07/10/209
+aliases:
+- /2007/07/10/209
 slug: redmond-derby-days
 title: Redmond Derby Days
 wordpress_id: 209

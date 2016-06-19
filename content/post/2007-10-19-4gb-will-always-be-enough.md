@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-10-19 04:50:34+00:00
-link: http://blog.not-a-kernel-guy.com/2007/10/18/256
+aliases:
+- /2007/10/18/256
 slug: 4gb-will-always-be-enough
 title: “4GB will always be enough”
 wordpress_id: 256

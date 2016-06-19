@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2012-05-04 17:50:56+00:00
-link: http://blog.not-a-kernel-guy.com/2012/05/04/1317
+aliases:
+- /2012/05/04/1317
 slug: битва-титанов-visual-studio-2010-против-sophos-antivirus
 title: 'Битва титанов: Visual Studio 2010 против Sophos Antivirus. '
 wordpress_id: 1317

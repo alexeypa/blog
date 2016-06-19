@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-05-20 22:36:58+00:00
-link: http://blog.not-a-kernel-guy.com/2007/05/20/186
+aliases:
+- /2007/05/20/186
 slug: an-extended-error-has-occurred
 title: An extended error has occurred
 wordpress_id: 186

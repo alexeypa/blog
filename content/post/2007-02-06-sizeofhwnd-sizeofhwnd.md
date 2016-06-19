@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-02-06 08:16:08+00:00
-link: http://blog.not-a-kernel-guy.com/2007/02/06/147
+aliases:
+- /2007/02/06/147
 slug: sizeofhwnd-sizeofhwnd
 title: sizeof(HWND) != sizeof(HWND)
 wordpress_id: 147

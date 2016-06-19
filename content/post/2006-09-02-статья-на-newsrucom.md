@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-09-02 02:44:01+00:00
-link: http://blog.not-a-kernel-guy.com/2006/09/01/41
+aliases:
+- /2006/09/01/41
 slug: статья-на-newsrucom
 title: Статья на newsru.com
 wordpress_id: 41

@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2014-04-17 15:29:19+00:00
-link: http://blog.not-a-kernel-guy.com/2014/04/17/1618
+aliases:
+- /2014/04/17/1618
 slug: советский-винни-пух-на-reddit-com
 title: Советский Винни Пух на reddit.com
 wordpress_id: 1618

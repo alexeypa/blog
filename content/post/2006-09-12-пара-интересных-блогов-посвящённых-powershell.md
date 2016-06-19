@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2006-09-12 05:11:16+00:00
-link: http://blog.not-a-kernel-guy.com/2006/09/11/57
+aliases:
+- /2006/09/11/57
 slug: пара-интересных-блогов-посвящённых-powershell
 title: Пара интересных блогов, посвящённых PowerShell
 wordpress_id: 57

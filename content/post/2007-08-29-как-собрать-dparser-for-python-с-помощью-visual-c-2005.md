@@ -1,7 +1,8 @@
 ---
 author: admin
 date: 2007-08-29 06:24:31+00:00
-link: http://blog.not-a-kernel-guy.com/2007/08/28/231
+aliases:
+- /2007/08/28/231
 slug: как-собрать-dparser-for-python-с-помощью-visual-c-2005
 title: Как собрать DParser for Python с помощью Visual C++ 2005?
 wordpress_id: 231
