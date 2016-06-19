@@ -15,6 +15,8 @@ tags:
 
 [![Garden d'Lights 2008.](/2008/12/garden_d'lights_1_small.jpg)](/2008/12/garden_d'lights_1.jpg)
 
+<!--more-->
+
 [![Garden d'Lights 2008.](/2008/12/garden_d'lights_2_small.jpg)](/2008/12/garden_d'lights_2.jpg)
 
 [![Garden d'Lights 2008.](/2008/12/garden_d'lights_3_small.jpg)](/2008/12/garden_d'lights_3.jpg)

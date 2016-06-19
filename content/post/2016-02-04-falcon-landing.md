@@ -12,6 +12,9 @@ tags:
 
 Из наболевшего. Сегодня я задержался на работе из-за митинга на тему "как-бы поменьше задерживаться на работе". 
 
+
 Для поднятия настроения уволок doodle c [r/reallifedoodles](https://www.reddit.com/r/reallifedoodles):
 
 ![Falcon Landing](https://giant.gfycat.com/HandyCleverAustralianshelduck.gif)
+
+<!--more-->

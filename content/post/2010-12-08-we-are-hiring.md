@@ -19,7 +19,7 @@ tags:
 
 От себя добавлю, что проекты у нас сложные и интересные, а люди хорошие. :-) Подаваться нужно через [http://careers.microsoft.com](http://careers.microsoft.com), в крайнем случае – пришлите резюме мне ([alexeypa@gmail.com](mailto:alexeypa@gmail.com)). На разбор писем я собираюсь потратить не так уж много времени. Никаких гарантий, что письмо посланное мне будет передано рекрутеру нет (я даже и не знаю, кто он), так что careers - надежнее.
 
-**Software Development Engineer, Senior - Extreme Computing Group**
+<!--more-->**Software Development Engineer, Senior - Extreme Computing Group**
 
 Job Category: Software Engineering: Development 
 Location: United States, WA, Redmond 

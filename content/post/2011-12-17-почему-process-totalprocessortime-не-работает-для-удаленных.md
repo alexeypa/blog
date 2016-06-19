@@ -16,6 +16,8 @@ wordpress_id: 1230
 
 Длинный ответ: с .NET я сталкиваюсь не очень часто. Ничего лучше, чем банально взять дизассемблер для IL (intermediate language) и посмотреть на код, мне в голову не пришло. Ildasm.exe входит в состав SDK, но есть и другие варианты, - например [ReSharper](http://www.jetbrains.com/resharper/).
 
+<!--more-->
+
 ```no-highlight
 Ildasm.exe c:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.dll
 ```

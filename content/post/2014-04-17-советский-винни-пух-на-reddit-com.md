@@ -17,3 +17,5 @@ tags:
 >> "This buzz is not without reason."
 
 > The deepness of this cartoon caught me by surprise.
+
+<!--more-->

@@ -16,6 +16,8 @@ Elon Musk:
 
 > [Both satellites deployed on target. Now firing their ion thrusters to reach geo station over Europe & Asia.](https://twitter.com/elonmusk/status/572252603322527744)
 
+<!--more-->
+
 **Upd:** видео запуска:
 
 {{< youtube mN7lyaCBzT8 >}}

@@ -13,6 +13,8 @@ tags:
 
 Функция [DuplicateHandle](http://msdn2.microsoft.com/en-us/library/ms724251.aspx) обладает одной особенностью. Она позволяет указывать набор прав доступа (параметр dwDesiredAccess), которыми должна обладать создаваемая копия описателя. Причем, что интересно, в некоторых случаях новый описатель может получить больше прав доступа, чем оригинал. Об этом вскользь упоминается в MSDN, однако никаких дополнительных разъяснений не даётся:
 
+<!--more-->
+
 > In some cases, the new handle can have more access rights than the original handle. However, in other cases, DuplicateHandle cannot create a handle with more access rights than the original. For example, a file handle created with the GENERIC_READ access right cannot be duplicated so that it has both the GENERIC_READ and GENERIC_WRITE access right.
 
 Каким образом это работает? Для каждого описателя ядро поддерживает эффективную маску доступа  - комбинацию флагов, описывающую права доступа выданные данному описателю. В процессе копирования описателя функция NtDuplicateObject, вызываемая из DuplicateHandle, сверяет запрошенную маску доступа с эффективной маской доступа исходного описателя. Если запрошенная маска не содержит новых битов, копия создаётся безо всяких дальнейших проверок, так как исходный описатель уже обладает всеми нужными правами. В противном случае, выполняется полная проверка прав, точно такая же, как и при открытии существующего объекта.

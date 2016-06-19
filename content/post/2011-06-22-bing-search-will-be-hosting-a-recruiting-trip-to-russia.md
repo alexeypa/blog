@@ -28,7 +28,7 @@ Bing will be hosting a recruiting event in late July/Early August this year  to 
 
 **If interested - please send your information and CV to the sourcing recruiter for this event at [anubham@microsoft.com](mailto:anubham@microsoft.com) by July 8th.** We are focused on broad-based software development skills when considering potential candidates (across the board – no specific technology/product niche requirements).  If you are good in C++, C# or JAVA, we’d like to hear about you!
 
-**Job Description**
+<!--more-->**Job Description**
 
 Do you like to work on the hardest problems in computing with the biggest user impact? Is Search your vision of computing’s future, but it isn’t nearly there yet? Want to be the one to make it happen?
 

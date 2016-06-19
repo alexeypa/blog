@@ -21,6 +21,8 @@ Whether you are just about to receive your diploma from University or have been 
 
 > - [David](http://www.microsoft.com/college/meet_david.mspx), Software Design Engineer in Test, Live Meeting
 
+<!--more-->
+
 **Core Technical**
 
 * * *

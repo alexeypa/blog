@@ -18,6 +18,7 @@ menu:
          URL: about
 params:
     customCSS: /css/custom.css
+    hideReadingTime: true
     highlight: github
     home: "Блог"
     linkedin: https://www.linkedin.com/in/alexpakhunov

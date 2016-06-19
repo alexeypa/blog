@@ -9,3 +9,7 @@ wordpress_id: 1663
 tags:
 - Всякая всячина
 ---
+
+{{< youtube RRQaXDafs_Y >}}
+
+<!--more-->

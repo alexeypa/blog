@@ -18,6 +18,8 @@ tags:
 
 ![Process Explorer: Replace Task Manager.](/2008/03/procexp_1.png)
 
+<!--more-->
+
 Оказывается всё очень просто и банально. Он устанавливает себя в качестве отладчика для taskmgr.exe!
 
 ![Process Explorer is set as a ](/2008/03/procexp_2.png)

@@ -14,6 +14,8 @@ tags:
 
 Оказалось, что [это](http://blog.not-a-kernel-guy.com/2007/12/05/268) была ошибка в документации. Её поправили и посмотрите, [что получилось](http://msdn2.microsoft.com/en-us/library/ms645598.aspx).
 
+<!--more-->
+
 Было:
 
 > _puiNumDevices_

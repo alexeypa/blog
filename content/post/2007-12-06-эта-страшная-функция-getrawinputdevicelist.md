@@ -22,6 +22,8 @@ UINT GetRawInputDeviceList(
     );
 ```
 
+<!--more-->
+
 Это заблуждение быстро рассеивается, стоит только почитать MSDN. Первый параметр - это просто указатель на буфер, в который пишется массив структур RAWINPUTDEVICELIST. Пока всё нормально. А вот второй параметр - это нечто. Итак:
 
 > Pointer to a variable. If _pRawInputDeviceList_ is NULL, it specifies the number of devices attached to the system. Otherwise, it contains the size, in bytes, of the preallocated buffer pointed to by _pRawInputDeviceList_. However, if *_puiNumDevices_ is smaller than needed to contain **RAWINPUTDEVICELIST** structures, the required buffer size is returned here.

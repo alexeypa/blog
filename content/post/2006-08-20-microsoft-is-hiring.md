@@ -15,7 +15,7 @@ tags:
 
 Soon Microsoft will be in Russia interviewing interested and qualified candidates for software development positions in our SQL Server Product Group in the US at our corporate headquarters. If you are interested, or know someone who is interested, please have them send their resume/cv to [russiacv@microsoft.com](mailto:russiacv@microsoft.com) today!!!
 
-WHATEVER YOU DO, DO IT AT MICROSOFT
+<!--more-->WHATEVER YOU DO, DO IT AT MICROSOFT
 
 We live in the information age - timely, secure and insightful access to information is increasingly more crucial to the lives of both individuals and organizations. The SQL Server team is charged with defining and building the next-generation Microsoft Data Platform that delivers on the vision of ubiquitous access to your data, anyplace, anytime. And oh, by the way, did we mention we are a $2.3 Billion business growing at over 25% Year over Year and rapidly gaining share in the market?
 

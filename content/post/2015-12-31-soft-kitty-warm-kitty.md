@@ -12,6 +12,8 @@ tags:
 
 Помните колыбельную из "Теории большого взрыва"?
 
+<!--more-->
+
 > Soft kitty, warm kitty  
 > Little ball of fur.  
 > Lazy kitty, pretty kitty  
