@@ -30,11 +30,11 @@ tags:
 
 Попробовал зайти с другого конца – выяснить какую роль играет «sysocmgr.exe». Оказалось что это тот самый инсталлятор, который запускается при нажатии на «Add/Remove Windows Components». 
 
-![Windows Components Wizard](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/05/windows_components_wizard.png)
+![Windows Components Wizard](/2007/05/windows_components_wizard.png)
 
 Если запустить его без параметров, показывается подсказка по допустимым параметрам командной строки, один из которых, «/f» - вызывает принудительную переустановку компонент «с чистого листа»:
 
-![Windows XP Setup](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/05/windows_xp_setup.png)
+![Windows XP Setup](/2007/05/windows_xp_setup.png)
 
 Казалось бы, вот оно решение, но на появление непонятной ошибки этот ключ никак не повлиял.
 

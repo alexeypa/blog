@@ -17,7 +17,7 @@ tags:
 
 Подтверждаю, действительно работает:
 
-![Process Monitor shows Wow64 symbols.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2008/03/process_monitor_wow64_stack.png)
+![Process Monitor shows Wow64 symbols.](/2008/03/process_monitor_wow64_stack.png)
 
 Конфигурация: 
 

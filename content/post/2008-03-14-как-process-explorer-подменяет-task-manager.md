@@ -16,11 +16,11 @@ tags:
 
 А знаете, как [Process Explorer](http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx) подменяет собой стандартный Task Manager?
 
-![Process Explorer: Replace Task Manager.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2008/03/procexp_1.png)
+![Process Explorer: Replace Task Manager.](/2008/03/procexp_1.png)
 
 Оказывается всё очень просто и банально. Он устанавливает себя в качестве отладчика для taskmgr.exe!
 
-![Process Explorer is set as a ](http://blog.not-a-kernel-guy.com/wp-content/uploads/2008/03/procexp_2.png)
+![Process Explorer is set as a ](/2008/03/procexp_2.png)
 
 Преимущества такого метода перехвата:
 
@@ -34,6 +34,6 @@ tags:
 
   2. Имя запускаемого файла "taskmgr.exe" передается в командную строку подменяющего процесса. Т.е. так просто напрямую заменить notepad.exe на другой редактор не получится.
 
-![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2008/03/procexp_3.png)
+![](/2008/03/procexp_3.png)
 
 Но вообще-то очень остроумно сделано.

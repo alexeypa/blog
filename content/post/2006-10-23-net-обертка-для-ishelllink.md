@@ -14,7 +14,7 @@ tags:
 
 Наконец-то дописал .NET обертку для IShellLink (см. серию постов начиная с [Shortcuts, shell and COM apartments.](http://blog.not-a-kernel-guy.com/2006/10/04/76)). Теперь можно создавать и редактировать ярлыки прямо из PowerShell. :-)
 
-Вот [ссылка на исходный код проекта](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_src.zip). Немного позже, если дойдут руки, выложу ссылку на готовую инсталляцию. 
+Вот [ссылка на исходный код проекта](/2006/10/ShellLink_src.zip). Немного позже, если дойдут руки, выложу ссылку на готовую инсталляцию. 
 
 Вся полезная функциональность реализуется одним классом – ShellLink, который объединяет в себе три интерфейса: IShellLink, IShellLinkDataList и IPersistFile. Большая часть методов этих интерфейсов была переделана в .NET свойства для удобства использования.
 
@@ -49,17 +49,17 @@ PowerShell и CLSID_ShellLink используют разные модели COM
 
 Последняя команда выведет текущие значения основных свойств ярлыка:
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_values.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_values.png)
+[![](/2006/10/ShellLink_values.thumbnail.png)](/2006/10/ShellLink_values.png)
 
 Покажем список всех доступных методов и свойств:
 
     $link | get-member
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_methods.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_methods.png)
+[![](/2006/10/ShellLink_methods.thumbnail.png)](/2006/10/ShellLink_methods.png)
 
 Свойство ConsoleProps соответствует вкладкам “Options”, “Font”, “Layout” и “Colors” в стандартном окне свойств ярлыка. В данный момент свойство ConsoleProps не задано, что соответствует всем значениям по умолчанию: 
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_DefaultLayout.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_DefaultLayout.png)
+[![](/2006/10/ShellLink_DefaultLayout.thumbnail.png)](/2006/10/ShellLink_DefaultLayout.png)
 
 Попробуем задать свой размер окна и шрифт:
 
@@ -87,8 +87,8 @@ PowerShell и CLSID_ShellLink используют разные модели COM
 
 В результате всех этих действий вот такой результат:
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewLayout.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewLayout.png)
+[![](/2006/10/ShellLink_NewLayout.thumbnail.png)](/2006/10/ShellLink_NewLayout.png)
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewFont.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/ShellLink_NewFont.png)
+[![](/2006/10/ShellLink_NewFont.thumbnail.png)](/2006/10/ShellLink_NewFont.png)
 
 Осталось только оформить это всё в один скрипт и готово! :-)

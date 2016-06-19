@@ -13,7 +13,7 @@ tags:
 
 Бедняжка Плутон:
 
-[![Poor Pluto](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/06/poor_pluto.thumbnail.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/06/poor_pluto.jpg)
+[![Poor Pluto](/2007/06/poor_pluto.thumbnail.jpg)](/2007/06/poor_pluto.jpg)
 
 [(C) Mathias Pedersen 2007](http://www.mathiaspedersen.com/3dportfolio_poor_pluto.html)
 

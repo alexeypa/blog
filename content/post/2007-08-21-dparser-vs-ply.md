@@ -12,6 +12,6 @@ tags:
 
 Переделал [разбор С заголовков](http://blog.not-a-kernel-guy.com/2007/08/17/222) на DParser – получил ускорение в 10 раз. Мелочь, а приятно. :-)
 
-![DParser profiling](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/08/dparser_profile_output.png)
+![DParser profiling](/2007/08/dparser_profile_output.png)
 
 PS. Под профайлером разница меньше, - раз шесть всего, но тоже впечатляет. 

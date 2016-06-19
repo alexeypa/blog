@@ -16,7 +16,7 @@ tags:
 
 В новой редакции Windows Internals обнаружился старый-знакомый баг. Там приводится пример стека 32-х битной нити, выполняющейся под Wow64:
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/08/wow64_stack.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/08/wow64_stack.png)
+[![](/2012/08/wow64_stack.png)](/2012/08/wow64_stack.png)
 
 Иллюстрация сопровождается комментарием:
 

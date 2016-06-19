@@ -17,9 +17,9 @@ tags:
 
 Скачать:
 
-  * [Outline 1.0.1 x86](http://blog.not-a-kernel-guy.com/wp-content/uploads/outline/1.0.1/x86/outline.dll) (SHA1: 6dd2edb49940ac4d48016e49fb5c6ffe4d53d56d)
+  * [Outline 1.0.1 x86](/outline/1.0.1/x86/outline.dll) (SHA1: 6dd2edb49940ac4d48016e49fb5c6ffe4d53d56d)
 
-  * [Outline 1.0.1 x64](http://blog.not-a-kernel-guy.com/wp-content/uploads/outline/1.0.1/x64/outline.dll) (SHA1: 47b6c5e9b63c783126cc823e979a8d2882c6492f)
+  * [Outline 1.0.1 x64](/outline/1.0.1/x64/outline.dll) (SHA1: 47b6c5e9b63c783126cc823e979a8d2882c6492f)
 
 Примеры:
 

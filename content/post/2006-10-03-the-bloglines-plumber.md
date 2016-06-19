@@ -12,6 +12,6 @@ tags:
 
 Вот такая замечательная картинка была сегодня на [www.bloglines.com](http://www.bloglines.com):
 
-[![The Bloglines Plumber.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/bloglines_plumber.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2006/10/bloglines_plumber.png)
+[![The Bloglines Plumber.](/2006/10/bloglines_plumber.thumbnail.png)](/2006/10/bloglines_plumber.png)
 
 The Bloglines Plumber.

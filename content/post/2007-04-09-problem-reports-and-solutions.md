@@ -14,22 +14,22 @@ tags:
 
 Выберите Problem Reports and Solutions в Control Panel/System and Maintenance:
 
-[![Problem reports and solutions.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions.png)
+[![Problem reports and solutions.](/2007/04/problem_reports_and_solutions.thumbnail.png)](/2007/04/problem_reports_and_solutions.png)
 
 Выберите Change settings в появившемся окне:
 
-[![Settings.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_settings.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_settings.png)
+[![Settings.](/2007/04/problem_reports_and_solutions_settings.thumbnail.png)](/2007/04/problem_reports_and_solutions_settings.png)
 
 Затем - Advanced settings:
 
-[![Advanced settings.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_advanced.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_advanced.png)
+[![Advanced settings.](/2007/04/problem_reports_and_solutions_advanced.thumbnail.png)](/2007/04/problem_reports_and_solutions_advanced.png)
 
 И наконец выберите Off под "For my programs, problem reporting is": 
 
-[![Problem reportings is off.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_off.thumbnail.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_off.png)
+[![Problem reportings is off.](/2007/04/problem_reports_and_solutions_off.thumbnail.png)](/2007/04/problem_reports_and_solutions_off.png)
 
 Теперь при аварийном завершении приложения система будет показывать вот такое окно:
 
-![A debugger pops up on an application crash.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2007/04/problem_reports_and_solutions_debug.png)
+![A debugger pops up on an application crash.](/2007/04/problem_reports_and_solutions_debug.png)
 
 Готово.

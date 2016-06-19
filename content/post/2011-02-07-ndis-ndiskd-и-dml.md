@@ -23,14 +23,14 @@ tags:
 
 Порадовало расширение для отладчика, написанное специально для NDIS: !ndiskd. Вот пример вывода информации по загруженным miniport-ам:
 
-[![Пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)
+[![Пример вывода команды !ndiskd.miniport.](/2011/02/ndiskd_miniport.png)](/2011/02/ndiskd_miniport.png)
 
 А вот – по конкретному miniport-у:
 
-[![Другой пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)
+[![Другой пример вывода команды !ndiskd.miniport.](/2011/02/ndiskd_miniport2.png)](/2011/02/ndiskd_miniport2.png)
 
 Активно и к месту используется [DML](http://windbg.info/doc/1-common-cmds.html#5_dml). На подсвеченные ссылки можно кликать – расширение выведет более подробную информацию об этом элементе. Более того, к месту выводятся всякие полезные подсказки. Например, вот что выводит !ndiskd.miniport если .sympath не задан:
 
-[![Подсказка про неверно настроенные символы.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)
+[![Подсказка про неверно настроенные символы.](/2011/02/ndiskd_no_symbols.png)](/2011/02/ndiskd_no_symbols.png)
 
 Вообще DML крайне полезная штука. Очень жаль, что он практически не используется.

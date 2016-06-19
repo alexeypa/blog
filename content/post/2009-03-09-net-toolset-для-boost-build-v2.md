@@ -10,7 +10,7 @@ tags:
 - Boost.Build
 ---
 
-Специально для любителей [Boost.Build V2](http://www.boost.org/doc/tools/build/index.html) – написал [toolset](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/03/dotnet.jam), добавляющий поддержку C# и VB.NET компиляторов из .NET Framework. Toolset автоматически распознает все установленные версии .NET Framework: 
+Специально для любителей [Boost.Build V2](http://www.boost.org/doc/tools/build/index.html) – написал [toolset](/2009/03/dotnet.jam), добавляющий поддержку C# и VB.NET компиляторов из .NET Framework. Toolset автоматически распознает все установленные версии .NET Framework: 
 
 ```no-highlight
 using dotnet : all ;

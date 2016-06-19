@@ -16,7 +16,7 @@ tags:
 
 * * *
 
-[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/07/Microsoft-Advertising.png)](http://advertising.microsoft.com/)
+[![](/2011/07/Microsoft-Advertising.png)](http://advertising.microsoft.com/)
 
 [Microsoft Advertising](http://advertising.microsoft.com/) will be hosting a recruiting event in mid-October this year to recruit top talent from all over Russia and neighboring countries specifically focusing on Software Developers of all experience levels who are interested in relocating to the U.S. At this time, we are looking to hire engineers for the roles below. ALL roles require strong coding and development experience. 
 
