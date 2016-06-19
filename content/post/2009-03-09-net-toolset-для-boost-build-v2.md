@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-03-09 20:22:01+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/03/09/469
 slug: net-toolset-для-boost-build-v2
 title: .NET toolset для Boost Build V2.
 wordpress_id: 469
-categories:
-- itblogs
 tags:
 - Boost.Build
 ---

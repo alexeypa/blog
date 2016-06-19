@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-12-28 00:24:29+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/12/27/122
 slug: о-железе-в-microsoft
 title: О "железе" в Microsoft.
 wordpress_id: 122
-categories:
-- itblogs
 tags:
 - Железо
 ---

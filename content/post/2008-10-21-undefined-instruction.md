@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-10-21 05:33:56+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/10/20/361
 slug: undefined-instruction
 title: Undefined instruction.
 wordpress_id: 361
-categories:
-- itblogs
 tags:
 - Ассемблер
 - Программирование

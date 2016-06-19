@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-09-02 02:44:01+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/09/01/41
 slug: статья-на-newsrucom
 title: Статья на newsru.com.
 wordpress_id: 41
-categories:
-- default
 tags:
 - Всякая всячина
 ---

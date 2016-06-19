@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-08-01 05:51:40+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/07/31/323
 slug: distorm64-disassembler
 title: diStorm64 disassembler.
 wordpress_id: 323
-categories:
-- itblogs
 tags:
 - 64bit
 - Disassembler

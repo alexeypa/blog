@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-12-11 07:43:32+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/12/10/382
 slug: garden-dlights-2
 title: Garden d'Lights
 wordpress_id: 382
-categories:
-- default
 tags:
 - Разное
 - Garden d'Lights

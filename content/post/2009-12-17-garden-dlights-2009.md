@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-12-17 06:50:22+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/12/16/714
 slug: garden-dlights-2009
 title: Garden d'Lights 2009.
 wordpress_id: 714
-categories:
-- default
 tags:
 - Разное
 - Garden d'Lights

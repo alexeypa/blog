@@ -1,6 +1,5 @@
 ---
 author: admin
-comments: true
 date: 2008-06-21 22:39:58+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/06/21/314
@@ -8,8 +7,6 @@ slug: почему-getmodulefilename-возвращает-system32-для-32-х-
 title: Почему GetModuleFileName возвращает “system32” для 32-х битных библиотек под
   Wow64?
 wordpress_id: 314
-categories:
-- itblogs
 tags:
 - Программирование
 - Win32

@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2011-07-25 03:55:56+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/07/24/1132
 slug: можно-ли-использовать-функцию-rtlcapturecontext-из-x86
 title: Можно ли использовать функцию RtlCaptureContext() из x86 кода?
 wordpress_id: 1132
-categories:
-- itblogs
 tags:
 - Программирование
 - совместимость

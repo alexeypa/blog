@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-11-21 22:19:25+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/21/103
 slug: статические-assertions-против-динамических
 title: Статические assertions против динамических.
 wordpress_id: 103
-categories:
-- itblogs
 tags:
 - Программирование
 ---

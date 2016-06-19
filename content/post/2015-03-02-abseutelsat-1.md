@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2015-03-02 05:46:47+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2015/03/01/1704
 slug: abseutelsat-1
 title: ABS/Eutelsat-1
 wordpress_id: 1704
-categories:
-- default
 tags:
 - SpaceX
 ---

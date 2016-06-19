@@ -7,8 +7,6 @@ link: http://blog.not-a-kernel-guy.com/2007/01/30/142
 slug: microsoft-против-…
 title: Microsoft против …
 wordpress_id: 142
-categories:
-- itblogs
 tags:
 - Microsoft
 ---

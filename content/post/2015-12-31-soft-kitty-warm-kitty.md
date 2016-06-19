@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2015-12-31 07:07:35+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2015/12/30/1769
 slug: soft-kitty-warm-kitty
 title: Soft kitty, warm kitty
 wordpress_id: 1769
-categories:
-- default
 tags:
 - Юмор
 ---

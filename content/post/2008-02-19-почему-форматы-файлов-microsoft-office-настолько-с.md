@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-02-19 23:35:54+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/02/19/290
 slug: почему-форматы-файлов-microsoft-office-настолько-с
 title: Почему форматы файлов Microsoft Office настолько сложны?
 wordpress_id: 290
-categories:
-- itblogs
 tags:
 - Microsoft
 - Office

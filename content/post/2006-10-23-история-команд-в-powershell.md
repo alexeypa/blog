@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-10-23 17:15:36+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/23/88
 slug: история-команд-в-powershell
 title: История команд в PowerShell.
 wordpress_id: 88
-categories:
-- itblogs
 tags:
 - PowerShell
 ---

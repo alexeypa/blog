@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-04-09 04:03:04+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/04/08/170
 slug: problem-reports-and-solutions
 title: Как запустить отладчик при аварийном завершении приложения в Vista.
 wordpress_id: 170
-categories:
-- itblogs
 tags:
 - Отладка
 ---

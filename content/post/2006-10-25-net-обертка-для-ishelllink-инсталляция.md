@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-10-25 22:59:38+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/25/90
 slug: net-обертка-для-ishelllink-инсталляция
 title: .NET обертка для IShellLink (инсталляция).
 wordpress_id: 90
-categories:
-- itblogs
 tags:
 - COM
 - Программирование

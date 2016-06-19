@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-06-29 06:18:39+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/06/28/600
 slug: гора-constitution
 title: Гора Constitution
 wordpress_id: 600
-categories:
-- default
 tags:
 - Отдых
 - Orcas Island

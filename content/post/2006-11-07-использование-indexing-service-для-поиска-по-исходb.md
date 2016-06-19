@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-11-07 06:39:36+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/06/94
 slug: использование-indexing-service-для-поиска-по-исходb
 title: Использование Indexing Service для поиска по исходникам.
 wordpress_id: 94
-categories:
-- itblogs
 tags:
 - Инструменты
 ---

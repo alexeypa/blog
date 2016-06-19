@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2010-12-08 18:52:39+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/12/08/945
 slug: we-are-hiring
 title: We are hiring!
 wordpress_id: 945
-categories:
-- itblogs
 tags:
 - Работа
 - Microsoft

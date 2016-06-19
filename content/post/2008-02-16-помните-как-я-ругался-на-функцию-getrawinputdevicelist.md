@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-02-16 05:06:19+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/02/15/289
 slug: помните-как-я-ругался-на-функцию-getrawinputdevicelist
 title: Помните, как я ругался на функцию GetRawInputDeviceList?
 wordpress_id: 289
-categories:
-- itblogs
 tags:
 - Дизайн
 - Программирование

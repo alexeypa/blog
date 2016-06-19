@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-02-06 08:16:08+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/02/06/147
 slug: sizeofhwnd-sizeofhwnd
 title: sizeof(HWND) != sizeof(HWND).
 wordpress_id: 147
-categories:
-- itblogs
 tags:
 - Программирование
 - Wow64

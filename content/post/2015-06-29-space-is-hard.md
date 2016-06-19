@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2015-06-29 05:57:32+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2015/06/28/1729
 slug: space-is-hard
 title: Space is hard
 wordpress_id: 1729
-categories:
-- default
 tags:
 - SpaceX
 ---

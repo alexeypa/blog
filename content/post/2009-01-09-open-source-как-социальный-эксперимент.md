@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-01-09 06:55:27+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/01/08/413
 slug: open-source-как-социальный-эксперимент
 title: Open source как социальный эксперимент.
 wordpress_id: 413
-categories:
-- itblogs
 tags:
 - Программирование
 - Far

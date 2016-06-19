@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2012-09-26 06:01:23+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2012/09/25/1417
 slug: overclocking-и-его-последствия
 title: Overclocking и его последствия.
 wordpress_id: 1417
-categories:
-- itblogs
 tags:
 - Отладка
 - Программирование

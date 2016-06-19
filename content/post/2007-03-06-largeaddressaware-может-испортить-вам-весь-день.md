@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-03-06 19:39:15+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/03/06/156
 slug: largeaddressaware-может-испортить-вам-весь-день
 title: /LARGEADDRESSAWARE может испортить вам весь день.
 wordpress_id: 156
-categories:
-- itblogs
 tags:
 - Программирование
 - Wow64

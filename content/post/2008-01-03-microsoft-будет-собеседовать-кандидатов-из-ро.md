@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-01-03 05:12:29+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/01/02/275
 slug: microsoft-будет-собеседовать-кандидатов-из-ро
 title: Microsoft будет собеседовать кандидатов из России, Украины и Белaруси.
 wordpress_id: 275
-categories:
-- itblogs
 tags:
 - Работа
 - Microsoft

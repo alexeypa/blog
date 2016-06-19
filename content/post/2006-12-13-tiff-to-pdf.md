@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-12-13 19:23:14+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/12/13/114
 slug: tiff-to-pdf
 title: TIFF to PDF.
 wordpress_id: 114
-categories:
-- itblogs
 tags:
 - Инструменты
 ---

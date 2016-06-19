@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-10-27 04:52:06+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/10/26/259
 slug: far-manager-открывает-исходный-код
 title: Far Manager открывает исходный код.
 wordpress_id: 259
-categories:
-- itblogs
 tags:
 - Инструменты
 - Far

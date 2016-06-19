@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-10-12 04:15:43+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/11/82
 slug: com-marshalling-создание-proxystub-на-коленке
 title: 'COM marshalling: создание proxy/stub на коленке.'
 wordpress_id: 82
-categories:
-- itblogs
 tags:
 - COM
 - Программирование

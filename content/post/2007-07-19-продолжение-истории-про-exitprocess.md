@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-07-19 06:21:34+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/07/18/212
 slug: продолжение-истории-про-exitprocess
 title: 'Продолжение истории про ExitProcess. '
 wordpress_id: 212
-categories:
-- itblogs
 tags:
 - Программирование
 - Windows

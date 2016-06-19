@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2008-01-10 07:34:16+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/01/09/277
 slug: разрядность-ключа-image-file-execution-options
 title: Разрядность ключа «Image File Execution Options».
 wordpress_id: 277
-categories:
-- itblogs
 tags:
 - 64bit
 - Маленькие хитрости

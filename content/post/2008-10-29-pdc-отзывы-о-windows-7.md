@@ -7,8 +7,6 @@ link: http://blog.not-a-kernel-guy.com/2008/10/28/370
 slug: pdc-отзывы-о-windows-7
 title: 'PDC: Отзывы о Windows 7.'
 wordpress_id: 370
-categories:
-- itblogs
 tags:
 - Странное
 - Windows

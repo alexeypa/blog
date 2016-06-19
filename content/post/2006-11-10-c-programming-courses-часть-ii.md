@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2006-11-10 17:44:04+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/10/97
 slug: c-programming-courses-часть-ii
 title: C# Programming Courses. Часть II.
 wordpress_id: 97
-categories:
-- itblogs
 tags:
 - Всякая всячина
 ---

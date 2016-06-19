@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2014-04-06 23:41:17+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2014/04/06/1609
 slug: but-wait-theres-more-2
 title: But wait, there's more!
 wordpress_id: 1609
-categories:
-- default
 tags:
 - SpaceX
 ---

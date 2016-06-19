@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2007-04-27 18:57:25+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/04/27/177
 slug: как-послать-баг-репорт-в-microsoft-часть-ii
 title: Как послать баг-репорт в Microsoft? Часть II.
 wordpress_id: 177
-categories:
-- itblogs
 tags:
 - Программирование
 - Microsoft

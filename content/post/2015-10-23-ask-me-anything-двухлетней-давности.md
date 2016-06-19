@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2015-10-23 02:18:25+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2015/10/22/1748
 slug: ask-me-anything-двухлетней-давности
 title: Ask me anything двухлетней давности.
 wordpress_id: 1748
-categories:
-- default
 tags:
 - SpaceX
 ---

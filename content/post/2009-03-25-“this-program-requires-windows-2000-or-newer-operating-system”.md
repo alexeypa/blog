@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-03-25 20:25:50+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/03/25/474
 slug: “this-program-requires-windows-2000-or-newer-operating-system”
 title: “This program requires Windows 2000 or newer operating system”.
 wordpress_id: 474
-categories:
-- itblogs
 tags:
 - Маленькие хитрости
 ---

@@ -1,14 +1,11 @@
 ---
 author: admin
-comments: true
 date: 2009-09-02 22:14:19+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/09/02/641
 slug: o-tempora-o-mores
 title: O tempora! O mores!
 wordpress_id: 641
-categories:
-- default
 tags:
 - Всякая всячина
 ---
