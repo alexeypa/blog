@@ -24,7 +24,7 @@ tags:
 ![Process Explorer: Replace Task Manager.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2008/03/procexp_1.png)
 
 
-<!-- more -->
+
   
 
 Оказывается всё очень просто и банально. Он устанавливает себя в качестве отладчика для taskmgr.exe!

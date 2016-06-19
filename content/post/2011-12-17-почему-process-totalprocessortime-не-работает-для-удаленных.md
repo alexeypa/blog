@@ -22,7 +22,7 @@ categories:
 
 Длинный ответ: с .NET я сталкиваюсь не очень часто. Ничего лучше, чем банально взять дизассемблер для IL (intermediate language) и посмотреть на код, мне в голову не пришло. Ildasm.exe входит в состав SDK, но есть и другие варианты, - например [ReSharper](http://www.jetbrains.com/resharper/).
 
-<!-- more -->
+
 
 
 

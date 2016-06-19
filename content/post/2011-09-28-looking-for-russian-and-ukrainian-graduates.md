@@ -30,7 +30,7 @@ Microsoft Corporation is coming to Ukraine and Russia to interview for our Softw
 
 To Apply: please visit [www.microsoft.com/university](http://www.microsoft.com/university). Applications are reviewed as they are received.
 
-<!-- more -->**Software Development Engineer (SDE)**
+**Software Development Engineer (SDE)**
 
 Whether you’re creating new code, algorithms or data structures, you are the link between abstract concepts and the technology products used daily by your friends, family and millions of other people around the world. Using your mastery of technical tools, you develop next- generation applications and operating systems, making decisions on design and feature implementation. 
 

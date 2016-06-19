@@ -21,7 +21,7 @@ tags:
 
 Whether you are just about to receive your diploma from University or have been in the industry for years, we know deciding where to start your career or how to move to the next opportunity can be as nerve-wracking as it is exciting. Maybe you don’t know exactly what you want to do. The good thing is, at Microsoft, you have lots of options. Nowhere else will you have such a variety of products and technologies to get behind—or so many career paths to choose from. You’ll learn from people who have been in the industry for over 30 years. And most of all, you’ll have the resources to reach people all over the world with your work. It’s about taking your career as far as you want it to go—in any direction you choose. 
 
-<!-- more -->
+
 
 
 > “The variety of products that Microsoft develops greatly influenced my decision to work here. As my career develops I can follow my passion to apply myself to different technologies without having to leave the company.”

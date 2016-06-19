@@ -15,7 +15,7 @@ tags:
 ---
 
 Функция [DuplicateHandle](http://msdn2.microsoft.com/en-us/library/ms724251.aspx) обладает одной особенностью. Она позволяет указывать набор прав доступа (параметр dwDesiredAccess), которыми должна обладать создаваемая копия описателя. Причем, что интересно, в некоторых случаях новый описатель может получить больше прав доступа, чем оригинал. Об этом вскользь упоминается в MSDN, однако никаких дополнительных разъяснений не даётся:
-<!-- more -->
+
 
 
 > In some cases, the new handle can have more access rights than the original handle. However, in other cases, DuplicateHandle cannot create a handle with more access rights than the original. For example, a file handle created with the GENERIC_READ access right cannot be duplicated so that it has both the GENERIC_READ and GENERIC_WRITE access right.

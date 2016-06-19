@@ -17,7 +17,7 @@ tags:
 
 Win32 API предоставляет «Ex» варианты функций ReadFile и WriteFile, в то время как «Ex» варианта функции DeviceIoControl не предлагается. Исправить этот недостаток очень просто, так как соответствующая функция Native API документирована в MSDN: [NtDeviceIoControlFile](http://msdn.microsoft.com/en-us/library/ms648411(v=vs.85).aspx) (хотя и помечена как «Deprecated»). Прототип новой функции будет выглядеть вот так:
 
-<!-- more -->
+
 
 ```cpp
 BOOL

@@ -28,7 +28,7 @@ Whether you are just about to receive your diploma from University or have been 
 
 
 
-<!-- more -->
+
 **Core Technical**
 
 * * *

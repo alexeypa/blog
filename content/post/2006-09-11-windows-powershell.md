@@ -15,7 +15,7 @@ tags:
 
 Участие в бесполезном споре Windows vs. Unix иногда приносит пользу. В ответ на [мою реплику](http://alenacpp.blogspot.com/2006/09/microsoft-robotics-studio.html#115751778421825463), некто vansickle поделился ссылкой на [Windows PowerShell](http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx). В двух словах PowerShell это замена древнему cmd.exe, сочетающая Unix идеологию c Windows технологиями. Учитывая, что мне уже давно не даёт покоя вопрос "когда же, наконец, в Windows сделают нормальную консоль?", я тут же решил попробовать PowerShell вживую.
 
-<!-- more -->
+
 Первое впечатление после запуска - консоль как консоль. Ничего принципиально не изменилось.
 
 

@@ -46,7 +46,7 @@ tags:
 
 **If interested – please send your information and Resume/CV to the Recruiter organizing this event: [eugenial@microsoft.com](mailto:eugenial@microsoft.com) by Wednesday, August 31st.** We are focused on broad-based software development skills when considering potential candidates (across the board – no specific technology/product niche requirements). If you are strong in C++, C# or JAVA, we would love to hear from you!
 
-<!-- more -->We are looking for strong Software Development Engineers to help us with a number of hard problems in the following areas:
+We are looking for strong Software Development Engineers to help us with a number of hard problems in the following areas:
 
 **The Advertising Applications Team**
 

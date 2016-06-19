@@ -15,7 +15,7 @@ tags:
 
 По умолчанию служба "Problem reports and solutions" в Vista настроена так, что при аварийном завершении приложения у пользователя есть выбор из двух вариантов: посылать или не посылать отчет на сервер Microsoft. Это довольно логичный выбор в случае если за компьютером сидит "средний" пользователь, которого негоже пугать отладчиком. Однако отнимать у разработчика возможность загрузить любимый отладчик нехорошо. :-) Чтобы исправить ситуацию достаточно просто выключить Problem reporting.
 
-<!-- more -->Выберите Problem Reports and Solutions в Control Panel/System and Maintenance:
+Выберите Problem Reports and Solutions в Control Panel/System and Maintenance:
 
 
 

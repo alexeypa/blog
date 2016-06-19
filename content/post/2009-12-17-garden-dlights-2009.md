@@ -18,7 +18,7 @@ tags:
 
 [![Таинственный куст.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_1-300x211.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_1.jpg)
 
-<!-- more -->
+
 
 [![А это дерево похоже сбежало из японского сада.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_2-300x173.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2009/12/garden-dlights_2.jpg)
 
