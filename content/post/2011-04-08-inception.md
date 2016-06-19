@@ -35,7 +35,7 @@ windbg.exe kd.exe -k com:port=com1,baud=115200
 
 Ищу это место в коде. И выясняется такая штука. Отладчик проверяет два mutex’а, один из которых зовут «WininetProxyRegistryMutex». Комментарии в коде намекают, что этим mutex’ам лучше быть не захваченными иначе функции WinInet звать нельзя. Подвисшие отладчики же занимались, скорее всего, именно этим. По крайней мере, оба пытались прочитать символы с [http://msdl.microsoft.com/download/symbols](http://msdl.microsoft.com/download/symbols). Смотрю в [WinObj](http://technet.microsoft.com/en-us/sysinternals/bb896657.aspx) и точно, - «WininetProxyRegistryMutex» захвачен:
 
-[caption id="attachment_1024" align="aligncenter" width="438" caption="WininetProxyRegistryMutex захвачен."][![WininetProxyRegistryMutex захвачен.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/WininetProxyRegistryMutex.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/WininetProxyRegistryMutex.png)[/caption]
+[![WininetProxyRegistryMutex захвачен.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/WininetProxyRegistryMutex.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/WininetProxyRegistryMutex.png)
 
 Получается, что один отладчик вызывал какую-то WinInet функцию, отлаживающий его отладчик прерывал его и пытался тоже подгрузить символы, навечно повисая на уже захваченном mutex’е. Этот же mutex подвешивал всех остальных. А тот сайт просто валялся в тот момент, по этому и с другой машины тоже ничего не работало. :-)
 

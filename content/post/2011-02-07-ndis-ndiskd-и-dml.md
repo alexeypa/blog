@@ -26,15 +26,15 @@ tags:
 
 Порадовало расширение для отладчика, написанное специально для NDIS: !ndiskd. Вот пример вывода информации по загруженным miniport-ам:
 
-[caption id="attachment_973" align="aligncenter" width="580" caption="Пример вывода команды !ndiskd.miniport."][![Пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)[/caption]
+[![Пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport.png)
 
 А вот – по конкретному miniport-у:
 
-[caption id="attachment_974" align="aligncenter" width="568" caption="Другой пример вывода команды !ndiskd.miniport."][![Другой пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)[/caption]
+[![Другой пример вывода команды !ndiskd.miniport.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_miniport2.png)
 
 Активно и к месту используется [DML](http://windbg.info/doc/1-common-cmds.html#5_dml). На подсвеченные ссылки можно кликать – расширение выведет более подробную информацию об этом элементе. Более того, к месту выводятся всякие полезные подсказки. Например, вот что выводит !ndiskd.miniport если .sympath не задан:
 
-[caption id="attachment_975" align="aligncenter" width="566" caption="Подсказка про неверно настроенные символы."][![Подсказка про неверно настроенные символы.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)[/caption]
+[![Подсказка про неверно настроенные символы.](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/02/ndiskd_no_symbols.png)
 
 Вообще DML крайне полезная штука. Очень жаль, что он практически не используется.
 

@@ -17,6 +17,6 @@ tags:
 
 Теперь придется купить книжку, чтобы проверить какие из правок вошли в финальный вариант. В список рецензентов я, по крайней мере, попал:
 
-[caption id="attachment_1328" align="aligncenter" width="452" caption="Acknowledgments"][![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/05/windows_internals_acknowledgments.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/05/windows_internals_acknowledgments.jpg)[/caption]
+[![](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/05/windows_internals_acknowledgments.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2012/05/windows_internals_acknowledgments.jpg)
 
 :-)

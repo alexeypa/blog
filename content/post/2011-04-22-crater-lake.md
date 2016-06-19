@@ -16,6 +16,6 @@ tags:
 
 Вид на [Crater Lake](http://en.wikipedia.org/wiki/Crater_Lake) с высоты 10 километров:
 
-[caption id="attachment_1033" align="aligncenter" width="300" caption="Crater Lake"][![Crater Lake](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/crater_lake-300x198.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/crater_lake.jpg)[/caption]
+[![Crater Lake](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/crater_lake-300x198.jpg)](http://blog.not-a-kernel-guy.com/wp-content/uploads/2011/04/crater_lake.jpg)
 
 Случайно обратил внимание, когда возвращался из Калифорнии месяц назад. Снимал, понятное дело, телефоном. Качество - сами понимаете.
