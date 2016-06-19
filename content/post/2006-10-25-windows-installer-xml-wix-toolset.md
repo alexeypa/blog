@@ -4,7 +4,7 @@ date: 2006-10-25 20:38:26+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/25/89
 slug: windows-installer-xml-wix-toolset
-title: Windows Installer XML (WiX) toolset.
+title: Windows Installer XML (WiX) toolset
 wordpress_id: 89
 tags:
 - Программирование

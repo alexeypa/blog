@@ -1,5 +1,5 @@
 ---
-title: Об авторе.
+title: Об авторе
 author: Алексей Пахунов
 layout: page
 date: 2007-01-04

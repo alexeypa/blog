@@ -4,7 +4,7 @@ date: 2007-12-04 04:32:57+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/12/03/267
 slug: usability
-title: Usability.
+title: Usability
 wordpress_id: 267
 tags:
 - Юмор

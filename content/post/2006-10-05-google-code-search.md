@@ -4,7 +4,7 @@ date: 2006-10-05 15:36:46+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/05/77
 slug: google-code-search
-title: Google Code Search.
+title: Google Code Search
 wordpress_id: 77
 tags:
 - Google

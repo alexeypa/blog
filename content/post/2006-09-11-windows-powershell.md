@@ -4,7 +4,7 @@ date: 2006-09-11 01:21:41+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/09/10/47
 slug: windows-powershell
-title: Windows PowerShell.
+title: Windows PowerShell
 wordpress_id: 47
 tags:
 - PowerShell

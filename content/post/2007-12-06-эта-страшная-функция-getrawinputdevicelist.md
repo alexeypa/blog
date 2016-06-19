@@ -4,7 +4,7 @@ date: 2007-12-06 06:35:35+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/12/05/268
 slug: эта-страшная-функция-getrawinputdevicelist
-title: Эта страшная функция GetRawInputDeviceList.
+title: Эта страшная функция GetRawInputDeviceList
 wordpress_id: 268
 tags:
 - Дизайн

@@ -4,7 +4,7 @@ date: 2011-12-17 06:47:53+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/12/16/1230
 slug: почему-process-totalprocessortime-не-работает-для-удаленных
-title: Почему Process.TotalProcessorTime не работает для удаленных процессов.
+title: Почему Process.TotalProcessorTime не работает для удаленных процессов
 wordpress_id: 1230
 ---
 

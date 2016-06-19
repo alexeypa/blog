@@ -4,7 +4,7 @@ date: 2006-11-08 18:03:03+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/08/96
 slug: c-programming-courses
-title: C# Programming Courses.
+title: C# Programming Courses
 wordpress_id: 96
 tags:
 - Всякая всячина

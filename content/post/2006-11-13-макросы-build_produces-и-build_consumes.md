@@ -4,7 +4,7 @@ date: 2006-11-13 22:09:16+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/13/98
 slug: макросы-build_produces-и-build_consumes
-title: Макросы BUILD_PRODUCES и BUILD_CONSUMES.
+title: Макросы BUILD_PRODUCES и BUILD_CONSUMES
 wordpress_id: 98
 tags:
 - Инструменты

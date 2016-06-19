@@ -4,7 +4,7 @@ date: 2006-10-12 15:31:54+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/12/83
 slug: зеркало-на-blogsgotdotnetru
-title: Зеркало на blogs.gotdotnet.ru.
+title: Зеркало на blogs.gotdotnet.ru
 wordpress_id: 83
 tags:
 - Всякая всячина

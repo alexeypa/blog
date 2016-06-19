@@ -4,7 +4,7 @@ date: 2007-03-20 15:31:30+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/03/20/162
 slug: bug-fixing-как-часть-прикладной-психологии
-title: Bug fixing как часть прикладной психологии.
+title: Bug fixing как часть прикладной психологии
 wordpress_id: 162
 tags:
 - Программирование

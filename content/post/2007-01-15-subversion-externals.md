@@ -4,7 +4,7 @@ date: 2007-01-15 22:20:59+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/01/15/134
 slug: subversion-externals
-title: Subversion Externals.
+title: Subversion Externals
 wordpress_id: 134
 tags:
 - Инструменты

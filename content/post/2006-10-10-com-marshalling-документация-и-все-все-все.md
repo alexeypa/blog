@@ -4,7 +4,7 @@ date: 2006-10-10 00:03:25+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/09/80
 slug: com-marshalling-документация-и-все-все-все
-title: COM marshalling, документация и все, все, все...
+title: COM marshalling, документация и все, все, все..
 wordpress_id: 80
 tags:
 - COM

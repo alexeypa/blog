@@ -4,7 +4,7 @@ date: 2010-05-24 04:05:53+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/05/23/817
 slug: слова-к-музыке-из-the-neverhood-httpblog-not-a-kernel-guy-comwp-adminpost-phpactioneditpost817message1
-title: Слова к музыке из The Neverhood.
+title: Слова к музыке из The Neverhood
 wordpress_id: 817
 tags:
 - Всякая всячина

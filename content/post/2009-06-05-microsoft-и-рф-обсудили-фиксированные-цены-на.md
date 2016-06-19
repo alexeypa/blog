@@ -4,7 +4,7 @@ date: 2009-06-05 23:04:31+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2009/06/05/568
 slug: microsoft-и-рф-обсудили-фиксированные-цены-на
-title: Microsoft и РФ обсудили фиксированные цены на ПО для госзакупок.
+title: Microsoft и РФ обсудили фиксированные цены на ПО для госзакупок
 wordpress_id: 568
 tags:
 - Бюрократия

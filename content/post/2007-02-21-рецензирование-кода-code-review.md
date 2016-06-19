@@ -4,7 +4,7 @@ date: 2007-02-21 08:24:25+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/02/21/151
 slug: рецензирование-кода-code-review
-title: Рецензирование кода (code review).
+title: Рецензирование кода (code review)
 wordpress_id: 151
 tags:
 - Инструменты

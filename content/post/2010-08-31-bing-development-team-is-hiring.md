@@ -4,7 +4,7 @@ date: 2010-08-31 16:13:26+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/08/31/886
 slug: bing-development-team-is-hiring
-title: Bing Development Team is hiring.
+title: Bing Development Team is hiring
 wordpress_id: 886
 tags:
 - Иммиграция

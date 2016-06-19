@@ -4,7 +4,7 @@ date: 2010-07-14 15:58:59+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/07/14/859
 slug: про-outputdebugstring
-title: Про OutputDebugString.
+title: Про OutputDebugString
 wordpress_id: 859
 tags:
 - Отладка

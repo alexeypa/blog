@@ -4,7 +4,7 @@ date: 2008-03-14 04:41:33+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/03/13/297
 slug: как-process-explorer-подменяет-task-manager
-title: Как Process Explorer подменяет Task Manager.
+title: Как Process Explorer подменяет Task Manager
 wordpress_id: 297
 tags:
 - Инструменты

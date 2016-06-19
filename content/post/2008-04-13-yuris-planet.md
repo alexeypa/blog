@@ -4,7 +4,7 @@ date: 2008-04-13 04:41:04+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2008/04/12/307
 slug: yuris-planet
-title: Yuri's Planet.
+title: Yuri's Planet
 wordpress_id: 307
 tags:
 - Астрономия и космос

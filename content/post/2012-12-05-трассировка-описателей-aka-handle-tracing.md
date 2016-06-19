@@ -4,7 +4,7 @@ date: 2012-12-05 07:23:13+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2012/12/04/1437
 slug: трассировка-описателей-aka-handle-tracing
-title: Трассировка описателей (AKA handle tracing).
+title: Трассировка описателей (AKA handle tracing)
 wordpress_id: 1437
 tags:
 - Инструменты

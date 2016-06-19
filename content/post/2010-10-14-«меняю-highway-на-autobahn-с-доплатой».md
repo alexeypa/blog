@@ -4,7 +4,7 @@ date: 2010-10-14 04:27:12+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2010/10/13/899
 slug: «меняю-highway-на-autobahn-с-доплатой»
-title: «Меняю highway на autobahn с доплатой».
+title: «Меняю highway на autobahn с доплатой»
 wordpress_id: 899
 tags:
 - autobahn

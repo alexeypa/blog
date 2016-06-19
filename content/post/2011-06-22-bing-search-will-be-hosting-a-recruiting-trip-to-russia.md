@@ -4,7 +4,7 @@ date: 2011-06-22 19:52:58+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/06/22/1109
 slug: bing-search-will-be-hosting-a-recruiting-trip-to-russia
-title: Bing Search will be hosting a recruiting trip to Russia.
+title: Bing Search will be hosting a recruiting trip to Russia
 wordpress_id: 1109
 tags:
 - Иммиграция

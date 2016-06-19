@@ -4,7 +4,7 @@ date: 2006-11-07 20:45:00+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/11/07/95
 slug: обновление-утилит-от-sysinternals
-title: Обновление утилит от Sysinternals.
+title: Обновление утилит от Sysinternals
 wordpress_id: 95
 tags:
 - Инструменты

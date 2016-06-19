@@ -4,7 +4,7 @@ date: 2007-01-02 16:48:00+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2007/01/02/125
 slug: подписка-через-feedburner
-title: Подписка через FeedBurner.
+title: Подписка через FeedBurner
 wordpress_id: 125
 tags:
 - Всякая всячина

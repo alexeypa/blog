@@ -4,7 +4,7 @@ date: 2011-04-22 15:54:29+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2011/04/22/1032
 slug: crater-lake
-title: Crater Lake.
+title: Crater Lake
 wordpress_id: 1032
 tags:
 - Crater Lake

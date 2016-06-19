@@ -4,7 +4,7 @@ date: 2006-10-08 06:15:02+00:00
 excerpt: None
 link: http://blog.not-a-kernel-guy.com/2006/10/07/78
 slug: com-marshalling
-title: COM marshalling.
+title: COM marshalling
 wordpress_id: 78
 tags:
 - COM
