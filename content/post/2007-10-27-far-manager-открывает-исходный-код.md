@@ -3,9 +3,8 @@ author: admin
 date: 2007-10-27 04:52:06+00:00
 aliases:
 - /2007/10/26/259
-slug: far-manager-открывает-исходный-код
 title: Far Manager открывает исходный код
-wordpress_id: 259
+slug: 259
 tags:
 - Инструменты
 - Far

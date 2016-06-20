@@ -3,9 +3,8 @@ author: admin
 date: 2007-08-20 17:25:28+00:00
 aliases:
 - /2007/08/20/223
-slug: sizeofvoid-1
 title: sizeof(void) == 1
-wordpress_id: 223
+slug: 223
 tags:
 - C/C++
 - Программирование

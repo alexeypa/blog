@@ -3,9 +3,8 @@ author: admin
 date: 2011-01-20 18:12:50+00:00
 aliases:
 - /2011/01/20/970
-slug: we-are-still-hiring
 title: We are still hiring!
-wordpress_id: 970
+slug: 970
 tags:
 - Работа
 - Microsoft

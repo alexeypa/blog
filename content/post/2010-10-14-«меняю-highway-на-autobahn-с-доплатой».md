@@ -3,9 +3,8 @@ author: admin
 date: 2010-10-14 04:27:12+00:00
 aliases:
 - /2010/10/13/899
-slug: «меняю-highway-на-autobahn-с-доплатой»
 title: «Меняю highway на autobahn с доплатой»
-wordpress_id: 899
+slug: 899
 tags:
 - autobahn
 - highway

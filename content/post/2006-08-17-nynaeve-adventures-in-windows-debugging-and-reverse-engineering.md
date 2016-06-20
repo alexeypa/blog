@@ -3,9 +3,8 @@ author: admin
 date: 2006-08-17 02:55:00+00:00
 aliases:
 - /2006/08/17/31
-slug: nynaeve-adventures-in-windows-debugging-and-reverse-engineering
 title: Nynaeve. Adventures in Windows debugging and reverse engineering
-wordpress_id: 31
+slug: 31
 tags:
 - Отладка
 ---

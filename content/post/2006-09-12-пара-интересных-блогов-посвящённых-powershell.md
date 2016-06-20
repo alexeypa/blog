@@ -3,9 +3,8 @@ author: admin
 date: 2006-09-12 05:11:16+00:00
 aliases:
 - /2006/09/11/57
-slug: пара-интересных-блогов-посвящённых-powershell
 title: Пара интересных блогов, посвящённых PowerShell
-wordpress_id: 57
+slug: 57
 tags:
 - PowerShell
 ---

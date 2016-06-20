@@ -3,9 +3,8 @@ author: admin
 date: 2006-11-13 22:09:16+00:00
 aliases:
 - /2006/11/13/98
-slug: макросы-build_produces-и-build_consumes
 title: Макросы BUILD_PRODUCES и BUILD_CONSUMES
-wordpress_id: 98
+slug: 98
 tags:
 - Инструменты
 - Программирование

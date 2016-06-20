@@ -3,9 +3,8 @@ author: admin
 date: 2009-09-02 22:14:19+00:00
 aliases:
 - /2009/09/02/641
-slug: o-tempora-o-mores
 title: O tempora! O mores!
-wordpress_id: 641
+slug: 641
 tags:
 - Всякая всячина
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2010-07-23 17:19:20+00:00
 aliases:
 - /2010/07/23/861
-slug: 64-bit-explained
 title: 64 Bit Explained
-wordpress_id: 861
+slug: 861
 tags:
 - Wow64
 ---

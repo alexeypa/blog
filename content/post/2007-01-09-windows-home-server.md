@@ -3,9 +3,8 @@ author: admin
 date: 2007-01-09 20:31:52+00:00
 aliases:
 - /2007/01/09/131
-slug: windows-home-server
 title: Windows Home Server
-wordpress_id: 131
+slug: 131
 tags:
 - Технологии
 - Windows

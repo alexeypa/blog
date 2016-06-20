@@ -3,9 +3,8 @@ author: admin
 date: 2007-04-27 18:57:25+00:00
 aliases:
 - /2007/04/27/177
-slug: как-послать-баг-репорт-в-microsoft-часть-ii
 title: Как послать баг-репорт в Microsoft? Часть II
-wordpress_id: 177
+slug: 177
 tags:
 - Программирование
 - Microsoft

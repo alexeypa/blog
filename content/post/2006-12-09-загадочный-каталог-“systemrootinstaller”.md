@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-09 05:58:10+00:00
 aliases:
 - /2006/12/08/112
-slug: загадочный-каталог-“systemrootinstaller”
 title: Загадочный каталог “%SystemRoot%\Installer”
-wordpress_id: 112
+slug: 112
 tags:
 - Windows
 ---

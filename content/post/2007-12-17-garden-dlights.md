@@ -3,9 +3,8 @@ author: admin
 date: 2007-12-17 05:42:02+00:00
 aliases:
 - /2007/12/16/271
-slug: garden-dlights
 title: Garden d'Lights
-wordpress_id: 271
+slug: 271
 tags:
 - Новый год
 - Рождество

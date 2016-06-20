@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-12 15:31:54+00:00
 aliases:
 - /2006/10/12/83
-slug: зеркало-на-blogsgotdotnetru
 title: Зеркало на blogs.gotdotnet.ru
-wordpress_id: 83
+slug: 83
 tags:
 - Всякая всячина
 ---

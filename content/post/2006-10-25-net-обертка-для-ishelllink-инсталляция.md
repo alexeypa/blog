@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-25 22:59:38+00:00
 aliases:
 - /2006/10/25/90
-slug: net-обертка-для-ishelllink-инсталляция
 title: .NET обертка для IShellLink (инсталляция)
-wordpress_id: 90
+slug: 90
 tags:
 - COM
 - Программирование

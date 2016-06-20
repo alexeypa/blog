@@ -3,9 +3,8 @@ author: admin
 date: 2012-06-05 22:52:59+00:00
 aliases:
 - /2012/06/05/1345
-slug: дело-о-пропавшем-файле-ammintrin-h
 title: Дело о пропавшем файле 'ammintrin.h'
-wordpress_id: 1345
+slug: 1345
 tags:
 - Программирование
 - SDK

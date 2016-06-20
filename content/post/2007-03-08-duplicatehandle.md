@@ -3,9 +3,8 @@ author: admin
 date: 2007-03-08 22:41:12+00:00
 aliases:
 - /2007/03/08/158
-slug: duplicatehandle
 title: DuplicateHandle
-wordpress_id: 158
+slug: 158
 tags:
 - Программирование
 - Windows

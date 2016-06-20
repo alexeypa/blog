@@ -3,9 +3,8 @@ author: admin
 date: 2006-08-22 14:18:00+00:00
 aliases:
 - /2006/08/22/27
-slug: wow64-registry-redirector
 title: Registry redirector
-wordpress_id: 27
+slug: 27
 tags:
 - Wow64
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2008-10-21 05:33:56+00:00
 aliases:
 - /2008/10/20/361
-slug: undefined-instruction
 title: Undefined instruction
-wordpress_id: 361
+slug: 361
 tags:
 - Ассемблер
 - Программирование

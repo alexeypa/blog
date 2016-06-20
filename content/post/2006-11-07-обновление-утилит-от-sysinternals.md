@@ -3,9 +3,8 @@ author: admin
 date: 2006-11-07 20:45:00+00:00
 aliases:
 - /2006/11/07/95
-slug: обновление-утилит-от-sysinternals
 title: Обновление утилит от Sysinternals
-wordpress_id: 95
+slug: 95
 tags:
 - Инструменты
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2008-12-11 07:43:32+00:00
 aliases:
 - /2008/12/10/382
-slug: garden-dlights-2
 title: Garden d'Lights
-wordpress_id: 382
+slug: 382
 tags:
 - Разное
 - Garden d'Lights

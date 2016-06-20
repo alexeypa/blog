@@ -3,9 +3,8 @@ author: admin
 date: 2010-07-14 15:58:59+00:00
 aliases:
 - /2010/07/14/859
-slug: про-outputdebugstring
 title: Про OutputDebugString
-wordpress_id: 859
+slug: 859
 tags:
 - Отладка
 ---

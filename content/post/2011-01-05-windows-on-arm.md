@@ -3,9 +3,8 @@ author: admin
 date: 2011-01-05 23:04:44+00:00
 aliases:
 - /2011/01/05/959
-slug: windows-on-arm
 title: Windows on ARM
-wordpress_id: 959
+slug: 959
 tags:
 - ARM
 - Windows

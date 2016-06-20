@@ -3,9 +3,8 @@ author: admin
 date: 2015-02-22 02:34:12+00:00
 aliases:
 - /2015/02/21/1700
-slug: saturn-v-apollo-sa-500f-shake-test
 title: Saturn V Apollo SA-500F Shake Test
-wordpress_id: 1700
+slug: 1700
 tags:
 - Космонавтика
 ---

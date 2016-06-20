@@ -3,9 +3,8 @@ author: admin
 date: 2006-11-07 06:39:36+00:00
 aliases:
 - /2006/11/06/94
-slug: использование-indexing-service-для-поиска-по-исходb
 title: Использование Indexing Service для поиска по исходникам
-wordpress_id: 94
+slug: 94
 tags:
 - Инструменты
 ---

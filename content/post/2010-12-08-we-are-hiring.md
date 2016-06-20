@@ -3,9 +3,8 @@ author: admin
 date: 2010-12-08 18:52:39+00:00
 aliases:
 - /2010/12/08/945
-slug: we-are-hiring
 title: We are hiring!
-wordpress_id: 945
+slug: 945
 tags:
 - Работа
 - Microsoft

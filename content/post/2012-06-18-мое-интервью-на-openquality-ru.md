@@ -3,9 +3,8 @@ author: admin
 date: 2012-06-18 05:52:52+00:00
 aliases:
 - /2012/06/17/1350
-slug: мое-интервью-на-openquality-ru
 title: Мое интервью на OpenQuality.ru
-wordpress_id: 1350
+slug: 1350
 tags:
 - Интервью
 - Программирование

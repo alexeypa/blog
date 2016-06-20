@@ -3,9 +3,8 @@ author: admin
 date: 2006-09-04 02:48:20+00:00
 aliases:
 - /2006/09/03/42
-slug: kernel-debugger-годиться-не-только-для-отладки-ядрb
 title: Kernel debugger годиться не только для отладки ядра
-wordpress_id: 42
+slug: 42
 tags:
 - Отладка
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2011-03-11 05:18:20+00:00
 aliases:
 - /2011/03/10/994
-slug: правильный-прототип-функции-debugbreak
 title: Правильный прототип функции DebugBreak()
-wordpress_id: 994
+slug: 994
 tags:
 - Программирование
 ---

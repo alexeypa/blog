@@ -3,9 +3,8 @@ author: admin
 date: 2008-12-05 05:07:21+00:00
 aliases:
 - /2008/12/04/377
-slug: зачем-нужен-параметр-lpclass-в-функции-regcreatekeyex
 title: Зачем нужен параметр lpClass в функции RegCreateKeyEx?
-wordpress_id: 377
+slug: 377
 tags:
 - Программирование
 - Win32

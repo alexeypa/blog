@@ -3,9 +3,8 @@ author: admin
 date: 2011-04-22 15:54:29+00:00
 aliases:
 - /2011/04/22/1032
-slug: crater-lake
 title: Crater Lake
-wordpress_id: 1032
+slug: 1032
 tags:
 - Crater Lake
 - Всякая всячина

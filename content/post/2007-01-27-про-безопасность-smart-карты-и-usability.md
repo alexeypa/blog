@@ -3,9 +3,8 @@ author: admin
 date: 2007-01-27 04:03:42+00:00
 aliases:
 - /2007/01/26/140
-slug: про-безопасность-smart-карты-и-usability
 title: Про безопасность, smart карты и usability
-wordpress_id: 140
+slug: 140
 tags:
 - Дизайн
 ---

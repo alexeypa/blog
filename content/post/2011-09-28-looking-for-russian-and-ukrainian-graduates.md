@@ -3,9 +3,8 @@ author: admin
 date: 2011-09-28 13:48:43+00:00
 aliases:
 - /2011/09/28/1189
-slug: looking-for-russian-and-ukrainian-graduates
 title: Looking for Russian and Ukrainian graduates
-wordpress_id: 1189
+slug: 1189
 tags:
 - Работа
 - Microsoft

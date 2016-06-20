@@ -3,9 +3,8 @@ author: admin
 date: 2006-08-28 07:39:49+00:00
 aliases:
 - /2006/08/28/22
-slug: microsoft-is-hiring-from-ukraine-too
 title: Microsoft is hiring from Ukraine too
-wordpress_id: 22
+slug: 22
 tags:
 - Работа
 - Microsoft

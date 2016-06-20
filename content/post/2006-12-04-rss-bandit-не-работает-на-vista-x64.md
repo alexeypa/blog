@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-04 17:00:07+00:00
 aliases:
 - /2006/12/04/107
-slug: rss-bandit-не-работает-на-vista-x64
 title: RSS Bandit не работает на Vista x64
-wordpress_id: 107
+slug: 107
 tags:
 - Windows
 ---

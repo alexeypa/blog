@@ -3,9 +3,8 @@ author: admin
 date: 2008-03-06 01:16:29+00:00
 aliases:
 - /2008/03/05/295
-slug: dinosource
 title: Dinosource
-wordpress_id: 295
+slug: 295
 tags:
 - Программирование
 - Странное

@@ -3,9 +3,8 @@ author: admin
 date: 2006-08-31 04:31:04+00:00
 aliases:
 - /2006/08/30/39
-slug: wordpress
 title: WordPress
-wordpress_id: 39
+slug: 39
 tags:
 - Всякая всячина
 - WordPress

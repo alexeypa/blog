@@ -3,9 +3,8 @@ author: admin
 date: 2007-01-02 16:48:00+00:00
 aliases:
 - /2007/01/02/125
-slug: подписка-через-feedburner
 title: Подписка через FeedBurner
-wordpress_id: 125
+slug: 125
 tags:
 - Всякая всячина
 ---

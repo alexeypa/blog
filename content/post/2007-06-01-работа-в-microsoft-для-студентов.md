@@ -3,9 +3,8 @@ author: admin
 date: 2007-06-01 07:00:45+00:00
 aliases:
 - /2007/06/01/192
-slug: работа-в-microsoft-для-студентов
 title: Работа в Microsoft для студентов
-wordpress_id: 192
+slug: 192
 tags:
 - Microsoft
 ---

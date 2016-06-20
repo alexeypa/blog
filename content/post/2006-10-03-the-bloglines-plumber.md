@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-03 18:36:32+00:00
 aliases:
 - /2006/10/03/75
-slug: the-bloglines-plumber
 title: The Bloglines Plumber
-wordpress_id: 75
+slug: 75
 tags:
 - Всякая всячина
 ---

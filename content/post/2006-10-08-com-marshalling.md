@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-08 06:15:02+00:00
 aliases:
 - /2006/10/07/78
-slug: com-marshalling
 title: COM marshalling
-wordpress_id: 78
+slug: 78
 tags:
 - COM
 - Программирование

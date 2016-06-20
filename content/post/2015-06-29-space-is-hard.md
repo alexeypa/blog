@@ -3,9 +3,8 @@ author: admin
 date: 2015-06-29 05:57:32+00:00
 aliases:
 - /2015/06/28/1729
-slug: space-is-hard
 title: Space is hard
-wordpress_id: 1729
+slug: 1729
 tags:
 - SpaceX
 ---

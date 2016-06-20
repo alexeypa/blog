@@ -3,9 +3,8 @@ author: admin
 date: 2007-04-12 15:47:33+00:00
 aliases:
 - /2007/04/12/171
-slug: наши-соотечественники-в-microsoft
 title: Наши соотечественники в Microsoft
-wordpress_id: 171
+slug: 171
 tags:
 - Microsoft
 ---

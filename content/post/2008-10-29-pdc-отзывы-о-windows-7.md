@@ -4,9 +4,8 @@ comments: false
 date: 2008-10-29 05:07:20+00:00
 aliases:
 - /2008/10/28/370
-slug: pdc-отзывы-о-windows-7
 title: 'PDC: Отзывы о Windows 7.'
-wordpress_id: 370
+slug: 370
 tags:
 - Странное
 - Windows

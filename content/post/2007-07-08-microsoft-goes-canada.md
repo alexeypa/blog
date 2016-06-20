@@ -3,9 +3,8 @@ author: admin
 date: 2007-07-08 04:47:17+00:00
 aliases:
 - /2007/07/07/207
-slug: microsoft-goes-canada
 title: Microsoft goes Canada
-wordpress_id: 207
+slug: 207
 tags:
 - Immigration
 - Microsoft

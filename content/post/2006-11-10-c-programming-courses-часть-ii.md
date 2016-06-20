@@ -3,9 +3,8 @@ author: admin
 date: 2006-11-10 17:44:04+00:00
 aliases:
 - /2006/11/10/97
-slug: c-programming-courses-часть-ii
 title: C# Programming Courses. Часть II
-wordpress_id: 97
+slug: 97
 tags:
 - Всякая всячина
 ---

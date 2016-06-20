@@ -3,9 +3,8 @@ author: admin
 date: 2015-12-31 07:07:35+00:00
 aliases:
 - /2015/12/30/1769
-slug: soft-kitty-warm-kitty
 title: Soft kitty, warm kitty
-wordpress_id: 1769
+slug: 1769
 tags:
 - Юмор
 ---

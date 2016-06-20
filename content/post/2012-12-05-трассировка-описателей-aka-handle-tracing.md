@@ -3,9 +3,8 @@ author: admin
 date: 2012-12-05 07:23:13+00:00
 aliases:
 - /2012/12/04/1437
-slug: трассировка-описателей-aka-handle-tracing
 title: Трассировка описателей (AKA handle tracing)
-wordpress_id: 1437
+slug: 1437
 tags:
 - Инструменты
 - Недокументированные функции

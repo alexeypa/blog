@@ -3,9 +3,8 @@ author: admin
 date: 2007-01-15 22:20:59+00:00
 aliases:
 - /2007/01/15/134
-slug: subversion-externals
 title: Subversion Externals
-wordpress_id: 134
+slug: 134
 tags:
 - Инструменты
 ---

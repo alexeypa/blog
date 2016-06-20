@@ -3,9 +3,8 @@ author: admin
 date: 2012-05-11 06:44:18+00:00
 aliases:
 - /2012/05/10/1326
-slug: windows-internals-part-1-sixth-edition
 title: Windows Internals, Part 1, Sixth Edition
-wordpress_id: 1326
+slug: 1326
 tags:
 - Windows Internals book
 ---

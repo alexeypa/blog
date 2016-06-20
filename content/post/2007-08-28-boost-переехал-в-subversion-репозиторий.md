@@ -3,9 +3,8 @@ author: admin
 date: 2007-08-28 15:59:56+00:00
 aliases:
 - /2007/08/28/230
-slug: boost-переехал-в-subversion-репозиторий
 title: Boost переехал в Subversion репозиторий
-wordpress_id: 230
+slug: 230
 tags:
 - Boost
 - C/C++

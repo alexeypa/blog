@@ -3,9 +3,8 @@ author: admin
 date: 2011-02-07 05:19:08+00:00
 aliases:
 - /2011/02/06/972
-slug: ndis-ndiskd-и-dml
 title: NDIS, !ndiskd и DML
-wordpress_id: 972
+slug: 972
 tags:
 - Отладка
 - NDIS

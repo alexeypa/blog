@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-09 03:51:22+00:00
 aliases:
 - /2006/10/08/79
-slug: ultimate-tag-warrior
 title: Ultimate Tag Warrior
-wordpress_id: 79
+slug: 79
 tags:
 - WordPress
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2011-06-22 19:52:58+00:00
 aliases:
 - /2011/06/22/1109
-slug: bing-search-will-be-hosting-a-recruiting-trip-to-russia
 title: Bing Search will be hosting a recruiting trip to Russia
-wordpress_id: 1109
+slug: 1109
 tags:
 - Иммиграция
 - Работа

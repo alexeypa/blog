@@ -3,9 +3,8 @@ author: admin
 date: 2009-03-09 20:22:01+00:00
 aliases:
 - /2009/03/09/469
-slug: net-toolset-для-boost-build-v2
 title: .NET toolset для Boost Build V2
-wordpress_id: 469
+slug: 469
 tags:
 - Boost.Build
 ---

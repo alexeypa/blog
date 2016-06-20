@@ -3,9 +3,8 @@ author: admin
 date: 2011-04-08 06:38:25+00:00
 aliases:
 - /2011/04/07/1020
-slug: inception
 title: Inception
-wordpress_id: 1020
+slug: 1020
 tags:
 - Отладка
 ---

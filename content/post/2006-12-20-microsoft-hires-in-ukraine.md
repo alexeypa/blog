@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-20 19:23:17+00:00
 aliases:
 - /2006/12/20/117
-slug: microsoft-hires-in-ukraine
 title: Microsoft hires in Ukraine
-wordpress_id: 117
+slug: 117
 tags:
 - Работа
 - Microsoft

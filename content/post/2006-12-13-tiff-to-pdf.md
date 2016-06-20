@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-13 19:23:14+00:00
 aliases:
 - /2006/12/13/114
-slug: tiff-to-pdf
 title: TIFF to PDF
-wordpress_id: 114
+slug: 114
 tags:
 - Инструменты
 ---

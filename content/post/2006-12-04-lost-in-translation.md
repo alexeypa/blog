@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-04 22:37:53+00:00
 aliases:
 - /2006/12/04/108
-slug: lost-in-translation
 title: Lost in translation
-wordpress_id: 108
+slug: 108
 tags:
 - Всякая всячина
 ---

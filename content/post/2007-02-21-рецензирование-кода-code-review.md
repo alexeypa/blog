@@ -3,9 +3,8 @@ author: admin
 date: 2007-02-21 08:24:25+00:00
 aliases:
 - /2007/02/21/151
-slug: рецензирование-кода-code-review
 title: Рецензирование кода (code review)
-wordpress_id: 151
+slug: 151
 tags:
 - Инструменты
 - Программирование

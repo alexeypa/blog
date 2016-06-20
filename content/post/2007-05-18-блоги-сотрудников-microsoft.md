@@ -3,9 +3,8 @@ author: admin
 date: 2007-05-18 15:04:20+00:00
 aliases:
 - /2007/05/18/185
-slug: блоги-сотрудников-microsoft
 title: Блоги сотрудников Microsoft
-wordpress_id: 185
+slug: 185
 tags:
 - Всякая всячина
 ---

@@ -3,9 +3,8 @@ author: admin
 date: 2009-06-04 17:55:23+00:00
 aliases:
 - /2009/06/04/565
-slug: фас-возбудила-дело-против-microsoft
 title: ФАС возбудила дело против Microsoft
-wordpress_id: 565
+slug: 565
 tags:
 - Бюрократия
 - Microrosft

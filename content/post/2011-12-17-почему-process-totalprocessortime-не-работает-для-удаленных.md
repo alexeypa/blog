@@ -3,9 +3,8 @@ author: admin
 date: 2011-12-17 06:47:53+00:00
 aliases:
 - /2011/12/16/1230
-slug: почему-process-totalprocessortime-не-работает-для-удаленных
 title: Почему Process.TotalProcessorTime не работает для удаленных процессов
-wordpress_id: 1230
+slug: 1230
 ---
 
 Вопрос из почты:

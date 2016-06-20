@@ -3,9 +3,8 @@ author: admin
 date: 2006-11-21 22:19:25+00:00
 aliases:
 - /2006/11/21/103
-slug: статические-assertions-против-динамических
 title: Статические assertions против динамических
-wordpress_id: 103
+slug: 103
 tags:
 - Программирование
 ---

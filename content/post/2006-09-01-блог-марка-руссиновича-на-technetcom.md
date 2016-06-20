@@ -3,9 +3,8 @@ author: admin
 date: 2006-09-01 06:46:27+00:00
 aliases:
 - /2006/08/31/40
-slug: блог-марка-руссиновича-на-technetcom
 title: Блог Марка Руссиновича на technet.com
-wordpress_id: 40
+slug: 40
 tags:
 - Microsoft
 ---

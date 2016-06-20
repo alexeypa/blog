@@ -3,9 +3,8 @@ author: admin
 date: 2007-06-14 05:31:58+00:00
 aliases:
 - /2007/06/13/199
-slug: poor-pluto
 title: Poor Pluto
-wordpress_id: 199
+slug: 199
 tags:
 - Астрономия и космос
 - Юмор

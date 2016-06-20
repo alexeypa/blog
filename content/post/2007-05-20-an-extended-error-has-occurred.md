@@ -3,9 +3,8 @@ author: admin
 date: 2007-05-20 22:36:58+00:00
 aliases:
 - /2007/05/20/186
-slug: an-extended-error-has-occurred
 title: An extended error has occurred
-wordpress_id: 186
+slug: 186
 tags:
 - Troubleshooting
 - Windows

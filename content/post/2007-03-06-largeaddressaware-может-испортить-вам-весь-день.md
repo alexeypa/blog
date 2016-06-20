@@ -3,9 +3,8 @@ author: admin
 date: 2007-03-06 19:39:15+00:00
 aliases:
 - /2007/03/06/156
-slug: largeaddressaware-может-испортить-вам-весь-день
 title: /LARGEADDRESSAWARE может испортить вам весь день
-wordpress_id: 156
+slug: 156
 tags:
 - Программирование
 - Wow64

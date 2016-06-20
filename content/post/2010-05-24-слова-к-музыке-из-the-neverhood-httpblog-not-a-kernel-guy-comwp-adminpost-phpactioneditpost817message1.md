@@ -3,9 +3,8 @@ author: admin
 date: 2010-05-24 04:05:53+00:00
 aliases:
 - /2010/05/23/817
-slug: слова-к-музыке-из-the-neverhood-httpblog-not-a-kernel-guy-comwp-adminpost-phpactioneditpost817message1
 title: Слова к музыке из The Neverhood
-wordpress_id: 817
+slug: 817
 tags:
 - Всякая всячина
 - The Neverhood

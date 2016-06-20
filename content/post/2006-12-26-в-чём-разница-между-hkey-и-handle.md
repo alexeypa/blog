@@ -3,9 +3,8 @@ author: admin
 date: 2006-12-26 06:19:55+00:00
 aliases:
 - /2006/12/25/120
-slug: в-чём-разница-между-hkey-и-handle
 title: В чём разница между HKEY и HANDLE?
-wordpress_id: 120
+slug: 120
 tags:
 - Программирование
 - Реестр

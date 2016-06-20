@@ -3,9 +3,8 @@ author: admin
 date: 2008-03-24 05:46:19+00:00
 aliases:
 - /2008/03/23/299
-slug: process-monitor-научился-трассировать-32-х-битный-ст
 title: Process Monitor научился трассировать 32-х битный стек на x64
-wordpress_id: 299
+slug: 299
 tags:
 - Инструменты
 - Отладка

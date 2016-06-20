@@ -3,9 +3,8 @@ author: admin
 date: 2014-04-06 23:41:17+00:00
 aliases:
 - /2014/04/06/1609
-slug: but-wait-theres-more-2
 title: But wait, there's more!
-wordpress_id: 1609
+slug: 1609
 tags:
 - SpaceX
 ---

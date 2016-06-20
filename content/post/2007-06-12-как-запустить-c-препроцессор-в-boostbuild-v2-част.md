@@ -3,9 +3,8 @@ author: admin
 date: 2007-06-12 06:49:12+00:00
 aliases:
 - /2007/06/11/197
-slug: как-запустить-c-препроцессор-в-boostbuild-v2-част
 title: Как запустить C препроцессор в Boost.Build V2. Часть II
-wordpress_id: 197
+slug: 197
 tags:
 - Boost.Build
 - Инструменты

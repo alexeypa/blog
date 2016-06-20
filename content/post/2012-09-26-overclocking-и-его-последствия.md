@@ -3,9 +3,8 @@ author: admin
 date: 2012-09-26 06:01:23+00:00
 aliases:
 - /2012/09/25/1417
-slug: overclocking-и-его-последствия
 title: Overclocking и его последствия
-wordpress_id: 1417
+slug: 1417
 tags:
 - Отладка
 - Программирование

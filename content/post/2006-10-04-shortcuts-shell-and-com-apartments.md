@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-04 16:20:00+00:00
 aliases:
 - /2006/10/04/76
-slug: shortcuts-shell-and-com-apartments
 title: Shortcuts, shell and COM apartments
-wordpress_id: 76
+slug: 76
 tags:
 - COM
 - Программирование

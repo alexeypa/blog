@@ -3,9 +3,8 @@ author: admin
 date: 2006-08-15 03:04:00+00:00
 aliases:
 - /2006/08/15/33
-slug: «program-files»-vs-«program-files-x86»
 title: «Program Files» vs. «Program Files (x86)»
-wordpress_id: 33
+slug: 33
 tags:
 - Wow64
 ---

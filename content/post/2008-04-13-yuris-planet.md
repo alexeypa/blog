@@ -3,9 +3,8 @@ author: admin
 date: 2008-04-13 04:41:04+00:00
 aliases:
 - /2008/04/12/307
-slug: yuris-planet
 title: Yuri's Planet
-wordpress_id: 307
+slug: 307
 tags:
 - Астрономия и космос
 ---

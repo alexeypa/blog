@@ -4,9 +4,8 @@ comments: false
 date: 2007-01-30 22:43:43+00:00
 aliases:
 - /2007/01/30/142
-slug: microsoft-против-…
 title: Microsoft против …
-wordpress_id: 142
+slug: 142
 tags:
 - Microsoft
 ---

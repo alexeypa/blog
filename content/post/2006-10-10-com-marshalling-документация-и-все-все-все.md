@@ -3,9 +3,8 @@ author: admin
 date: 2006-10-10 00:03:25+00:00
 aliases:
 - /2006/10/09/80
-slug: com-marshalling-документация-и-все-все-все
 title: COM marshalling, документация и все, все, все..
-wordpress_id: 80
+slug: 80
 tags:
 - COM
 - Программирование

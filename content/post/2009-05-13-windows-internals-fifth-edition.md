@@ -3,9 +3,8 @@ author: admin
 date: 2009-05-13 17:49:43+00:00
 aliases:
 - /2009/05/13/509
-slug: windows-internals-fifth-edition
 title: Windows Internals, Fifth Edition
-wordpress_id: 509
+slug: 509
 tags:
 - Windows Internals book
 ---

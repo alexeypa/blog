@@ -3,9 +3,8 @@ author: admin
 date: 2007-12-06 06:35:35+00:00
 aliases:
 - /2007/12/05/268
-slug: эта-страшная-функция-getrawinputdevicelist
 title: Эта страшная функция GetRawInputDeviceList
-wordpress_id: 268
+slug: 268
 tags:
 - Дизайн
 - Программирование

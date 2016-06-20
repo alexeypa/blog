@@ -3,9 +3,8 @@ author: admin
 date: 2007-03-20 15:31:30+00:00
 aliases:
 - /2007/03/20/162
-slug: bug-fixing-как-часть-прикладной-психологии
 title: Bug fixing как часть прикладной психологии
-wordpress_id: 162
+slug: 162
 tags:
 - Программирование
 ---

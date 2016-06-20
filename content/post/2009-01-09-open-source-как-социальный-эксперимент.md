@@ -3,9 +3,8 @@ author: admin
 date: 2009-01-09 06:55:27+00:00
 aliases:
 - /2009/01/08/413
-slug: open-source-как-социальный-эксперимент
 title: Open source как социальный эксперимент
-wordpress_id: 413
+slug: 413
 tags:
 - Программирование
 - Far
