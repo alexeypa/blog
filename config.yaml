@@ -25,5 +25,8 @@ params:
     rss: true
     tagline: '... также известный как "Not a kernel guy"'
 
+permalinks:
+  post: /:year/:month/:slug/
+
 taxonomies:
     tag: "tags"
