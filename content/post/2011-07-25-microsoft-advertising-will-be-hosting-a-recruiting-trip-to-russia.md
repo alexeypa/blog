@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-07-25 15:00:43+00:00
+date: 2011-07-25T08:00:43-07:00
 aliases:
 - /2011/07/25/1118
 title: Microsoft Advertising will be hosting a recruiting trip to Russia

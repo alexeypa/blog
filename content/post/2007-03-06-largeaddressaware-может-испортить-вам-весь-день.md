@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-03-06 19:39:15+00:00
+date: 2007-03-06T12:39:15-07:00
 aliases:
 - /2007/03/06/156
 title: /LARGEADDRESSAWARE может испортить вам весь день

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-08-16 20:01:39+00:00
+date: 2012-08-16T13:01:39-07:00
 aliases:
 - /2012/08/16/1405
 title: Ошибка в книге Windows Internals

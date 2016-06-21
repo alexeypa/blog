@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2014-04-06 23:41:17+00:00
+date: 2014-04-06T16:41:17-07:00
 aliases:
 - /2014/04/06/1609
 title: But wait, there's more!

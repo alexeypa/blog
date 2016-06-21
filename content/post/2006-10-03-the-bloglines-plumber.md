@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-03 18:36:32+00:00
+date: 2006-10-03T11:36:32-07:00
 aliases:
 - /2006/10/03/75
 title: The Bloglines Plumber

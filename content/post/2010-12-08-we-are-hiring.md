@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-12-08 18:52:39+00:00
+date: 2010-12-08T11:52:39-07:00
 aliases:
 - /2010/12/08/945
 title: We are hiring!

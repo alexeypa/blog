@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-08-29 06:24:31+00:00
+date: 2007-08-28T23:24:31-07:00
 aliases:
 - /2007/08/28/231
 title: Как собрать DParser for Python с помощью Visual C++ 2005?

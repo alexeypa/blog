@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-01-22 17:32:10+00:00
+date: 2009-01-22T10:32:10-07:00
 aliases:
 - /2009/01/22/424
 title: Please send a remote

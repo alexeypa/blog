@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2008-03-06 01:16:29+00:00
+date: 2008-03-05T18:16:29-07:00
 aliases:
 - /2008/03/05/295
 title: Dinosource

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-12-17 06:47:53+00:00
+date: 2011-12-16T23:47:53-07:00
 aliases:
 - /2011/12/16/1230
 title: Почему Process.TotalProcessorTime не работает для удаленных процессов

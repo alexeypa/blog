@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-04 22:37:53+00:00
+date: 2006-12-04T15:37:53-07:00
 aliases:
 - /2006/12/04/108
 title: Lost in translation

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-07-08 04:47:17+00:00
+date: 2007-07-07T21:47:17-07:00
 aliases:
 - /2007/07/07/207
 title: Microsoft goes Canada

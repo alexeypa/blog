@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-02-07 05:19:08+00:00
+date: 2011-02-06T22:19:08-07:00
 aliases:
 - /2011/02/06/972
 title: NDIS, !ndiskd и DML

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-11-10 17:44:04+00:00
+date: 2006-11-10T10:44:04-07:00
 aliases:
 - /2006/11/10/97
 title: C# Programming Courses. Часть II

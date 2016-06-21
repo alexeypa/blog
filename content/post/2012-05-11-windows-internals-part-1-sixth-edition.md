@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-05-11 06:44:18+00:00
+date: 2012-05-10T23:44:18-07:00
 aliases:
 - /2012/05/10/1326
 title: Windows Internals, Part 1, Sixth Edition

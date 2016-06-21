@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-11-13 22:09:16+00:00
+date: 2006-11-13T15:09:16-07:00
 aliases:
 - /2006/11/13/98
 title: Макросы BUILD_PRODUCES и BUILD_CONSUMES

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2015-06-29 05:57:32+00:00
+date: 2015-06-28T22:57:32-07:00
 aliases:
 - /2015/06/28/1729
 title: Space is hard

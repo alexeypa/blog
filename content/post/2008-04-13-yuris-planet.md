@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2008-04-13 04:41:04+00:00
+date: 2008-04-12T21:41:04-07:00
 aliases:
 - /2008/04/12/307
 title: Yuri's Planet

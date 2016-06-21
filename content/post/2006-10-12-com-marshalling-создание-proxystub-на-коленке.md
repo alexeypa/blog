@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-12 04:15:43+00:00
+date: 2006-10-11T21:15:43-07:00
 aliases:
 - /2006/10/11/82
 title: 'COM marshalling: создание proxy/stub на коленке.'

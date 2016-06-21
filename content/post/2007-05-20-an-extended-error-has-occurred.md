@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-05-20 22:36:58+00:00
+date: 2007-05-20T15:36:58-07:00
 aliases:
 - /2007/05/20/186
 title: An extended error has occurred

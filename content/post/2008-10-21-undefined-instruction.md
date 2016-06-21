@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2008-10-21 05:33:56+00:00
+date: 2008-10-20T22:33:56-07:00
 aliases:
 - /2008/10/20/361
 title: Undefined instruction

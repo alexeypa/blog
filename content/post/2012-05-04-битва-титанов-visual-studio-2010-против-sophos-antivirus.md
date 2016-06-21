@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-05-04 17:50:56+00:00
+date: 2012-05-04T10:50:56-07:00
 aliases:
 - /2012/05/04/1317
 title: 'Битва титанов: Visual Studio 2010 против Sophos Antivirus. '

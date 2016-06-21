@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-12-17 06:50:22+00:00
+date: 2009-12-16T23:50:22-07:00
 aliases:
 - /2009/12/16/714
 title: Garden d'Lights 2009

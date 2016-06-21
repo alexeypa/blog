@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-11-22 20:46:59+00:00
+date: 2010-11-22T13:46:59-07:00
 aliases:
 - /2010/11/22/934
 title: Tringle hepper

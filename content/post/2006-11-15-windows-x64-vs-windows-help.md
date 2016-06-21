@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-11-15 00:52:36+00:00
+date: 2006-11-14T17:52:36-07:00
 aliases:
 - /2006/11/14/99
 title: Windows x64 vs. Windows Help

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-06-29 06:18:39+00:00
+date: 2009-06-28T23:18:39-07:00
 aliases:
 - /2009/06/28/600
 title: Гора Constitution

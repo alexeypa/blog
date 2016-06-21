@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-07-02 20:22:57+00:00
+date: 2007-07-02T13:22:57-07:00
 aliases:
 - /2007/07/02/206
 title: Viva Scotland!

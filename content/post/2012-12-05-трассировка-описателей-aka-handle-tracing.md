@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-12-05 07:23:13+00:00
+date: 2012-12-04T23:23:13-08:00
 aliases:
 - /2012/12/04/1437
 title: Трассировка описателей (AKA handle tracing)

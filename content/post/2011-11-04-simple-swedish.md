@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-11-04 14:50:16+00:00
+date: 2011-11-04T07:50:16-07:00
 aliases:
 - /2011/11/04/1211
 title: Simple Swedish

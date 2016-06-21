@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-06-14 05:31:58+00:00
+date: 2007-06-13T22:31:58-07:00
 aliases:
 - /2007/06/13/199
 title: Poor Pluto

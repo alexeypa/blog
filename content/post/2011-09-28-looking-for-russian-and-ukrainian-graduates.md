@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-09-28 13:48:43+00:00
+date: 2011-09-28T06:48:43-07:00
 aliases:
 - /2011/09/28/1189
 title: Looking for Russian and Ukrainian graduates

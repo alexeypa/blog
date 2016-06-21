@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-08-31 16:13:26+00:00
+date: 2010-08-31T09:13:26-07:00
 aliases:
 - /2010/08/31/886
 title: Bing Development Team is hiring

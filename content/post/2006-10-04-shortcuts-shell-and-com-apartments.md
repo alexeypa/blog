@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-04 16:20:00+00:00
+date: 2006-10-04T09:20:00-07:00
 aliases:
 - /2006/10/04/76
 title: Shortcuts, shell and COM apartments

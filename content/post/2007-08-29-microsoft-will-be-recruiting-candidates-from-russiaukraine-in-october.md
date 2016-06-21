@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-08-29 20:53:18+00:00
+date: 2007-08-29T13:53:18-07:00
 aliases:
 - /2007/08/29/232
 title: Microsoft will be recruiting candidates from Russia/Ukraine in October

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-20 19:23:17+00:00
+date: 2006-12-20T12:23:17-07:00
 aliases:
 - /2006/12/20/117
 title: Microsoft hires in Ukraine

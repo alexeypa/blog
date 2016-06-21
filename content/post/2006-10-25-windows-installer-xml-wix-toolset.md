@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-25 20:38:26+00:00
+date: 2006-10-25T13:38:26-07:00
 aliases:
 - /2006/10/25/89
 title: Windows Installer XML (WiX) toolset

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-07-23 17:19:20+00:00
+date: 2010-07-23T10:19:20-07:00
 aliases:
 - /2010/07/23/861
 title: 64 Bit Explained

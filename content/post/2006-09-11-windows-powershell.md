@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-09-11 01:21:41+00:00
+date: 2006-09-10T18:21:41-07:00
 aliases:
 - /2006/09/10/47
 title: Windows PowerShell

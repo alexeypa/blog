@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-08-21 23:18:40+00:00
+date: 2007-08-21T16:18:40-07:00
 aliases:
 - /2007/08/21/224
 title: DParser  vs. PLY

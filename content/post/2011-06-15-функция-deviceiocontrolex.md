@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-06-15 06:38:43+00:00
+date: 2011-06-14T23:38:43-07:00
 aliases:
 - /2011/06/14/1094
 title: Функция DeviceIoControlEx

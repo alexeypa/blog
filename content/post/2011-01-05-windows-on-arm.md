@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-01-05 23:04:44+00:00
+date: 2011-01-05T16:04:44-07:00
 aliases:
 - /2011/01/05/959
 title: Windows on ARM

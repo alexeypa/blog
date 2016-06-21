@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2008-01-10 07:34:16+00:00
+date: 2008-01-09T23:34:16-08:00
 aliases:
 - /2008/01/09/277
 title: Разрядность ключа «Image File Execution Options»

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-12 15:31:54+00:00
+date: 2006-10-12T08:31:54-07:00
 aliases:
 - /2006/10/12/83
 title: Зеркало на blogs.gotdotnet.ru

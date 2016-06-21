@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-08-20 17:25:28+00:00
+date: 2007-08-20T10:25:28-07:00
 aliases:
 - /2007/08/20/223
 title: sizeof(void) == 1

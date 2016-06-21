@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-26 06:34:04+00:00
+date: 2006-12-25T23:34:04-07:00
 aliases:
 - /2006/12/25/121
 title: Highlight.js

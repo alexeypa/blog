@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-07-14 15:58:59+00:00
+date: 2010-07-14T08:58:59-07:00
 aliases:
 - /2010/07/14/859
 title: Про OutputDebugString

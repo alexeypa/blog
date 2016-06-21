@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2007-01-30 22:43:43+00:00
+date: 2007-01-30T15:43:43-07:00
 aliases:
 - /2007/01/30/142
 title: Microsoft против …

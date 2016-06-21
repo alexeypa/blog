@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-12-08 16:54:26+00:00
+date: 2009-12-08T09:54:26-07:00
 aliases:
 - /2009/12/08/703
 title: AppCompat

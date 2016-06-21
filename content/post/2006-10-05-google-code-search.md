@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-05 15:36:46+00:00
+date: 2006-10-05T08:36:46-07:00
 aliases:
 - /2006/10/05/77
 title: Google Code Search

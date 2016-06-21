@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-05-13 17:49:43+00:00
+date: 2009-05-13T10:49:43-07:00
 aliases:
 - /2009/05/13/509
 title: Windows Internals, Fifth Edition

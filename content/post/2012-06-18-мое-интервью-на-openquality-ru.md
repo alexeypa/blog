@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-06-18 05:52:52+00:00
+date: 2012-06-17T22:52:52-07:00
 aliases:
 - /2012/06/17/1350
 title: Мое интервью на OpenQuality.ru

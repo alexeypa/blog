@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-08-22 14:18:00+00:00
+date: 2006-08-22T07:18:00-07:00
 aliases:
 - /2006/08/22/27
 title: Registry redirector

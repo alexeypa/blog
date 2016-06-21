@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-09 03:51:22+00:00
+date: 2006-10-08T20:51:22-07:00
 aliases:
 - /2006/10/08/79
 title: Ultimate Tag Warrior

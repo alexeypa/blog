@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-01-03 19:24:52+00:00
+date: 2007-01-03T12:24:52-07:00
 aliases:
 - /2007/01/03/126
 title: A Cost Analysis of Windows Vista Content Protection

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-02-06 08:16:08+00:00
+date: 2007-02-06T01:16:08-07:00
 aliases:
 - /2007/02/06/147
 title: sizeof(HWND) != sizeof(HWND)

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-01-09 20:31:52+00:00
+date: 2007-01-09T13:31:52-07:00
 aliases:
 - /2007/01/09/131
 title: Windows Home Server

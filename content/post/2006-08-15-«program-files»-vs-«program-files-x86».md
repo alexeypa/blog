@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-08-15 03:04:00+00:00
+date: 2006-08-14T20:04:00-07:00
 aliases:
 - /2006/08/15/33
 title: «Program Files» vs. «Program Files (x86)»

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-08-17 02:55:00+00:00
+date: 2006-08-16T19:55:00-07:00
 aliases:
 - /2006/08/17/31
 title: Nynaeve. Adventures in Windows debugging and reverse engineering

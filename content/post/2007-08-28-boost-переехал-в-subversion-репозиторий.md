@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-08-28 15:59:56+00:00
+date: 2007-08-28T08:59:56-07:00
 aliases:
 - /2007/08/28/230
 title: Boost переехал в Subversion репозиторий

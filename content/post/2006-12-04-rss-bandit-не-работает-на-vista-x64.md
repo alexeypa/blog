@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-04 17:00:07+00:00
+date: 2006-12-04T10:00:07-07:00
 aliases:
 - /2006/12/04/107
 title: RSS Bandit не работает на Vista x64

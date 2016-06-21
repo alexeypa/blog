@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-09-02 02:44:01+00:00
+date: 2006-09-01T19:44:01-07:00
 aliases:
 - /2006/09/01/41
 title: Статья на newsru.com

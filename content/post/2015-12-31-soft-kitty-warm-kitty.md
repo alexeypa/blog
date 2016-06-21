@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2015-12-31 07:07:35+00:00
+date: 2015-12-30T23:07:35-08:00
 aliases:
 - /2015/12/30/1769
 title: Soft kitty, warm kitty

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-13 19:23:14+00:00
+date: 2006-12-13T12:23:14-07:00
 aliases:
 - /2006/12/13/114
 title: TIFF to PDF

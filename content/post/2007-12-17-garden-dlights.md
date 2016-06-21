@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-12-17 05:42:02+00:00
+date: 2007-12-16T22:42:02-07:00
 aliases:
 - /2007/12/16/271
 title: Garden d'Lights

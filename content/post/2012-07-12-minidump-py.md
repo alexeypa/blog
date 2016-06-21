@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2012-07-12 15:51:50+00:00
+date: 2012-07-12T08:51:50-07:00
 aliases:
 - /2012/07/12/1393
 title: minidump.py

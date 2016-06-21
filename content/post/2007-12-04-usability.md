@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-12-04 04:32:57+00:00
+date: 2007-12-03T21:32:57-07:00
 aliases:
 - /2007/12/03/267
 title: Usability

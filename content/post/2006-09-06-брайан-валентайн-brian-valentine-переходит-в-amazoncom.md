@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-09-06 21:07:46+00:00
+date: 2006-09-06T14:07:46-07:00
 aliases:
 - /2006/09/06/45
 title: Брайан Валентайн (Brian Valentine) переходит в Amazon.com

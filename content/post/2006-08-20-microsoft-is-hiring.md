@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-08-20 09:43:00+00:00
+date: 2006-08-20T02:43:00-07:00
 aliases:
 - /2006/08/20/28
 title: Microsoft is hiring

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-09-27 01:42:55+00:00
+date: 2006-09-26T18:42:55-07:00
 aliases:
 - /2006/09/26/70
 title: 'Вышла Windows PowerShell RC2. '

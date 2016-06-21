@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-07-11 05:55:27+00:00
+date: 2007-07-10T22:55:27-07:00
 aliases:
 - /2007/07/10/209
 title: Redmond Derby Days

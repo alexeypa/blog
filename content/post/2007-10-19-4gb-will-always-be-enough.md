@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-10-19 04:50:34+00:00
+date: 2007-10-18T21:50:34-07:00
 aliases:
 - /2007/10/18/256
 title: “4GB will always be enough”

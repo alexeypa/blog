@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-19 16:26:18+00:00
+date: 2006-10-19T09:26:18-07:00
 aliases:
 - /2006/10/19/86
 title: No good deed goes unpunished, part 2

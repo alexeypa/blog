@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: false
-date: 2008-10-29 05:07:20+00:00
+date: 2008-10-28T22:07:20-07:00
 aliases:
 - /2008/10/28/370
 title: 'PDC: Отзывы о Windows 7.'

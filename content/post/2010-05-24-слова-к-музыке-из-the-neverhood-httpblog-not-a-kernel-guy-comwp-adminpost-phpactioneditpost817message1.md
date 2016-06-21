@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2010-05-24 04:05:53+00:00
+date: 2010-05-23T21:05:53-07:00
 aliases:
 - /2010/05/23/817
 title: Слова к музыке из The Neverhood

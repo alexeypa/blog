@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-23 05:30:31+00:00
+date: 2006-10-22T22:30:31-07:00
 aliases:
 - /2006/10/22/87
 title: .NET обертка для IShellLink

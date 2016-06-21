@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-01-15 22:20:59+00:00
+date: 2007-01-15T15:20:59-07:00
 aliases:
 - /2007/01/15/134
 title: Subversion Externals

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-12-09 05:58:10+00:00
+date: 2006-12-08T22:58:10-07:00
 aliases:
 - /2006/12/08/112
 title: Загадочный каталог “%SystemRoot%\Installer”

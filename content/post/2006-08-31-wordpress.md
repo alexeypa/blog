@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-08-31 04:31:04+00:00
+date: 2006-08-30T21:31:04-07:00
 aliases:
 - /2006/08/30/39
 title: WordPress

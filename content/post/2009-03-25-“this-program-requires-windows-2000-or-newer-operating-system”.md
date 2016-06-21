@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-03-25 20:25:50+00:00
+date: 2009-03-25T13:25:50-07:00
 aliases:
 - /2009/03/25/474
 title: “This program requires Windows 2000 or newer operating system”

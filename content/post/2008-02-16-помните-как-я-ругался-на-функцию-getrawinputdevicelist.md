@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2008-02-16 05:06:19+00:00
+date: 2008-02-15T22:06:19-07:00
 aliases:
 - /2008/02/15/289
 title: Помните, как я ругался на функцию GetRawInputDeviceList?

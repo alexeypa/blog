@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-01-20 18:12:50+00:00
+date: 2011-01-20T11:12:50-07:00
 aliases:
 - /2011/01/20/970
 title: We are still hiring!

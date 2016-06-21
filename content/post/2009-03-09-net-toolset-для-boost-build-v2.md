@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2009-03-09 20:22:01+00:00
+date: 2009-03-09T13:22:01-07:00
 aliases:
 - /2009/03/09/469
 title: .NET toolset для Boost Build V2

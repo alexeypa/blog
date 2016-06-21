@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2007-12-06 06:35:35+00:00
+date: 2007-12-05T23:35:35-07:00
 aliases:
 - /2007/12/05/268
 title: Эта страшная функция GetRawInputDeviceList

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-06-22 19:52:58+00:00
+date: 2011-06-22T12:52:58-07:00
 aliases:
 - /2011/06/22/1109
 title: Bing Search will be hosting a recruiting trip to Russia

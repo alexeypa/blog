@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-10-08 06:15:02+00:00
+date: 2006-10-07T23:15:02-07:00
 aliases:
 - /2006/10/07/78
 title: COM marshalling

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2006-11-08 18:03:03+00:00
+date: 2006-11-08T11:03:03-07:00
 aliases:
 - /2006/11/08/96
 title: C# Programming Courses

@@ -1,6 +1,6 @@
 ---
 author: admin
-date: 2011-04-22 15:54:29+00:00
+date: 2011-04-22T08:54:29-07:00
 aliases:
 - /2011/04/22/1032
 title: Crater Lake
