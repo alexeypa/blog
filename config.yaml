@@ -2,7 +2,6 @@ baseurl: http://blog.not-a-kernel-guy.com/
 title: Алексей Пахунов
 languageCode: ru-ru
 disqusShortname: alexeypa
-googleAnalytics: UA-1329392-1
 theme: hyde-x
 
 author:
@@ -18,6 +17,7 @@ menu:
          URL: about
 params:
     customCSS: /css/custom.css
+    googleAnalytics: UA-1329392-1
     hideReadingTime: true
     highlight: github
     home: "Блог"
