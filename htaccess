@@ -1,4 +1,8 @@
 RewriteEngine On
+
+RedirectMatch 301 ^.*/feed(/(atom|rss2?))?/?$ http://feeds.feedburner.com/not-a-kernel-guy
+RedirectMatch 301 ^.*/(atom|rss2?)\.xml$ http://feeds.feedburner.com/not-a-kernel-guy
+
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
