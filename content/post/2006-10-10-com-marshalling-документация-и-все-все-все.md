@@ -3,7 +3,7 @@ author: admin
 date: 2006-10-09T17:03:25-07:00
 aliases:
 - /2006/10/09/80
-title: COM marshalling, документация и все, все, все..
+title: COM marshalling, документация и все, все, все...
 slug: 80
 tags:
 - COM
