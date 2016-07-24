@@ -22,7 +22,7 @@ params:
     highlight: github
     home: "Блог"
     linkedin: https://www.linkedin.com/in/alexpakhunov
-    rss: true
+    feedburner: http://feeds.feedburner.com/not-a-kernel-guy
     tagline: '... также известный как "Not a kernel guy"'
 
 permalinks:
