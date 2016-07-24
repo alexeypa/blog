@@ -1,3 +1,5 @@
+Options -Indexes
+
 RewriteEngine On
 
 RedirectMatch 301 ^.*/feed(/(atom|rss2?))?/?$ http://feeds.feedburner.com/not-a-kernel-guy
