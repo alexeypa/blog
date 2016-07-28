@@ -15,4 +15,3 @@ then
 fi
 
 mv public "$1"
-cp htaccess "$1/.htaccess"
