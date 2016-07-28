@@ -11,7 +11,7 @@ tags:
 - Win32
 ---
 
-Оказалось, что [это](http://blog.not-a-kernel-guy.com/2007/12/05/268) была ошибка в документации. Её поправили и посмотрите, [что получилось](http://msdn2.microsoft.com/en-us/library/ms645598.aspx).
+Оказалось, что [это]({{< relref "post/2007-12-06-эта-страшная-функция-getrawinputdevicelist.md" >}}) была ошибка в документации. Её поправили и посмотрите, [что получилось](http://msdn2.microsoft.com/en-us/library/ms645598.aspx).
 
 <!--more-->
 

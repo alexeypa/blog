@@ -11,7 +11,7 @@ tags:
 - PowerShell
 ---
 
-Как и [обещал](http://blog.not-a-kernel-guy.com/2006/10/22/87), выкладываю ссылку на инсталляцию:
+Как и [обещал]({{< relref "post/2006-10-23-net-обертка-для-ishelllink.md" >}}), выкладываю ссылку на инсталляцию:
 
   * [ShellLib (x86)](/2006/10/ShellLib_x86.msi) - версия для 32-битного Windows XP/2003;
 

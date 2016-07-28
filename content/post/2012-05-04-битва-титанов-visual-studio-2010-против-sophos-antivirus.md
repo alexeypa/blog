@@ -3,7 +3,7 @@ author: admin
 date: 2012-05-04T10:50:56-07:00
 aliases:
 - /2012/05/04/1317
-title: 'Битва титанов: Visual Studio 2010 против Sophos Antivirus. '
+title: 'Битва титанов: Visual Studio 2010 против Sophos Antivirus'
 slug: 1317
 tags:
 - Инструменты

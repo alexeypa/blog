@@ -3,14 +3,14 @@ author: admin
 date: 2006-10-11T21:15:43-07:00
 aliases:
 - /2006/10/11/82
-title: 'COM marshalling: создание proxy/stub на коленке.'
+title: 'COM marshalling: создание proxy/stub на коленке'
 slug: 82
 tags:
 - COM
 - Программирование
 ---
 
-Хочу поделиться рецептом победы над коварным IShellLinkDataList (см. предыдущие посты [COM marshalling.](http://blog.not-a-kernel-guy.com/2006/10/07/78) и [Shortcuts, shell and COM apartments.](http://blog.not-a-kernel-guy.com/2006/10/04/76))
+Хочу поделиться рецептом победы над коварным IShellLinkDataList (см. предыдущие посты [COM marshalling.]({{< relref "post/2006-10-08-com-marshalling.md" >}}) и [Shortcuts, shell and COM apartments.]({{< relref "post/2006-10-04-shortcuts-shell-and-com-apartments.md" >}}))
 
 Итак, исходная задача: вызвать метод локального интерфейса (интерфейса, помеченного атрибутом [local]) удалённо.
 

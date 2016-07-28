@@ -9,6 +9,6 @@ tags:
 - Всякая всячина
 ---
 
-Продолжение [истории](http://blog.not-a-kernel-guy.com/2006/11/08/96). Кроме C#, теперь можно подучить ASP.NET, SQL Server 2005 и Visual Studio 2005. С нетерпением жду Windows Vista for Dummies. 
+Продолжение [истории]({{< relref "post/2006-11-08-c-programming-courses.md" >}}). Кроме C#, теперь можно подучить ASP.NET, SQL Server 2005 и Visual Studio 2005. С нетерпением жду Windows Vista for Dummies. 
 
 PS: Наверное, я всё-таки что-то фундаментально не понимаю...

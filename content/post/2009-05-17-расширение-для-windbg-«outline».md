@@ -3,7 +3,7 @@ author: admin
 date: 2009-05-16T22:45:18-07:00
 aliases:
 - /2009/05/16/512
-title: 'Расширение для WinDbg: «Outline».'
+title: 'Расширение для WinDbg: «Outline»'
 slug: 512
 tags:
 - Отладка

@@ -11,7 +11,7 @@ tags:
 - Microsoft
 ---
 
-Все-таки, наверное, Европейский Суд не зря судит Microsoft за недостаточно хорошую документацию. Пытаясь разобраться как, все таки, написать proxy для интерфейса IShellLinkDataList (см. предыдущие посты: [COM Marshalling.](http://blog.not-a-kernel-guy.com/2006/10/07/78) и [Shortcuts, shell and COM apartments.](http://blog.not-a-kernel-guy.com/2006/10/04/76)), перечитал уйму документации, пока не нашел толкового описания того, что я хочу сделать на сайте [Dr. Dobb's](http://www.ddj.com/dept/windows/184416483). Если попытаться описать весь процесс "метаний", то выглядело это так:
+Все-таки, наверное, Европейский Суд не зря судит Microsoft за недостаточно хорошую документацию. Пытаясь разобраться как, все таки, написать proxy для интерфейса IShellLinkDataList (см. предыдущие посты: [COM Marshalling.]({{< relref "post/2006-10-08-com-marshalling.md" >}}) и [Shortcuts, shell and COM apartments.]({{< relref "post/2006-10-04-shortcuts-shell-and-com-apartments.md" >}})), перечитал уйму документации, пока не нашел толкового описания того, что я хочу сделать на сайте [Dr. Dobb's](http://www.ddj.com/dept/windows/184416483). Если попытаться описать весь процесс "метаний", то выглядело это так:
 
 <!--more-->Началось всё с идеи написать .idl с описанием интерфейса, сгенерировать proxy и stub и собрать dll. Однако с ходу это не заработало из-за того, что [IShellLinkDataList::CopyDataBlock](http://windowssdk.msdn.microsoft.com/en-gb/library/ms632701.aspx) возвращает указатель на выделенный блок переменного размера, который нужно освобождать вызовом LocalFree.
 
