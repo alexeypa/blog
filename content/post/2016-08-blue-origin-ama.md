@@ -1,5 +1,6 @@
 ---
 date: 2016-08-06T10:14:07-07:00
+description: Разработчики из Blue Origin отвечают на вопросы
 slug: blue-origin-ama
 tags:
 - Blue Origin

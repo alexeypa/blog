@@ -1,5 +1,6 @@
 ---
 date: 2016-07-31T13:32:36-07:00
+description: Хронология запусков Falcon 1
 slug: falcon_1_launches
 tags:
 - SpaceX

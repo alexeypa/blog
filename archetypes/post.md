@@ -1,6 +1,8 @@
 ---
 draft: true
+description: Describe me in one sentence
 slug: slug
 tags:
- - new
+ - Всякая всячина
+title: Title goes here
 ---

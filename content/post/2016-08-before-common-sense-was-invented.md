@@ -1,5 +1,6 @@
 ---
 date: 2016-08-01T21:30:10-07:00
+description: Катастрофа экспериментального дирижабля Piasecki PA-97 Helistat
 slug: before-common-sense-was-invented
 tags:
 - Всякая всячина
