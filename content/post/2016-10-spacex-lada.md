@@ -12,3 +12,7 @@ title: Девятка
 Без комментариев.
 
 <!--more-->
+
+Ну и еще до кучи:
+
+[![Мы вместе делаем Россию сильнее](/2016/10/together_we_make_russia_stronger.jpg)](/2016/10/together_we_make_russia_stronger.jpg)
