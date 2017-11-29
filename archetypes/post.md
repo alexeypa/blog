@@ -1,8 +1,9 @@
 ---
-draft: true
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
 description: Describe me in one sentence
 slug: slug
 tags:
  - Всякая всячина
-title: Title goes here
+draft: true
 ---
