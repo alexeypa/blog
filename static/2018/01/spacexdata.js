@@ -61,10 +61,11 @@ var plotLaunches = function(by_weekday_div, by_hour_div, data) {
         yaxis: {
             title: 'Количество запусков',
         },
-        width: 700,
     };
 
-    Plotly.newPlot(by_weekday_div, plot_data, plot_layout);
+    var by_weekday_node = Plotly.d3.select(by_weekday_div)
+            .style({width: '100%'}).node();
+    Plotly.newPlot(by_weekday_node, plot_data, plot_layout);
 
     /*
      * Format the plot showing launches by the hour of the day.
@@ -92,18 +93,23 @@ var plotLaunches = function(by_weekday_div, by_hour_div, data) {
         yaxis: {
             title: 'Количество запусков',
         },
-        width: 700,
     };
 
-    Plotly.newPlot(by_hour_div, plot_data, plot_layout);
+    var by_hour_node = Plotly.d3.select(by_hour_div)
+            .style({width: '100%'}).node();
+    Plotly.newPlot(by_hour_node, plot_data, plot_layout);
 
+    window.onresize = function() {
+        Plotly.Plots.resize(by_weekday_node);
+        Plotly.Plots.resize(by_hour_node);
+    };
 };
 
 timezoneJS.timezone.zoneFileBasePath = '/tz';
 timezoneJS.timezone.init({
     callback: function() {
         $.getJSON('https://api.spacexdata.com/v2/launches', function(data) {
-            plotLaunches('launches_by_weekday', 'launches_by_hour', data);
+            plotLaunches('#launches_by_weekday', '#launches_by_hour', data);
         });
     }
 });
