@@ -9,12 +9,18 @@ author:
 
 menu:
     main:
-       - Name: "Архив"
-         Identifier: archive
-         URL: post/
-       - Name: "Об авторе"
-         Identifier: about
-         URL: about
+        - Name: "Архив"
+          Identifier: archive
+          URL: post/
+        - Name: "Об авторе"
+          Identifier: about
+          URL: about
+        - Name: "Подписаться"
+          Identifier: rss
+          URL: http://feeds.feedburner.com/not-a-kernel-guy
+        - Name: "Рассылка"
+          Identifier: email
+          URL: https://feedburner.google.com/fb/a/mailverify?uri=not-a-kernel-guy&loc=ru_RU
 params:
     customCSS: /css/custom.css
     defaultDescription: Блог про космос, программирование и всякое разное.
