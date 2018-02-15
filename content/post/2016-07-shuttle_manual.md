@@ -2,8 +2,9 @@
 date: 2016-07-30T19:33:19-07:00
 slug: shuttle_manual
 tags:
-- Астрономия и космос
-- NASA
+ - Космос
+ - Техника
+ - NASA
 title: Руководство пользователя Space Shuttle
 ---
 

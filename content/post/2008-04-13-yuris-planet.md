@@ -6,7 +6,7 @@ aliases:
 title: Yuri's Planet
 slug: 307
 tags:
-- Астрономия и космос
+ - Космос
 ---
 
 Сегодняшняя (у меня всё еще 12-ое число. :-) ) картинка на [APOD](http://antwrp.gsfc.nasa.gov/apod/): [Yuri's Planet](http://antwrp.gsfc.nasa.gov/apod/ap080412.html).

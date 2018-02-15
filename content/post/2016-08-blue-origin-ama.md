@@ -4,7 +4,7 @@ description: Разработчики из Blue Origin отвечают на в�
 slug: blue-origin-ama
 tags:
 - Blue Origin
-- Астрономия и космос
+ - Космос
 title: AMA разработчиков из Blue Origin
 ---
 

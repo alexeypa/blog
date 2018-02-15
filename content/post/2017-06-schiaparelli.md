@@ -3,7 +3,8 @@ date: 2017-05-31T22:18:02-07:00
 description: Причины аварии посадочного демонстратора Schiaparelli (ExoMars 2016)
 slug: schiaparelli
 tags:
-- Астрономия и космос
+ - Космос
+ - Техника
 title: Причины аварии посадочного демонстратора Schiaparelli
 ---
 

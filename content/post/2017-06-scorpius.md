@@ -3,7 +3,8 @@ date: 2017-06-20T20:32:57-07:00
 description: Суборбитальная ракета Scorpius SR-M
 slug: scorpius
 tags:
-- Астрономия и космос
+ - Космос
+ - Техника
 title: Scorpius SR-M
 ---
 
