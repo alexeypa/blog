@@ -10,7 +10,7 @@ tags:
 О! Отличная, годная блок-схема, дающая ответ на вопрос "Что это за хрень в небе
 была?" в девяноста случаях из ста (по клику открывается более крупный вариант):
 
-[![](/2018/07/what_was_that_think_in_the_sky_small.png)][2]
+[![](/2018/07/what_was_that_thing_in_the_sky_small.png)][2]
 
 Картинка - перевод [оригинала][1].
 
@@ -22,4 +22,4 @@ tags:
 <!--more-->
 
 [1]: https://www.reddit.com/r/Astronomy/comments/92zks3/what_was_that_thing_in_the_sky_official_thread/
-[2]: /2018/07/what_was_that_think_in_the_sky.png
+[2]: /2018/07/what_was_that_thing_in_the_sky.png
