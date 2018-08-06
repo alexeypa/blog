@@ -77,18 +77,18 @@ struct {
     int x;
     int y;
     std::string that_thing;
-    std::string this key;
+    std::string this_key;
     bool result;
 } const cases[] = {
     {0, 0, "thing1", "key2", false},
     {0, 1, "thing1", "key2", false},
     {0, 2, "thing1", "key2", false},
-    {0, 3, "thing1", "key1", false},
+    {0, 3, "thing1", "key1", true },
     {1, 0, "thing2", "key1", false},
     {1, 1, "thing2", "",     false},
-    {1, 2, "thing2", "",     false},
+    {1, 2, "thing2", "",     true },
     {2, 0, "",       "",     false},
-    {2, 1, "",       "",     false},
+    {2, 1, "",       "",     true },
     {2, 2, "",       "",     false},
 };
 
