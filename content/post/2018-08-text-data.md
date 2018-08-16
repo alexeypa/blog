@@ -157,5 +157,5 @@ const std::string expected = R"(
 бита. Соответственно разобраться в таком тесте будет гораздо проще.
 
 
-[1]: {{< relref "post/2018-08-table-driven-unit-tests.md" >}}
+[1]: {{< relref "2018-08-table-driven-unit-tests.md" >}}
 [2]: https://clang.llvm.org/docs/ClangFormat.html

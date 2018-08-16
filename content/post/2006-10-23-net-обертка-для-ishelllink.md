@@ -11,13 +11,13 @@ tags:
 - PowerShell
 ---
 
-Наконец-то дописал .NET обертку для IShellLink (см. серию постов начиная с [Shortcuts, shell and COM apartments.]({{< relref "post/2006-10-04-shortcuts-shell-and-com-apartments.md" >}})). Теперь можно создавать и редактировать ярлыки прямо из PowerShell. :-)
+Наконец-то дописал .NET обертку для IShellLink (см. серию постов начиная с [Shortcuts, shell and COM apartments.]({{< relref "2006-10-04-shortcuts-shell-and-com-apartments.md" >}})). Теперь можно создавать и редактировать ярлыки прямо из PowerShell. :-)
 
 Вот [ссылка на исходный код проекта](/2006/10/ShellLink_src.zip). Немного позже, если дойдут руки, выложу ссылку на готовую инсталляцию. 
 
 <!--more-->Вся полезная функциональность реализуется одним классом – ShellLink, который объединяет в себе три интерфейса: IShellLink, IShellLinkDataList и IPersistFile. Большая часть методов этих интерфейсов была переделана в .NET свойства для удобства использования.
 
-PowerShell и CLSID_ShellLink используют разные модели COM apartments: PowerShell использует MTA, а CLSID_ShellLink, как и большинство объектов Shell, - STA. В результате, не получается вызывать методы интерфейса IShellLinkDataList, который не поддерживает маршалинг через границу apartments. Для решения этой проблемы используется ShellPS.dll, которая представляет собой не что иное, как proxy/stub DLL для интерфейса IShellLinkDataList (см. [COM marshalling: создание proxy/stub на коленке.]({{< relref "post/2006-10-12-com-marshalling-создание-proxystub-на-коленке.md" >}})).
+PowerShell и CLSID_ShellLink используют разные модели COM apartments: PowerShell использует MTA, а CLSID_ShellLink, как и большинство объектов Shell, - STA. В результате, не получается вызывать методы интерфейса IShellLinkDataList, который не поддерживает маршалинг через границу apartments. Для решения этой проблемы используется ShellPS.dll, которая представляет собой не что иное, как proxy/stub DLL для интерфейса IShellLinkDataList (см. [COM marshalling: создание proxy/stub на коленке.]({{< relref "2006-10-12-com-marshalling-создание-proxystub-на-коленке.md" >}})).
 
 В собранном виде весь проект состоит из двух библиотек: ShellLib.dll, которая содержит реализацию класса ShellLink и всех вспомогательных классов, и ShellPS.dll. Обе библиотеки собираются с помощью WDK, причём для сборки ShellLib.dll требуется .NET библиотеки из поставки Visual Studio .NET 2005. Эта комбинация потребовала использования нетривиальных возможностей SOURCES в виде директивы LINKER_OPTIDATA.
 

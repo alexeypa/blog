@@ -10,7 +10,7 @@ tags:
 - Программирование
 ---
 
-Продолжение истории про [Shortcuts, shell and COM apartments]({{< relref "post/2006-10-04-shortcuts-shell-and-com-apartments.md" >}}).
+Продолжение истории про [Shortcuts, shell and COM apartments]({{< relref "2006-10-04-shortcuts-shell-and-com-apartments.md" >}}).
 
 Разбираясь с написанием proxy для интерфейса IShellLinkDataList, нашел несколько дельных статей в MSDN. Например, [Standard Marshaling Architecture](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnesscom/html/chapter5apartments.asp) толково описывает как собственно происходит marshalling во время вызова и какие объекты задействованы при этом. В двух словах всё происходит так:
 

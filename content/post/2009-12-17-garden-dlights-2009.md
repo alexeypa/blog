@@ -10,7 +10,7 @@ tags:
 - Garden d'Lights
 ---
 
-[Garden d'Lights](http://www.bellevuebotanical.org/events/fmevents_gardendlights.htm) в этом году был заметно меньше [прошлогоднего]({{< relref "post/2008-12-11-garden-dlights-2.md" >}}), но все равно очень красиво:
+[Garden d'Lights](http://www.bellevuebotanical.org/events/fmevents_gardendlights.htm) в этом году был заметно меньше [прошлогоднего]({{< relref "2008-12-11-garden-dlights-2.md" >}}), но все равно очень красиво:
 
 [![Таинственный куст.](/2009/12/garden-dlights_1-300x211.jpg)](/2009/12/garden-dlights_1.jpg)
 

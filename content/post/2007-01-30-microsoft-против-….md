@@ -10,7 +10,7 @@ tags:
 - Microsoft
 ---
 
-Из [комментариев]({{< relref "post/2007-01-18-обратная-совместимость-это-серьезно.md" >}}):
+Из [комментариев]({{< relref "2007-01-18-обратная-совместимость-это-серьезно.md" >}}):
 
 > Думаю, что НегроСофт занял лидерство не благодаря описанной Вами технологии, а благодаря [http://www.iowaconsumercase.org/adi.html](http://www.iowaconsumercase.org/adi.html). Иначе за такое (взято с [http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el;_id=282973#nav_start](http://www.securitylab.ru/news/282973.php?PAGEN_1=15&el_id=282973#nav_start)) только “в сортире мочить” (С) В.В.Путин:
 

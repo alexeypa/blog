@@ -136,7 +136,7 @@ on Information Systems). Автор исследования просуммир�
 
 [1]: https://llis.nasa.gov
 [2]: http://aisel.aisnet.org/cgi/viewcontent.cgi?article=1671&context=amcis2009
-[3]: {{< relref "post/2017-11-empyrean.md" >}}
+[3]: {{< relref "2017-11-empyrean.md" >}}
 [4]: https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
 [5]: https://en.wikipedia.org/wiki/Mars_Polar_Lander
 [6]: https://commons.wikimedia.org/w/index.php?curid=12688947 "Mars Climate Obriter TCM-4 by Xession - Own work, CC BY 3.0"

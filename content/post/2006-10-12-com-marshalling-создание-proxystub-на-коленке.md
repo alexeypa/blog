@@ -10,7 +10,7 @@ tags:
 - Программирование
 ---
 
-Хочу поделиться рецептом победы над коварным IShellLinkDataList (см. предыдущие посты [COM marshalling.]({{< relref "post/2006-10-08-com-marshalling.md" >}}) и [Shortcuts, shell and COM apartments.]({{< relref "post/2006-10-04-shortcuts-shell-and-com-apartments.md" >}}))
+Хочу поделиться рецептом победы над коварным IShellLinkDataList (см. предыдущие посты [COM marshalling.]({{< relref "2006-10-08-com-marshalling.md" >}}) и [Shortcuts, shell and COM apartments.]({{< relref "2006-10-04-shortcuts-shell-and-com-apartments.md" >}}))
 
 Итак, исходная задача: вызвать метод локального интерфейса (интерфейса, помеченного атрибутом [local]) удалённо.
 
