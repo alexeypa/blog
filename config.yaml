@@ -30,7 +30,6 @@ params:
     home: "Блог"
     linkedin: https://www.linkedin.com/in/alexpakhunov
     feedburner: http://feeds.feedburner.com/not-a-kernel-guy
-    rssLimit: 10
     tagline: '... также известный как "Not a kernel guy"'
 
     archiveLabel: Архив
@@ -39,6 +38,8 @@ params:
 
 permalinks:
     post: /:year/:month/:day/:slug/
+
+rssLimit: 25
 
 taxonomies:
     tag: "tags"
