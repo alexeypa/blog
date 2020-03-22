@@ -32,6 +32,8 @@ https://github.com/r-spacex/SpaceX-API). В базе указывается вр
 Данные для графиков тянутся напрямую с https://api.spacexdata.com, так что
 графики будут обновляться по мере пополнения базы.
 
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.0.min.js"></script>
 <script src="/tz/date.js"></script>
 <script src="/2018/01/spacexdata.js"></script>
 
