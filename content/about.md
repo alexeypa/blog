@@ -39,7 +39,7 @@ Research][3]. Потом я перешел в Google, где работал на
 что никак не могу ответить на самые интересные вопросы. :-)
 
 Алексей Пахунов (Alex Pakhunov)  
-Sr. Software Engineer, Flight Software, SpaceX
+Principal Software Engineer, Flight Software, SpaceX
 
 [1]: https://gov-relations.com/itar/
 [2]: https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en
