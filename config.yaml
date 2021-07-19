@@ -15,12 +15,12 @@ menu:
         - Name: "Об авторе"
           Identifier: about
           URL: about
-        - Name: "Подписаться"
+        - Name: "Подписаться на RSS канал"
           Identifier: rss
           URL: http://feeds.feedburner.com/not-a-kernel-guy
-        - Name: "Рассылка"
+        - Name: "Почтовая рассылка"
           Identifier: email
-          URL: https://feedburner.google.com/fb/a/mailverify?uri=not-a-kernel-guy&loc=ru_RU
+          URL: https://follow.it/fucjll?action=followPub
 params:
     customCSS: /css/custom.css
     defaultDescription: Блог про космос, программирование и всякое разное.
