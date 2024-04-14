@@ -4,9 +4,6 @@ languageCode: ru-ru
 disqusShortname: alexeypa
 theme: hyde-x
 
-author:
-    name: Алексей Пахунов
-
 menu:
     main:
         - Name: "Архив"
@@ -22,6 +19,8 @@ menu:
           Identifier: email
           URL: https://follow.it/fucjll?action=followPub
 params:
+    author:
+        name: Алексей Пахунов
     customCSS: /css/custom.css
     defaultDescription: Блог про космос, программирование и всякое разное.
     hideReadingTime: true
